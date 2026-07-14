@@ -71,7 +71,16 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 
 					<!-- newsBlock -->
 					<section class="newsBlock">
-						
+						<div class="ctInner">
+							<h2 class="blockTtl">お知らせ<span>PICK UP</span></h2>
+							<p>2017年に出張授業「森永製菓のキャラメル教室」を開始し、現在は４つのプログラムを全国の小学校・中学校・高等学校や幼稚園・保育所で、当社の役職員が講師となり実施しています。各自治体や教育機関、教育委員会と連携するとともに、遠隔地の方々も参加しやすいよう、オンラインでの実施も推進しています。</p>
+							<div class="btnWrap">
+								<a href="#" class="btnLink">活動レポート</a>
+							</div>
+							<div class="btnWrap">
+								<a href="#" class="btnLink pdf">実施校一覧（PDF）</a>
+							</div>
+						</div>
 					</section>
 					<!-- /newsBlock -->
 
