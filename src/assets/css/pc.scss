@@ -92,11 +92,141 @@ common
 	}
 }//btnWrap
 
+/*colCardList*/
+.colCardList {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	flex-flow: wrap;
+	margin-top: 48px;
+
+	.card {
+		width: 255px;
+		display: grid;
+		grid-row: span 6;
+		grid-template-rows: subgrid;
+		box-sizing: border-box;
+		margin: 0 20px 15px 0;
+
+		&:nth-child(4n) {
+			margin-right: 0;
+		}
+
+		&:hover {
+			a {
+				figure {
+					img {
+						transform: scale(1.1);
+						opacity: 0.7;
+					}
+				}
+
+				.text {
+					.seeMore {
+						opacity: 0.7;
+					}
+				}
+			}
+		}
+
+		a {
+			display: grid;
+			grid-row: span 6;
+			grid-template-rows: subgrid;
+			box-sizing: border-box;
+			background-color: #fff;
+			box-sizing: border-box;
+			box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+			border-radius: 8px;
+			padding: 0 20px 35px 20px;
+
+			figure {
+				overflow: hidden;
+				width: calc(100% + 40px);
+				box-sizing: border-box;
+				margin-left: -20px;
+				border-radius: 8px 8px 0 0;
+				border-bottom: 1px solid #D6D6D6;
+				
+				img {
+					transition: all 0.3s ease;
+				}
+			}
+
+			.ttl {
+				margin-top: 16px;
+				font-size: 20px;
+				font-weight: 700;
+				color: #AF001B;
+			}
+
+			.category {
+				padding: 1px 10px;
+				background: linear-gradient(90deg, #4CC186 0%, #2CD48B 100%);
+				width: fit-content;
+				border-radius: 15px;
+				font-size: 12px;
+				font-weight: 700;
+				line-height: 1.6;
+				color: #FFF;
+				margin-top: 8px;
+			}
+
+			.subTtl {
+				line-height: 1.6;
+				font-weight: 500;
+				color: #000;
+				margin-top: 2px;
+			}
+
+			.desc {
+				font-size: 16px;
+				color: #000;
+				line-height: 1.4;
+				margin: 7px 0 53px;
+			}
+
+			.seeMore {
+				font-size: 14px;
+				font-weight: 500;
+				display: block;
+				width: fit-content;
+				margin: auto 0 0 auto;
+				line-height: 1.94;
+				padding-right: 28px;
+				position: relative;
+				transition: opacity 0.3s ease;
+				color: #3CB174;
+
+				&::after {
+					content: '';
+					position: absolute;
+					right: 0;
+					top: 50%;
+					transform: translateY(-50%);
+					background: url(../img/common/icon_green_right.png) no-repeat center/cover;
+					width: 20px;
+					height: 20px;
+				}
+			}
+		}
+	}
+}//colCardList
 
 
 /* --------------------------------------------------------------------------------------
 ctTop
 --------------------------------------------------------------------------------------- */
 .ctTop {
+
+	.knowledgeBlock {
+		.blockTtl {
+			margin-bottom: 50px;
+		}
+		
+		.text {
+			text-align: center;
+			// line-height: ;
+		}
+	}
 
 }//ctTop

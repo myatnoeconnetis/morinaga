@@ -114,11 +114,112 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 					</section>
 					<!-- /contactBlock -->
 
-					<!-- awardBlock -->
-					<section class="awardBlock">
-
+					<!-- knowledgeBlock -->
+					<section class="knowledgeBlock">
+						<div class="ctInner">
+                            <h2 class="blockTtl">知識を広げる<span>KNOWLEDGE</span></h2>
+							<p class="text">お菓子や食に関する専門的な解説から<br>ふわっと心温まるエピソードなど<br>様々なオンラインコンテンツを通じて、<br>学びへの興味喚起や知識の拡充をサポートします。</p>
+                            <ul class="colCardList">
+                                <li class="card">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/top/knowledge_img1.jpg" alt="サムネイル" width="510" height="274">
+                                        </figure>
+                                        <p class="ttl">食のしごと</p>
+                                        <p class="category">対象</p>
+                                        <p class="subTtl">小学生～大人</p>
+                                        <p class="desc">食で人々を笑顔にしたい。そんな想いで働く社員の様々な仕事についてご紹介します。</p>
+                                        <span class="seeMore">詳細を見る</span>
+                                    </a>
+                                </li>
+                                <li class="card">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/top/knowledge_img2.jpg" alt="サムネイル" width="510" height="274">
+                                        </figure>
+                                        <p class="ttl">お菓子の記憶</p>
+                                        <p class="category">対象</p>
+                                        <p class="subTtl">小学生～大人</p>
+                                        <p class="desc">森永製菓に寄せられたお菓子にまつわるふわっと心温まるエピソードをご紹介します。</p>
+                                        <span class="seeMore">詳細を見る</span>
+                                    </a>
+                                </li>
+                                <li class="card">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/top/knowledge_img3.jpg" alt="サムネイル" width="510" height="274">
+                                        </figure>
+                                        <p class="ttl">医師と考える食育</p>
+                                        <p class="category">対象</p>
+                                        <p class="subTtl">中高生～大人</p>
+                                        <p class="desc">現場で活躍する医師たちから、健康で豊かな食生活へのアドバイスをお届けします。</p>
+                                        <span class="seeMore">詳細を見る</span>
+                                    </a>
+                                </li>
+                                <li class="card">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/top/knowledge_img4.jpg" alt="サムネイル" width="510" height="274">
+                                        </figure>
+                                        <p class="ttl">食品表示</p>
+                                        <p class="category">対象</p>
+                                        <p class="subTtl">小学生～大人</p>
+                                        <p class="desc">表示を理解して商品を適切に選べるようキャラメルを例にしてご説明します。</p>
+                                        <span class="seeMore">詳細を見る</span>
+                                    </a>
+                                </li>
+                                <li class="card">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/top/knowledge_img5.jpg" alt="サムネイル" width="510" height="274">
+                                        </figure>
+                                        <p class="ttl">森永製菓の菓子育</p>
+                                        <p class="category">対象</p>
+                                        <p class="subTtl">幼児～小学生</p>
+                                        <p class="desc">お菓子の大切な役割や安心して召し上がっていただくための情報をお届けします。</p>
+                                        <span class="seeMore">詳細を見る</span>
+                                    </a>
+                                </li>
+                                <li class="card">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/top/knowledge_img6.jpg" alt="サムネイル" width="510" height="274">
+                                        </figure>
+                                        <p class="ttl">アレルギー“だから” がないラボ</p>
+                                        <p class="category">対象</p>
+                                        <p class="subTtl">全世代</p>
+                                        <p class="desc">「食物アレルギー“だから”がない世界」 を目指すプロジェクトをご紹介します。</p>
+                                        <span class="seeMore">詳細を見る</span>
+                                    </a>
+                                </li>
+                                <li class="card">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/top/knowledge_img7.jpg" alt="サムネイル" width="510" height="274">
+                                        </figure>
+                                        <p class="ttl">森永おくち研究所</p>
+                                        <p class="category">対象</p>
+                                        <p class="subTtl">全世代</p>
+                                        <p class="desc">おくちケアをおいしく、たのしく、つづけるための情報をお届けします。</p>
+                                        <span class="seeMore">詳細を見る</span>
+                                    </a>
+                                </li>
+                                <li class="card">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="assets/img/top/knowledge_img8.jpg" alt="サムネイル" width="510" height="274">
+                                        </figure>
+                                        <p class="ttl">バーチャル工場見学</p>
+                                        <p class="category">対象</p>
+                                        <p class="subTtl">幼児～中高生</p>
+                                        <p class="desc">おかしな妖精たちが工場をご案内。森永製菓のお菓子ができるまでをご紹介します。</p>
+                                        <span class="seeMore">詳細を見る</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
 					</section>
-					<!-- /awardBlock -->
+					<!-- /knowledgeBlock -->
 				</main>
 			</div>
 			<!-- /ctArea -->
