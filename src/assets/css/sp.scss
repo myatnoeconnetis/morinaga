@@ -20,11 +20,109 @@
 		padding: 0 30px;
 	}//ctInner
 
+	/*navList*/
+	.navList {
+		padding: 14px 15px;
+		
+		ul {
+			gap: 15px;
+
+			li {
+				a {
+					padding: 11px 13px;
+					border-radius: 10px;
+					text-align: center;
+
+					&::after {
+						display: none;
+					}
+
+					span {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}//navList
+
 	/* --------------------------------------------------------------------------------------
 	ctTop
 	--------------------------------------------------------------------------------------- */
 	.ctTop {
+		.bnrBlock {
+			figure {
+				img {
+					height: 400px;
+					object-fit: cover;
+					object-position: center;
+				}
+			}
+		}
 
+		.visionBlock {
+			.ctInner {
+				.visionBlockInner {
+					padding-top: 130px;
+					margin-bottom: 75px;
+
+					.titleImg {
+						max-width: 213px;
+						top: -64px;
+					}
+
+					.titleTxtImg {
+						margin-bottom: 30px;
+					}
+
+					.text {
+						line-height: 2;
+						
+						.intro {
+							margin-bottom: 33px;
+						}
+					}
+
+					.photoImg {
+						display: none;
+					}
+				}
+
+				.infoBlock {
+					flex-direction: column;
+					column-gap: 0;
+					row-gap: 20px;
+					padding-bottom: 70px;
+
+					.infoList {
+						li {
+							flex-direction: column;
+							gap: 23px;
+							padding: 24px 24px;
+
+							.imgCol {
+								width: 100%;
+								aspect-ratio: 300/200;
+							}
+
+							.textCol {
+								width: 100%;
+
+								.link {
+									margin-top: 30px;
+									display: block;
+									width: fit-content;
+									margin-left: auto;
+								}
+							}
+						}
+					}
+
+					.infoFloatImg {
+						display: none;
+					}
+				}
+			}
+		}
 	}//ctTop
 
 }
