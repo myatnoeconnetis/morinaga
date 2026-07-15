@@ -273,7 +273,7 @@ common
 	}
 }//colCardList
 
-/* Breadcrumb */
+/* breadcrumbs */
 .breadcrumbs {
 	max-width: 1080px;
 	margin: 0 auto;
@@ -287,20 +287,13 @@ common
 
 		li {
 			position: relative;
-			padding-right: 20px;
+			padding-right: 6px;
             white-space: nowrap;
-			color: #333;
 
             &::after {
-				content: "";
-				width: 7px;
-				height: 13px;
-				position: absolute;
-				top: 50%;
-				transform: translateY(-50%);
-				right: 6px;
-				background: url(../img/common/arr_right_link.png) no-repeat center;
-				background-size: contain;
+				content: "＞";
+				font-size: 10px;
+    			font-weight: bold;
 			}
 
 			&:last-child {
@@ -314,14 +307,15 @@ common
 			}
 
 			a {
-				color: #333;
+				color: #000;
+				font-size: 10px;
 			}
 
 			&:not(:last-child) {
 				a {
 					text-decoration: underline;
 					text-underline-offset: 2px;
-					text-decoration-color: #333;
+					text-decoration-color: #000;
 				}
 			}
 		}
@@ -332,12 +326,9 @@ common
 ctTop
 --------------------------------------------------------------------------------------- */
 .ctTop {
-
-	.bnrBlock {
-	}
-
 	.visionBlock {
 		background-image: linear-gradient(to bottom, rgba(27, 133, 11, 0.1), rgba(255, 255, 255, 0.1));
+		position: relative;
 
 		.ctInner {
 			.visionBlockInner {
@@ -364,7 +355,7 @@ ctTop
 				.text {
 					text-align: center;
 					line-height: 2.5;
-					letter-spacing: 0;
+					font-weight: 500;
 
 					.intro {
 						display: block;
@@ -498,50 +489,55 @@ ctTop
 					}
 				}
 
-				.infoFloatImg {
-					position: absolute;
+				
+			}
+		}
 
-					&.infoFloatImg1 {
-						width: 110px;
-						top: 31px;
-						left: -44px;
-					}
-
-					&.infoFloatImg2 {
-						width: 125px;
-						top: -19px;
-						right: -35px;
-					}
-
-					&.infoFloatImg3 {
-						width: 220px;
-						bottom: -10px;
-						right: -101px;
-					}
+		.floatArea {
+			.floatImg {
+				position: absolute;
+	
+				&.floatImg1 {
+					width: 110px;
+					bottom: max(calc(50% - 240px), 1px);
+					left: max(calc(50% - 586px), 1px);
+				}
+	
+				&.floatImg2 {
+					width: 125px;
+					bottom: max(calc(50% - 169px), 1px);
+					right: max(calc(50% - 577px), 1px);
+				}
+	
+				&.floatImg3 {
+					width: 220px;
+					bottom: -14px;
+					right: max(calc(50% - 640px), 1px);
 				}
 			}
 		}
-	}
+	}//visionBlock
 
 	.knowledgeBlock {
-		background: #1B850B;
-		background: linear-gradient(180deg, rgba(27, 133, 11, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%);
+		background: linear-gradient(180deg, rgba(27, 133, 11, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%);		
 		padding: 30px 0 80px;
 		position: relative;
 
-		.floatImg {
-			position: absolute;
-
-			&.floatImg1 {
-				top: -120px;
-    			left: max(calc(50% - 640px), 1px);
-				width: 215px;
-			}
-
-			&.floatImg2 {
-				top: -12px;
-				right: calc(50% - 560px);
-				width: 110px;
+		.floatArea {
+			.floatImg {
+				position: absolute;
+	
+				&.floatImg1 {
+					top: -120px;
+					left: max(calc(50% - 640px), 1px);
+					width: 215px;
+				}
+	
+				&.floatImg2 {
+					top: -12px;
+					right: calc(50% - 560px);
+					width: 110px;
+				}
 			}
 		}
 
@@ -554,6 +550,6 @@ ctTop
 			line-height: 2;
 			color: #3C3F42;
 		}
-	}
+	}//knowledgeBlock
 
 }//ctTop

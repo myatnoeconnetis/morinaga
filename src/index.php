@@ -103,14 +103,20 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 
 					<!-- visionBlock -->
 					<section class="visionBlock">
+						<div class="floatArea">
+							<img src="assets/img/top/info_float_img1.png" class="floatImg floatImg1 pcOnly" alt="" width="215" height="286" >
+							<img src="assets/img/top/info_float_img2.png" class="floatImg floatImg2 pcOnly" alt="" width="247" height="249">
+							<img src="assets/img/top/info_float_img3.png" class="floatImg floatImg3 pcOnly" alt="" width="442" height="382">
+						</div>
+
 						<div class="ctInner">
 							<div class="visionBlockInner">
 								<figure class="titleImg">
-									<img src="assets/img/top/title_img.png" alt="">
+									<img src="assets/img/top/title_img.png" alt="" width="600" height="464">
 								</figure>
 
 								<figure class="titleTxtImg">
-									<img src="assets/img/top/title_txt_img.png" alt="">
+									<img src="assets/img/top/title_txt_img.png" alt="" width="1284" height="202">
 								</figure>
 
 								<p class="text"><span class="intro">「日本の人々に<br class="spOnly">栄養価のあるおいしいお菓子を届けたい」</span>1899 年、創業者・森永太一郎の想いから <br class="spOnly"> 森永製菓は誕生しました。 <br>森永製菓の食育は、<br>120 年を超える歴史のなかで <br class="spOnly">育んできた想いを受け継ぎ、<br>他者への思いやりを大切にしながら、 <br>「心・体・環境の健康」へ<br class="spOnly">貢献できるよう活動を行っています。<br>従業員もともに学びながら、<br>世界の人々の笑顔を<br class="spOnly">未来につないでいきたいと考えています。</p>
@@ -177,25 +183,18 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 									</li>
 								</ul>
 
-								<div class="infoFloatImg infoFloatImg1">
-									<img src="assets/img/top/info_float_img1.png" alt="">
-								</div>
-								<div class="infoFloatImg infoFloatImg2">
-									<img src="assets/img/top/info_float_img2.png" alt="">
-								</div>
-								<div class="infoFloatImg infoFloatImg3">
-									<img src="assets/img/top/info_float_img3.png" alt="">
-								</div>
+								
 							</div>
 						</div>
-
 					</section>
 					<!-- /visionBlock -->
 
 					<!-- knowledgeBlock -->
 					<section class="knowledgeBlock">
-						<img src="assets/img/top/knowledge_float_img1.png" class="floatImg floatImg1 pcOnly" alt="" width="428" height="440">
-						<img src="assets/img/top/knowledge_float_img2.png" class="floatImg floatImg2 pcOnly" alt="" width="226" height="265">
+						<div class="floatArea">
+							<img src="assets/img/top/knowledge_float_img1.png" class="floatImg floatImg1 pcOnly" alt="" width="428" height="440">
+							<img src="assets/img/top/knowledge_float_img2.png" class="floatImg floatImg2 pcOnly" alt="" width="226" height="265">
+						</div>
 
 						<div class="ctInner">
                             <h2 class="blockTtl">知識を広げる<span>knowledge</span></h2>
