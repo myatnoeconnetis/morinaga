@@ -3,6 +3,7 @@
 # ============================================
 SMOOTH_SCROLL_SPEED = 600
 INIT_DELAY = 100
+SP_BREAKPOINT = 1080
 
 # ============================================
 # モジュール変数
@@ -73,6 +74,40 @@ setResize = ->
 		, 100
 
 # ============================================
+# navList scroll
+# ============================================
+setNavListScroll = ->
+	navList = document.querySelector '.navList'
+	lastScrollTop = 0
+
+	# Initialize state
+	navList.classList.remove 'sticky', 'show'
+
+	$(window).scroll ->
+		currentScrollY = window.scrollY
+		isScrolled = currentScrollY > 450
+		isScrollingDown = currentScrollY > lastScrollTop
+
+		if window.innerWidth <= SP_BREAKPOINT
+			return
+
+		# Sticky state
+		if isScrolled
+			navList.classList.add 'sticky'
+		else
+			navList.classList.remove 'sticky', 'show'
+
+		# Visibility state
+		if isScrollingDown
+			navList.classList.remove 'show'
+		else if isScrolled
+			navList.classList.add 'show'
+		else
+			navList.classList.remove 'show'
+
+		lastScrollTop = currentScrollY
+
+# ============================================
 # イベント設定
 # ============================================
 
@@ -91,6 +126,7 @@ setEvent = ->
 initCommon = ->
 	setSmoothScroll()
 	setEvent()
+	setNavListScroll()
 	# setResize() # 必要に応じてコメントアウトを解除
 
 # ============================================

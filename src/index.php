@@ -84,13 +84,15 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 					<!-- /breadcrumbs -->
 					
 					<!-- navList -->
-					<nav class="navList">
-						<ul>
-							<li><a href="#"><span>体験で深める</span></a></li>
-							<li><a href="#"><span>知識を広げる</span></a></li>
-							<li><a href="#"><span>関連リンク</span></a></li>
-						</ul>
-					</nav>
+					<div class="navList">
+						<div class="navListInner">
+							<ul>
+								<li><a href="#"><span>体験で深める</span></a></li>
+								<li><a href="#"><span>知識を広げる</span></a></li>
+								<li><a href="#"><span>関連リンク</span></a></li>
+							</ul>
+						</div>
+					</div>
 					<!-- /navList -->
 
 					<!-- bnrBlock -->
@@ -325,6 +327,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 	<!-- endbuild -->
 
 	<script src="assets/js/common.min.js?<?=$common_js_mtime?>"></script>
+	<script src="assets/js/other.js"></script>
 </body>
 
 </html>

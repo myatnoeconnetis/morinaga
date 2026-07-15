@@ -111,7 +111,10 @@
 
 	/*navList*/
 	.navList {
-		padding: 14px 15px;
+		min-height: 68px;
+		.navListInner {
+			padding: 14px 15px;
+		}
 		
 		ul {
 			gap: 15px;
@@ -220,7 +223,7 @@
 
 					.infoList {
 						max-width: 100%;
-						
+
 						li {
 							flex-direction: column;
 							gap: 23px;
