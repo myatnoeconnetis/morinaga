@@ -205,6 +205,59 @@ common
 	}
 }//colCardList
 
+/* Breadcrumb */
+.breadcrumbs {
+	padding: 10px 0;
+	margin-left: 105px;
+
+	ul {
+		display: flex;
+		flex-flow: wrap;
+        align-items: center;
+
+		li {
+			position: relative;
+			padding-right: 20px;
+            white-space: nowrap;
+			color: #333;
+
+            &::after {
+				content: "";
+				width: 7px;
+				height: 13px;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				right: 6px;
+				background: url(../img/common/arr_right_link.png) no-repeat center;
+				background-size: contain;
+			}
+
+			&:last-child {
+				padding-right: 0;
+                margin-right: 0;
+                white-space: normal;
+
+				&::after {
+					display: none;
+				}
+			}
+
+			a {
+				color: #333;
+			}
+
+			&:not(:last-child) {
+				a {
+					text-decoration: underline;
+					text-underline-offset: 2px;
+					text-decoration-color: #333;
+				}
+			}
+		}
+	}
+}//breadcrumbs
+
 /* --------------------------------------------------------------------------------------
 ctTop
 --------------------------------------------------------------------------------------- */

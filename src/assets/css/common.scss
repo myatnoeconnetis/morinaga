@@ -144,7 +144,6 @@ h2, h3, h4, h5 {
 --------------------------------------------------------------------------------------- */
 body {
 	color: #333;
-	background: linear-gradient(to right, #dbefda 40%, #fffaed 100%);
 	font-family: $font-family-notosan;
 	font-size: 16px;
     font-weight: 400;
@@ -218,3 +217,126 @@ img {
 /* --------------------------------------------------------------------------------------
  FOOTER
 --------------------------------------------------------------------------------------- */
+footer {
+	background: linear-gradient(to bottom, rgba(27, 133, 11, 0.15) 0%, #FFFFFF 50%);
+
+	.footerTop {
+		.ftBannerBlock {
+			margin-bottom: 42px;
+			padding-top: 8px;
+
+			.ftImgGroup {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				gap: 30px;
+
+				img {
+					object-fit: cover;
+
+					&:first-child {
+						width: 100%;
+						max-width: 178px;
+						height: auto;
+					}
+					&:last-child {
+						width: 100%;
+						max-width: 877px;
+						height: auto;
+					}
+				}
+			}
+
+			.ftListGroup {
+				display: flex;
+				gap: 80px;
+				margin-top:-14px;
+
+				.ftSitemap {
+					&:first-child {
+						dd {
+							width: 100%;
+							max-width: 440px;
+							display: flex;
+							justify-content: space-between;
+							gap: 33px;
+							
+							ul {
+								&:first-child {
+									width: 100%;
+									max-width: 231px;
+								}
+
+								&:last-child {
+									width: 100%;
+									max-width: 183px;
+								}
+							}
+						}
+					}
+
+					&:not(:first-child) {
+						position: relative;
+						&::before {
+							content: "";
+							display: block;
+							width: 1px;
+							height: 85%;
+							background-color: #333;
+							position: absolute;
+							left: -42px;
+							top: 11px;
+						}
+					}
+
+					&:last-child {
+						dd {
+							ul {
+								li {
+									&:last-child {
+										margin-top: 10px;
+										a {
+											color: #967D64;
+											text-decoration: underline;
+											text-underline-offset: 2px;
+											text-decoration-color: #967D64;
+											font-weight: bold;
+										}
+									}
+								}
+							}
+						}
+					}
+
+					dt {
+						margin-bottom: 17px;
+						p {
+							font-weight: bold;
+							font-size: 24px;
+							color: #3CB174;
+						}
+					}
+					
+					dd {
+						ul {
+							box-sizing: border-box;
+							width: 100%;
+							max-width: 227px;
+
+							li {
+								margin-bottom: 2px;
+								line-height: 2.5;
+								a {
+									color:#333333;
+									text-decoration: underline;
+									text-underline-offset: 2px;
+									text-decoration-color: #333333;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
