@@ -301,6 +301,7 @@ footer {
 											text-underline-offset: 2px;
 											text-decoration-color: #967D64;
 											font-weight: bold;
+											font-size: 20px;
 										}
 									}
 								}
@@ -325,12 +326,17 @@ footer {
 
 							li {
 								margin-bottom: 2px;
-								line-height: 2.5;
+								
 								a {
+									line-height: 2.5;
 									color:#333333;
 									text-decoration: underline;
 									text-underline-offset: 2px;
 									text-decoration-color: #333333;
+
+									&.multiLink {
+										line-height: 1.5;
+									}
 								}
 							}
 						}
