@@ -106,6 +106,7 @@
 	.ctInner {
 		max-width: 100%;
 		padding: 0 20px;
+		padding: 0 20px;
 	}//ctInner
 
 	/*navList*/
@@ -251,6 +252,260 @@
 					}
 				}
 			}
+		}
+
+		.experienceBlock {
+			padding: 52px 0 48px;
+
+			.floatingImages {
+				display: none;
+			}
+
+			.blockTtl {
+				margin-bottom: 25px;
+
+				span {
+					margin: 8px;
+				}
+
+				& + .desc {
+					color: #000;
+					margin-bottom: 46px;
+				}
+			}
+
+			.redTtl {
+				font-size: 20px;
+				margin-bottom: 26px;
+			}
+
+			.para {
+				line-height: 2;
+				margin-bottom: 39px;
+			}
+
+			.lessons {
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				transform: translateX(0);
+				gap: 20px;
+				margin-bottom: 39px;
+
+				& > li {
+					width: 100%;
+					border-radius: 20px;
+					padding: 0 7px 7px;
+					
+					.content {
+						padding: 14px 18px;
+						border-radius: 0 0 15px 15px;
+
+						.lessonTtl {
+							font-size: 18px;
+							line-height: 1.35;
+							text-align: left;
+						}
+
+						.labelBadge {
+							.badge {
+								display: block;
+								width: fit-content;
+								padding: 3px 10px 4px;
+								margin-bottom: 6px;
+							}
+						}
+
+						.text {
+							margin-bottom: 7px;
+						}
+
+						a {
+							margin: 0 0 0 auto;
+						}
+					}
+
+					&.kyaramel {
+						.imgArea {
+							width: 54.4%;
+							padding: 23px 0 29px;
+						}
+					}
+					
+					&.foodRelated {
+						.imgArea {
+							width: 80.3%;
+							padding: 26px 0;
+						}
+					}
+
+					&.future {
+						.imgArea {
+							width: 75.3%;
+							padding: 26px 0 31px;
+						}
+					}
+					
+					&.pictureBooks {
+						.imgArea {
+							width: 77.5%;
+							padding: 26px 0;
+						}
+					}
+				}
+
+				& + .btnWrap {
+					margin-bottom: 72px;
+
+					.btnLink {
+						font-size: 16px;
+						padding: 12px 80px 12px 60px;
+						width: 285px;
+					}
+				}
+			}
+
+			.performanceArea {
+				margin-bottom: 45px;
+
+				.areaTtl {
+					font-size: 18px;
+					margin-bottom: 37px;
+
+					&::before,
+					&::after {
+						width: 50px;
+					}
+				}
+
+				.twoCol {
+					flex-direction: column;
+					gap: 32px;
+
+					.statsCol {
+						gap: 3px;
+
+						dl {
+							dt {
+								width: 159px;
+								font-size: 13px;
+								padding: 25px 0 ;
+							}
+
+							dd {
+								font-size: 18px;
+							}
+
+							&:first-child {
+								border-radius: 15px 15px 0 0;
+							}
+	
+							&:last-child {
+								border-radius: 0 0  15px 15px;
+							}
+						}
+					}
+
+					.imgCol {
+						width: 100%;
+
+						.slider {
+							padding-bottom: 36px;
+						}
+					}
+				}
+
+				& + .btnWrap {
+					margin-bottom: 73px;
+
+					.btnLink {
+						width: 320px;
+						font-size: 16px;
+						padding: 12px 80px 12px 60px;
+					}
+				}
+			}
+
+			.tourArea {
+				.redTtl {
+					font-size: 18px;
+					line-height: 1.43;
+					margin-bottom: 14px;
+				}
+
+				.tsurumiFactory {
+					a {
+						flex-direction: column;
+						padding: 0;
+						gap: 0;
+
+						figure {
+							width: 100%;
+						}
+
+						.content {
+							padding: 27px 20px 20px;
+
+							.ttl {
+								font-size: 18px;
+								color: #000;
+								line-height: 1.4;
+								margin-bottom: 13px;
+							}
+
+							.subTtl {
+								font-size: 16px;
+								font-weight: 500;
+							}
+
+							.category {
+								display: block;
+							}
+
+							.desc {
+								margin: 20px 0;
+								line-height: 1.4;
+								color: #000;
+							}
+						}
+					}
+				}
+
+				.colCardList {
+					grid-template-columns: repeat(1,1fr);
+					margin-top: 18px;
+					row-gap: 20px;
+
+					.card {
+						margin-bottom: 0;
+						gap: 0;
+
+						a {
+							padding: 0 25px 24px 25px;
+
+							figure {
+								aspect-ratio: 350 / 196;
+							}
+
+							.ttl {
+								color: #000;
+								font-size: 18px;
+								margin-bottom: 10px;
+							}
+
+							.subTtl {
+								color: #000;
+							}
+
+							.desc {
+								margin: 20px 0 12px;
+								color: #000;
+							}
+						}
+					}
+				}
+			}
+
 		}
 
 		.knowledgeBlock {
