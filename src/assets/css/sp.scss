@@ -10,14 +10,104 @@
 		display: block !important;
 	}
 
+	/* Breadcrumb */
+	.breadcrumbs {
+		margin-left: 0;
+	}
+
 	/* Header */
 
 	/* Footer */
+	footer {
+		position: relative;
+
+		// .ctInner {
+		// 	padding: 0 12px;
+		// }
+
+		.footerTop {
+			margin-top: 120px;
+			.ftBannerBlock {
+				margin-bottom: 130px;
+				.ftImgGroup {
+					position: relative;
+					flex-direction: column;
+					align-items: center;
+					z-index: 1;
+
+
+					img {
+						position: absolute;
+
+						&:first-child {
+							top: 0;
+							left: 50%;
+							transform: translate(-50%, -50%);
+							max-width: 178px;
+						}
+						&:last-child {
+							max-width: 160px;
+							top: 117px;
+        					// right: -20px;// figma sp design
+        					right: -12px;
+						}
+					}
+				}
+
+				.ftListGroup {
+					position: relative;
+					flex-direction: column;
+					gap: 50px;
+					margin-top: 107px;
+					max-width: 230px;
+					z-index: 2;
+
+					.ftSitemap {
+						&:first-child {
+							dd {
+								width: 100%;
+								max-width: 100%;
+								display: block;
+								justify-content: flex-start;
+								gap: 0;
+								
+								ul {
+									&:first-child {
+										width: 100%;
+										max-width: 100%;
+									}
+
+									&:last-child {
+										width: 100%;
+										max-width: 100%;
+									}
+								}
+							}
+						}
+
+						&:last-child {
+							dd {
+								ul {
+									li {
+										&:last-child {
+											a {
+												white-space: nowrap;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 
 	/*ctInner*/
 	.ctInner {
 		max-width: 100%;
-		padding: 0 30px;
+		padding: 0 20px;
 	}//ctInner
 
 	/*navList*/
@@ -44,6 +134,42 @@
 			}
 		}
 	}//navList
+	
+	/*blockTtl*/
+	.blockTtl {
+		font-size: 28px;
+
+		span {
+			font-size: 16px;
+			margin-top: 17px;
+		}
+	}//blockTtl
+
+	/*colCardList*/
+	.colCardList {
+		grid-template-columns: repeat(1, 1fr);
+		margin-top: 55px;
+
+		.card {
+			margin-bottom: 30px;
+
+			a {
+				padding: 0 25px 30px 25px;
+				border: none;
+
+				figure {
+					width: calc(100% + 50px);
+					margin-left: -25px;
+					border-bottom: none;
+					max-height: 100%;
+				}
+
+				.desc {
+					margin: 7px 0 53px;
+				}
+			}
+		}
+	}//colCardList
 
 	/* --------------------------------------------------------------------------------------
 	ctTop
@@ -123,6 +249,9 @@
 				}
 			}
 		}
+		
+		.knowledgeBlock {
+			padding: 40px 0 100px;
+		}
 	}//ctTop
-
 }
