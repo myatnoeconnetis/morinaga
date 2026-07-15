@@ -275,13 +275,15 @@ common
 
 /* Breadcrumb */
 .breadcrumbs {
-	padding: 10px 0;
-	margin-left: 105px;
+	max-width: 1080px;
+	margin: 0 auto;
 
 	ul {
 		display: flex;
 		flex-flow: wrap;
         align-items: center;
+		padding: 10px 0;
+		margin-left: 105px;	
 
 		li {
 			position: relative;

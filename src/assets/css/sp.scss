@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
 	/*-------------------------------------
 	Common
 	---------------------------------------*/
@@ -10,10 +10,15 @@
 		display: block !important;
 	}
 
-	/* Breadcrumb */
+	/* breadcrumbs */
 	.breadcrumbs {
-		margin-left: 0;
-	}
+		max-width: 100%;
+		padding: 0 20px;
+		
+		ul {
+			margin-left: 0;
+		}
+	}//breadcrumbs
 
 	/* Header */
 
@@ -21,73 +26,72 @@
 	footer {
 		position: relative;
 
-		.footerTop {
+		.ftBannerBlock {
 			margin-top: 120px;
-			.ftBannerBlock {
-				margin-bottom: 130px;
-				.ftImgGroup {
-					position: relative;
-					flex-direction: column;
-					align-items: center;
-					z-index: 1;
+			margin-bottom: 130px;
+
+			.ftImgGroup {
+				position: relative;
+				flex-direction: column;
+				align-items: center;
+				z-index: 1;
 
 
-					img {
-						position: absolute;
+				img {
+					position: absolute;
 
-						&:first-child {
-							top: 0;
-							left: 50%;
-							transform: translate(-50%, -50%);
-							max-width: 178px;
-						}
-						&:last-child {
-							max-width: 160px;
-							top: 117px;
-        					right: -28px;
-						}
+					&:first-child {
+						top: 0;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						max-width: 178px;
+					}
+					&:last-child {
+						max-width: 160px;
+						top: 117px;
+						right: -28px;
 					}
 				}
+			}
 
-				.ftListGroup {
-					position: relative;
-					flex-direction: column;
-					gap: 50px;
-					margin-top: 107px;
-					max-width: 230px;
-					z-index: 2;
+			.ftListGroup {
+				position: relative;
+				flex-direction: column;
+				gap: 50px;
+				margin-top: 107px;
+				max-width: 230px;
+				z-index: 2;
 
-					.ftSitemap {
-						&:first-child {
-							dd {
-								width: 100%;
-								max-width: 100%;
-								display: block;
-								justify-content: flex-start;
-								gap: 0;
-								
-								ul {
-									&:first-child {
-										width: 100%;
-										max-width: 100%;
-									}
+				.ftSitemap {
+					&:first-child {
+						dd {
+							width: 100%;
+							max-width: 100%;
+							display: block;
+							justify-content: flex-start;
+							gap: 0;
+							
+							ul {
+								&:first-child {
+									width: 100%;
+									max-width: 100%;
+								}
 
-									&:last-child {
-										width: 100%;
-										max-width: 100%;
-									}
+								&:last-child {
+									width: 100%;
+									max-width: 100%;
 								}
 							}
 						}
+					}
 
-						&:last-child {
-							dd {
-								ul {
-									li {
-										&:last-child {
-											a {
-												white-space: nowrap;
-											}
+					&:last-child {
+						dd {
+							ul {
+								li {
+									&:last-child {
+										a {
+											white-space: nowrap;
 										}
 									}
 								}
@@ -97,7 +101,7 @@
 				}
 			}
 		}
-	}
+	}//footer
 
 	/*ctInner*/
 	.ctInner {

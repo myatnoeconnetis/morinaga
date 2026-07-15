@@ -1,8 +1,7 @@
-<footer>
-	<div class="footerTop">
-		<div class="ctInner">
-			<!-- ftBannerBlock -->
-			<div class="ftBannerBlock">
+<footer>	
+	<!-- ftBannerBlock -->
+		<div class="ftBannerBlock">
+			<div class="ctInner">
 				<div class="ftImgGroup">
 					<img src="assets/img/common/ft_logo.png" alt="footer" width="356" height="274">
 					<img src="assets/img/common/ft_illustration_pc.png" alt="footer illustration pc" class="pcOnly" width="878" height="201">
@@ -124,15 +123,13 @@
 					</dl>
 				</div>
 			</div>
-			<!-- /ftBannerBlock -->
-		</div>
+		</div>			
+	<!-- /ftBannerBlock -->
 
-		<!-- ftBottomBlock -->
-		<div class="ftBottomBlock">
-			<img src="assets/img/common/footer_bottom_pc.png" alt="footer" class="pcOnly" width="2560" height="814">
-			<img src="assets/img/common/footer_bottom_sp.png" alt="footer" class="spOnly" width="780" height="2202">
-
-		</div>
-		<!-- /ftBottomBlock -->
+	<!-- ftBottomBlock -->
+	<div class="ftBottomBlock">
+		<img src="assets/img/common/footer_bottom_pc.png" alt="" class="pcOnly" width="2560" height="814">
+		<img src="assets/img/common/footer_bottom_sp.png" alt="" class="spOnly" width="780" height="2202">
 	</div>
+	<!-- /ftBottomBlock -->
 </footer>

@@ -15,8 +15,8 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="IE=edge">
 
-	<title></title>
-	<meta property="og:title" content="">
+	<title>MORINAGA</title>
+	<meta property="og:title" content="MORINAGA">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -63,6 +63,25 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 			<!-- ctArea -->
 			<div id="ctArea">
 				<main>
+
+					<!-- breadcrumbs -->
+					<nav class="breadcrumbs">
+						<ul>
+							<li>
+								<a href="#">ホーム</a>
+							</li>
+							<li>
+								<a href="#">知る・楽しむ</a>
+							</li>
+							<li>
+								<a href="#">食育・工場見学</a>
+							</li>
+							<li>
+								<a href="#">森永製菓の食育</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- /breadcrumbs -->
 					
 					<!-- navList -->
 					<nav class="navList">
@@ -72,12 +91,12 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 							<li><a href="#"><span>関連リンク</span></a></li>
 						</ul>
 					</nav>
-					<!-- navList -->
+					<!-- /navList -->
 
 					<!-- bnrBlock -->
 					<div class="bnrBlock">
 						<figure>
-							<img src="./assets/img/top/bnr_img.jpg" alt="" width="1920" height="963">
+							<img src="assets/img/top/bnr_img.jpg" alt="" width="1920" height="963">
 						</figure>
 					</div>
 					<!-- /bnrBlock -->
@@ -87,32 +106,32 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 						<div class="ctInner">
 							<div class="visionBlockInner">
 								<figure class="titleImg">
-									<img src="./assets/img/top/title_img.png" alt="">
+									<img src="assets/img/top/title_img.png" alt="">
 								</figure>
 
 								<figure class="titleTxtImg">
-									<img src="./assets/img/top/title_txt_img.png" alt="">
+									<img src="assets/img/top/title_txt_img.png" alt="">
 								</figure>
 
 								<p class="text"><span class="intro">「日本の人々に<br class="spOnly">栄養価のあるおいしいお菓子を届けたい」</span>1899 年、創業者・森永太一郎の想いから <br class="spOnly"> 森永製菓は誕生しました。 <br>森永製菓の食育は、<br>120 年を超える歴史のなかで <br class="spOnly">育んできた想いを受け継ぎ、<br>他者への思いやりを大切にしながら、 <br>「心・体・環境の健康」へ<br class="spOnly">貢献できるよう活動を行っています。<br>従業員もともに学びながら、<br>世界の人々の笑顔を<br class="spOnly">未来につないでいきたいと考えています。</p>
 
 								<div class="photoImg photoImg1">
-									<img src="./assets/img/top/photo_img1.png" alt="" width="339" height="260">
+									<img src="assets/img/top/photo_img1.png" alt="" width="339" height="260">
 								</div>
 								<div class="photoImg photoImg2">
-									<img src="./assets/img/top/photo_img2.png" alt="" width="426" height="345">
+									<img src="assets/img/top/photo_img2.png" alt="" width="426" height="345">
 								</div>
 								<div class="photoImg photoImg3">
-									<img src="./assets/img/top/photo_img3.png" alt="" width="282" height="217">
+									<img src="assets/img/top/photo_img3.png" alt="" width="282" height="217">
 								</div>
 								<div class="photoImg photoImg4">
-									<img src="./assets/img/top/photo_img4.png" alt="" width="264" height="361">
+									<img src="assets/img/top/photo_img4.png" alt="" width="264" height="361">
 								</div>
 								<div class="photoImg photoImg5">
-									<img src="./assets/img/top/photo_img5.png" alt="" width="375" height="313">
+									<img src="assets/img/top/photo_img5.png" alt="" width="375" height="313">
 								</div>
 								<div class="photoImg photoImg6">
-									<img src="./assets/img/top/photo_img6.png" alt="" width="355" height="328">
+									<img src="assets/img/top/photo_img6.png" alt="" width="355" height="328">
 								</div>
 							</div>
 
@@ -121,7 +140,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 								<ul class="infoList">
 									<li>
 										<figure class="imgCol">
-											<img src="./assets/img/top/info_img1.png" alt="">
+											<img src="assets/img/top/info_img1.png" alt="">
 										</figure>
 										<div class="textCol">
 											<span class="title">🏆 農林水産省 第10回食育活動表彰 <br>「消費・安全局長賞」受賞</span>
@@ -131,7 +150,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 									</li>
 									<li>
 										<figure class="imgCol">
-											<img src="./assets/img/top/info_img2.png" alt="">
+											<img src="assets/img/top/info_img2.png" alt="">
 										</figure>
 										<div class="textCol">
 											<span class="title">「食のしごと」の記事が追加されました。</span>
@@ -140,7 +159,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 									</li>
 									<li>
 										<figure class="imgCol">
-											<img src="./assets/img/top/info_img3.png" alt="">
+											<img src="assets/img/top/info_img3.png" alt="">
 										</figure>
 										<div class="textCol">
 											<span class="title">「お菓子の記憶」の記事が追加されました</span>
@@ -149,7 +168,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 									</li>
 									<li>
 										<figure class="imgCol">
-											<img src="./assets/img/top/info_img4.png" alt="">
+											<img src="assets/img/top/info_img4.png" alt="">
 										</figure>
 										<div class="textCol">
 											<span class="title">食育ホームページをリニューアルしました。</span>
@@ -159,13 +178,13 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 								</ul>
 
 								<div class="infoFloatImg infoFloatImg1">
-									<img src="./assets/img/top/info_float_img1.png" alt="">
+									<img src="assets/img/top/info_float_img1.png" alt="">
 								</div>
 								<div class="infoFloatImg infoFloatImg2">
-									<img src="./assets/img/top/info_float_img2.png" alt="">
+									<img src="assets/img/top/info_float_img2.png" alt="">
 								</div>
 								<div class="infoFloatImg infoFloatImg3">
-									<img src="./assets/img/top/info_float_img3.png" alt="">
+									<img src="assets/img/top/info_float_img3.png" alt="">
 								</div>
 							</div>
 						</div>
