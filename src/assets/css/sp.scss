@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
 	/*-------------------------------------
 	Common
 	---------------------------------------*/
@@ -10,9 +10,97 @@
 		display: block !important;
 	}
 
+	/* breadcrumbs */
+	.breadcrumbs {
+		max-width: 100%;
+		padding: 0 20px;
+		
+		ul {
+			margin-left: 0;
+		}
+	}//breadcrumbs
+
 	/* Header */
 
 	/* Footer */
+	footer {
+		position: relative;
+
+		.ftBannerBlock {
+			margin: 120px 0 130px;
+
+			.ftImgGroup {
+				position: relative;
+				flex-direction: column;
+				align-items: center;
+				z-index: 1;
+				
+				img {
+					position: absolute;
+
+					&:first-child {
+						top: 0;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						max-width: 178px;
+					}
+					
+					&:last-child {
+						max-width: 160px;
+						top: 117px;
+						right: -28px;
+					}
+				}
+			}
+
+			.ftListGroup {
+				position: relative;
+				flex-direction: column;
+				gap: 50px;
+				margin-top: 107px;
+				max-width: 230px;
+				z-index: 2;
+
+				.ftSitemap {
+					&:first-child {
+						dd {
+							width: 100%;
+							max-width: 100%;
+							display: block;
+							justify-content: flex-start;
+							gap: 0;
+							
+							ul {
+								&:first-child {
+									width: 100%;
+									max-width: 100%;
+								}
+
+								&:last-child {
+									width: 100%;
+									max-width: 100%;
+								}
+							}
+						}
+					}
+
+					&:last-child {
+						dd {
+							ul {
+								li {
+									&:last-child {
+										a {
+											white-space: nowrap;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}//footer
 
 	/*ctInner*/
 	.ctInner {
@@ -21,6 +109,31 @@
 		padding: 0 20px;
 	}//ctInner
 
+	/*navList*/
+	.navList {
+		padding: 14px 15px;
+		
+		ul {
+			gap: 15px;
+
+			li {
+				a {
+					padding: 11px 13px;
+					border-radius: 10px;
+					text-align: center;
+
+					&::after {
+						display: none;
+					}
+
+					span {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}//navList
+	
 	/*blockTtl*/
 	.blockTtl {
 		font-size: 28px;
@@ -61,6 +174,83 @@
 	ctTop
 	--------------------------------------------------------------------------------------- */
 	.ctTop {
+		.bnrBlock {
+			figure {
+				img {
+					height: 400px;
+					object-fit: cover;
+					object-position: center;
+				}
+			}
+		}
+
+		.visionBlock {
+			.ctInner {
+				.visionBlockInner {
+					padding-top: 130px;
+					margin-bottom: 75px;
+
+					.titleImg {
+						max-width: 213px;
+						top: -64px;
+					}
+
+					.titleTxtImg {
+						margin-bottom: 30px;
+					}
+
+					.text {
+						line-height: 2;
+						
+						.intro {
+							margin-bottom: 33px;
+						}
+					}
+
+					.photoImg {
+						display: none;
+					}
+				}
+
+				.infoBlock {
+					flex-direction: column;
+					column-gap: 0;
+					row-gap: 20px;
+					padding-bottom: 70px;
+
+					.infoList {
+						max-width: 100%;
+						
+						li {
+							flex-direction: column;
+							gap: 23px;
+							padding: 24px 24px;
+
+							.imgCol {
+								width: 100%;
+								aspect-ratio: 300/200;
+							}
+
+							.textCol {
+								width: 100%;
+
+								.link {
+									margin-top: 30px;
+									display: block;
+									width: fit-content;
+									margin-left: auto;
+								}
+							}
+						}
+					}
+
+					.infoFloatImg {
+						display: none;
+					}
+				}
+			}
+		}
+
 		.experienceBlock {
 			padding: 52px 0 48px;
 
