@@ -81,6 +81,32 @@ setEvent = ->
 	# 必要に応じてスクロールイベントなどを追加
 	# $(window).scroll ->
 	# 	# スクロール時の処理
+	# スライダー
+	initSlider = ->
+		return unless window.jQuery? and $.fn?.slick?
+		slider = $('.slider')
+		listSlider = $('.listSlider')
+		return unless slider.length > 0 and !slider.hasClass('slick-initialized')
+
+		# full slider
+		slider.slick({
+			dots: true,
+			arrows: false,
+			infinite: true,
+			duration: 500,
+			draggable: true,
+			# autoplay: true,
+			# autoplaySpeed: 2000,
+			fade: true,
+		})
+
+	#window.loadイベントが既に発火済みの場合は即座に実行、そうでなければイベントを待つ
+	if document.readyState == 'complete'
+		initSlider()
+	else
+		$(window).on 'load', initSlider
+	
+
 	return
 
 # ============================================
