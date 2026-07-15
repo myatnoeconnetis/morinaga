@@ -31,7 +31,7 @@
 									<a href="#">森永製菓のキャリア授業</a>
 								</li>
 								<li>
-									<a href="#" class="multiLink">森永製菓の菓子育<br>「メルとマールのピクニック」</a>
+									<a href="#"><span>森永製菓の菓子育</span><span>「メルとマールのピクニック」</span></a>
 								</li>
 								<li>
 									<a href="#">実施校一覧（PDF）</a>
@@ -117,7 +117,7 @@
 									<a href="#">バーチャル工場見学憶</a>
 								</li>
 								<li>
-									<a href="#" class="multiLink">対象別（年齢別）<br class="pcOnly">コンテンツ紹介一覧</a>
+									<a href="#"><span>対象別（年齢別）</span><span>コンテンツ紹介一覧</span></a>
 								</li>
 							</ul>
 						</dd>

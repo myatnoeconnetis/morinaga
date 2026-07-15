@@ -222,7 +222,7 @@ footer {
 
 	.footerTop {
 		.ftBannerBlock {
-			margin-bottom: 42px;
+			margin-bottom: 56px;
 			padding-top: 8px;
 
 			.ftImgGroup {
@@ -259,7 +259,7 @@ footer {
 							max-width: 440px;
 							display: flex;
 							justify-content: space-between;
-							gap: 33px;
+							gap: 40px;
 							
 							ul {
 								&:first-child {
@@ -284,7 +284,7 @@ footer {
 							height: 85%;
 							background-color: #333;
 							position: absolute;
-							left: -42px;
+							left: -41px;
 							top: 11px;
 						}
 					}
@@ -310,7 +310,7 @@ footer {
 					}
 
 					dt {
-						margin-bottom: 17px;
+						margin-bottom: 25px;
 						p {
 							font-weight: bold;
 							font-size: 24px;
@@ -325,17 +325,17 @@ footer {
 							max-width: 227px;
 
 							li {
-								margin-bottom: 2px;
+								margin-bottom: 17px;
 								
 								a {
-									line-height: 2.5;
+									// line-height: 2.5;
 									color:#333333;
 									text-decoration: underline;
 									text-underline-offset: 2px;
 									text-decoration-color: #333333;
 
-									&.multiLink {
-										line-height: 1.5;
+									span {
+										display: block;
 									}
 								}
 							}
