@@ -12,8 +12,10 @@ common
 
 /*ctInner*/
 .ctInner {
-	max-width: 1080px;
+	max-width: 1120px;
 	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 0 20px;
 }//ctInner
 
 /*navList*/
@@ -88,19 +90,18 @@ common
 		}
 	}
 
-	&.sticky {
+	&.sticky {		
 		.navListInner {
 			position: fixed;
 			bottom: 100%;
-
 		}
+
 		&.show {
 			.navListInner {
 				transform: translateY(100%);
 			}
 		}
-	}
-	
+	}	
 }//navList
 
 /*blockTtl*/
@@ -345,75 +346,264 @@ common
 ctTop
 --------------------------------------------------------------------------------------- */
 .ctTop {
-	.experienceBlock {
-		padding: 77px 0 113px;
-		background: linear-gradient(180deg, rgba(11, 133, 113, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+	.visionBlock {
+		position: relative;
+		background-image: linear-gradient(to bottom, rgba(27, 133, 11, 0.1), rgba(255, 255, 255, 0.1));
+		padding-bottom: 6px;
 
-		.ctInner {
-			position: relative;
+		.floatArea {
+			.floatImg {
+				position: absolute;
+	
+				&.floatImg1 {
+					width: 110px;
+					bottom: max(calc(50% - 240px), 1px);
+					left: max(calc(50% - 586px), 1px);
+				}
+	
+				&.floatImg2 {
+					width: 125px;
+					bottom: max(calc(50% - 169px), 1px);
+					right: max(calc(50% - 577px), 1px);
+				}
+	
+				&.floatImg3 {
+					width: 220px;
+					bottom: -14px;
+					right: max(calc(50% - 640px), 1px);
+				}
+			}
 		}
 
-		.floatingImages {
-			li {
-				position: absolute;
-				pointer-events: none;
+		.ctInner {
+			.visionBlockInner {
+				position: relative;
+				padding-top: 185px;
+				margin-bottom: 105px;
 
-				&:first-child {
-					top: -143px;
-					left: -10px;
-					width: 170px;
+				.titleImg {
+					width: 100%;
+					max-width: 300px;
+					position: absolute;
+					left: 50%;
+					transform: translateX(-50%);
+					top: -97px;
 				}
 
-				&:nth-child(2) {
-					width: 127px;
-					top: 14px;
-					left: 105px;
+				.titleTxtImg {
+					width: 100%;
+					max-width: 642px;
+					margin: 0 auto;
+					margin-bottom: 70px;
 				}
 
-				&:nth-child(3) {
-					width: 151px;
-					top: 186px;
-					left: -64px;
+				.text {
+					text-align: center;
+					line-height: 2.5;
+					font-weight: 500;
+
+					.intro {
+						display: block;
+					}
 				}
 
-				&:nth-child(4) {
-					top: -20px;
-					right: 35px;
-					width: 190px;
-				}
+				.photoImg {
+					position: absolute;
 
-				&:nth-child(5) {
-					top: 161px;
-					right: -50px;
-					width: 181px;
-				}
+					&.photoImg1 {
+						width: 168px;
+						top: 218px;
+						left: -12px;
+						z-index: 2;
+					}
 
-				&:nth-child(6) {
-					top: calc(48% + 22px);
-					left: -55px;
-					width: 116px;
-				}
+					&.photoImg2 {
+						width: 211px;
+						top: 336px;
+						left: 26px;
+					}
 
-				&:nth-child(7) {
-					top: calc(53% + 12px);
-					left: 63px;
-					width: 86px;
-				}
+					&.photoImg3 {
+						width: 140px;
+						top: 540px;
+						left: 10px;
+					}
 
-				&:nth-child(8) {
-					top: calc(50% + 2px);
-					right: 5px;
-					width: 172px;
-				}
+					&.photoImg4 {
+						width: 133px;
+						top: 130px;
+						right: 9px;
+					}
 
-				&:last-child {
-					bottom: -79px;
-					right: 22px;
-					width: 119px;
+					&.photoImg5 {
+						width: 187px;
+						top: 335px;
+						right: 44px;
+					}
+
+					&.photoImg6 {
+						width: 178px;
+						top: 526px;
+						right: 0px;
+					}
 				}
 			}
 
+			.infoBlock {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				column-gap: 50px;
+				position: relative;
+				padding-bottom: 19px;
+
+				.infoList {
+					width: 100%;
+					max-width: 667px;
+
+					li {
+						display: flex;
+						align-items: center;
+						gap: 25px;
+						padding: 18px 16px 24px 24px;
+						box-sizing: border-box;
+						border: 1px solid #D6D6D6;
+						border-radius: 10px;
+						position: relative;
+
+						&:not(:last-child) {
+							margin-bottom: 20px;
+						}
+
+						.imgCol {
+							width: 130px;
+							background-color: #FFFFFF;
+							flex-shrink: 0;
+							border: 1px solid #D6D6D6;
+							border-radius: 5px;
+							overflow: hidden;
+
+							img {
+								width: 100%;
+								height: 100%;
+								object-fit: cover;
+							}
+						}
+
+						.textCol {
+							.title {
+								font-size: 18px;
+								font-weight: bold;
+								width: fit-content;
+								line-height: 1.44;
+								display: block;
+								letter-spacing: 0;
+								position: relative;
+								z-index: 2;
+							}
+
+							.text {
+								margin-top: 2px;
+								letter-spacing: 0;
+								line-height: 1.5;
+								position: relative;
+								z-index: 2;
+							}
+
+							.link {
+								font-weight: 500;
+								margin-top: 2px;
+								color: #337AB8;
+								text-decoration: 1px underline solid;
+								line-height: 1.5;
+								letter-spacing: 0;
+								
+								&::before {
+									content: "";
+									width: 100%;
+									height: 100%;
+									position: absolute;
+									left: 0;
+									top: 0;
+									z-index: 1;
+									cursor: pointer;
+									display: none;
+								}
+							}
+						}
+					}
+				}
+
+				
+			}
 		}
+	}//visionBlock
+
+	.experienceBlock {
+		position: relative;
+		padding: 77px 0 117px;
+		background: linear-gradient(180deg, rgba(11, 133, 113, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+
+		.floatArea {
+			.floatImg {
+				position: absolute;
+				pointer-events: none;
+
+				&.floatImg1 {
+					top: -69px;
+					left: max(calc(50% - 552px), 1px);
+					width: 178px;
+				}
+
+				&.floatImg2 {
+					top: 93px;
+					left: max(calc(50% - 434px), 1px);
+					width: 127px;
+				}
+
+				&.floatImg3 {
+					top: 263px;
+    				left: max(calc(50% - 604px), 1px);
+					width: 151px;
+				}
+
+				&.floatImg4 {
+					top: 54px;
+					right: max(calc(50% - 510px), 1px);
+					width: 199px;
+				}
+
+				&.floatImg5 {
+					top: 237px;
+					right: max(calc(50% - 591px), 1px);
+					width: 185px;
+				}
+
+				&.floatImg6 {
+					top: max(calc(50% - 61px), 1px);
+					left: max(calc(50% - 593px), 1px);
+					width: 116px;
+				}
+
+				&.floatImg7 {
+					top: max(calc(53% - 7px), 1px);
+					left: max(calc(50% - 476px), 1px);
+					width: 86px;
+				}
+
+				&.floatImg8 {
+					top: max(calc(50% - 14px), 1px);
+					right: max(calc(50% - 540px),1px);
+					width: 177px;
+				}
+
+				&.floatImg9 {
+					right: max(calc(50% - 522px),1px);
+					bottom: 27px;
+					width: 123px;
+				}
+			}
+		}//floatArea	
 
 		.blockTtl {
 			margin-bottom: 46px;
@@ -864,203 +1054,7 @@ ctTop
 				}
 			}
 		}
-
 	}//experienceBlock
-
-	.bnrBlock {
-	}
-
-	.visionBlock {
-		background-image: linear-gradient(to bottom, rgba(27, 133, 11, 0.1), rgba(255, 255, 255, 0.1));
-		position: relative;
-
-		.ctInner {
-			.visionBlockInner {
-				position: relative;
-				padding-top: 185px;
-				margin-bottom: 105px;
-
-				.titleImg {
-					width: 100%;
-					max-width: 300px;
-					position: absolute;
-					left: 50%;
-					transform: translateX(-50%);
-					top: -97px;
-				}
-
-				.titleTxtImg {
-					width: 100%;
-					max-width: 642px;
-					margin: 0 auto;
-					margin-bottom: 70px;
-				}
-
-				.text {
-					text-align: center;
-					line-height: 2.5;
-					font-weight: 500;
-
-					.intro {
-						display: block;
-					}
-				}
-
-				.photoImg {
-					position: absolute;
-
-					&.photoImg1 {
-						width: 168px;
-						top: 218px;
-						left: -12px;
-						z-index: 2;
-					}
-
-					&.photoImg2 {
-						width: 211px;
-						top: 336px;
-						left: 26px;
-					}
-
-					&.photoImg3 {
-						width: 140px;
-						top: 540px;
-						left: 10px;
-					}
-
-					&.photoImg4 {
-						width: 133px;
-						top: 130px;
-						right: 9px;
-					}
-
-					&.photoImg5 {
-						width: 187px;
-						top: 335px;
-						right: 44px;
-					}
-
-					&.photoImg6 {
-						width: 178px;
-						top: 526px;
-						right: 0px;
-					}
-				}
-			}
-
-			.infoBlock {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				column-gap: 50px;
-				position: relative;
-				padding-bottom: 19px;
-
-				.infoList {
-					width: 100%;
-					max-width: 667px;
-
-					li {
-						display: flex;
-						align-items: center;
-						gap: 25px;
-						padding: 18px 16px 24px 24px;
-						box-sizing: border-box;
-						border: 1px solid #D6D6D6;
-						border-radius: 10px;
-						position: relative;
-
-						&:not(:last-child) {
-							margin-bottom: 20px;
-						}
-
-						.imgCol {
-							width: 130px;
-							background-color: #FFFFFF;
-							flex-shrink: 0;
-							border: 1px solid #D6D6D6;
-							border-radius: 5px;
-							overflow: hidden;
-
-							img {
-								width: 100%;
-								height: 100%;
-								object-fit: cover;
-							}
-						}
-
-						.textCol {
-							.title {
-								font-size: 18px;
-								font-weight: bold;
-								width: fit-content;
-								line-height: 1.44;
-								display: block;
-								letter-spacing: 0;
-								position: relative;
-								z-index: 2;
-							}
-
-							.text {
-								margin-top: 2px;
-								letter-spacing: 0;
-								line-height: 1.5;
-								position: relative;
-								z-index: 2;
-							}
-
-							.link {
-								font-weight: 500;
-								margin-top: 2px;
-								color: #337AB8;
-								text-decoration: 1px underline solid;
-								line-height: 1.5;
-								letter-spacing: 0;
-								
-								&::before {
-									content: "";
-									width: 100%;
-									height: 100%;
-									position: absolute;
-									left: 0;
-									top: 0;
-									z-index: 1;
-									cursor: pointer;
-									display: none;
-								}
-							}
-						}
-					}
-				}
-
-				
-			}
-		}
-
-		.floatArea {
-			.floatImg {
-				position: absolute;
-	
-				&.floatImg1 {
-					width: 110px;
-					bottom: max(calc(50% - 240px), 1px);
-					left: max(calc(50% - 586px), 1px);
-				}
-	
-				&.floatImg2 {
-					width: 125px;
-					bottom: max(calc(50% - 169px), 1px);
-					right: max(calc(50% - 577px), 1px);
-				}
-	
-				&.floatImg3 {
-					width: 220px;
-					bottom: -14px;
-					right: max(calc(50% - 640px), 1px);
-				}
-			}
-		}
-	}//visionBlock
 
 	.knowledgeBlock {
 		background: linear-gradient(180deg, rgba(27, 133, 11, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%);		
@@ -1079,7 +1073,7 @@ ctTop
 	
 				&.floatImg2 {
 					top: -12px;
-					right: calc(50% - 560px);
+					right:  max(calc(50% - 560px), 1px);
 					width: 110px;
 				}
 			}

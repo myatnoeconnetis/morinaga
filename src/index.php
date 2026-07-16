@@ -107,9 +107,9 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 					<!-- visionBlock -->
 					<section class="visionBlock">
 						<div class="floatArea">
-							<img src="assets/img/top/info_float_img1.png" class="floatImg floatImg1 pcOnly" alt="" width="215" height="286" >
-							<img src="assets/img/top/info_float_img2.png" class="floatImg floatImg2 pcOnly" alt="" width="247" height="249">
-							<img src="assets/img/top/info_float_img3.png" class="floatImg floatImg3 pcOnly" alt="" width="442" height="382">
+							<img src="assets/img/top/info_float_img1.png" class="floatImg floatImg1" alt="" width="215" height="286" >
+							<img src="assets/img/top/info_float_img2.png" class="floatImg floatImg2" alt="" width="247" height="249">
+							<img src="assets/img/top/info_float_img3.png" class="floatImg floatImg3" alt="" width="442" height="382">
 						</div>
 
 						<div class="ctInner">
@@ -194,36 +194,18 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 
 					<!-- experienceBlock -->
 					<section class="experienceBlock">
-						<div class="ctInner">
-							<ul class="floatingImages">
-								<li>
-									<img src="assets/img/top/experience_float_img1.png" alt="" width="363" height="363">
-								</li>
-								<li>
-									<img src="assets/img/top/experience_float_img2.png" alt="" width="254" height="224">
-								</li>
-								<li>
-									<img src="assets/img/top/experience_float_img3.png" alt="" width="302" height="298">
-								</li>
-								<li>
-									<img src="assets/img/top/experience_float_img4.png" alt="" width="394" height="394">
-								</li>
-								<li>
-									<img src="assets/img/top/experience_float_img5.png" alt="" width="375" height="408">
-								</li>
-								<li>
-									<img src="assets/img/top/experience_float_img6.png" alt="" width="232" height="232">
-								</li>
-								<li>
-									<img src="assets/img/top/experience_float_img7.png" alt="" width="172" height="156">
-								</li>
-								<li>
-									<img src="assets/img/top/experience_float_img8.png" alt="" width="356" height="310">
-								</li>
-								<li>
-									<img src="assets/img/top/experience_float_img9.png" alt="" width="249" height="249">
-								</li>
-							</ul>
+						<div class="floatArea">
+							<img src="assets/img/top/experience_float_img1.png" class="floatImg floatImg1" alt="" width="363" height="363">
+							<img src="assets/img/top/experience_float_img2.png" class="floatImg floatImg2" alt="" width="254" height="224">
+							<img src="assets/img/top/experience_float_img3.png" class="floatImg floatImg3" alt="" width="302" height="298">
+							<img src="assets/img/top/experience_float_img4.png" class="floatImg floatImg4" alt="" width="394" height="394">
+							<img src="assets/img/top/experience_float_img5.png" class="floatImg floatImg5" alt="" width="375" height="408">
+							<img src="assets/img/top/experience_float_img6.png" class="floatImg floatImg6" alt="" width="232" height="232">
+							<img src="assets/img/top/experience_float_img7.png" class="floatImg floatImg7" alt="" width="172" height="156">
+							<img src="assets/img/top/experience_float_img8.png" class="floatImg floatImg8" alt="" width="356" height="310">
+							<img src="assets/img/top/experience_float_img9.png" class="floatImg floatImg9" alt="" width="249" height="249">
+						</div>
+						<div class="ctInner">							
 							<h3 class="blockTtl">体験で深める<span>Experience</span></h3>
 							<p class="desc">４つのプログラムの出張授業をはじめ、<br>森永エンゼルミュージアム <br class="spOnly">MORIUM＆鶴見工場見学ツアーや<br>キッザニア東京での<br class="spOnly">お菓子工場パビリオンなど、<br>様々な体験を通じて、<br class="spOnly">学びの深化をサポートします。</p>
 	
@@ -393,8 +375,8 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 					<!-- knowledgeBlock -->
 					<section class="knowledgeBlock">
 						<div class="floatArea">
-							<img src="assets/img/top/knowledge_float_img1.png" class="floatImg floatImg1 pcOnly" alt="" width="428" height="440">
-							<img src="assets/img/top/knowledge_float_img2.png" class="floatImg floatImg2 pcOnly" alt="" width="226" height="265">
+							<img src="assets/img/top/knowledge_float_img1.png" class="floatImg floatImg1" alt="" width="428" height="440">
+							<img src="assets/img/top/knowledge_float_img2.png" class="floatImg floatImg2" alt="" width="226" height="265">
 						</div>
 
 						<div class="ctInner">

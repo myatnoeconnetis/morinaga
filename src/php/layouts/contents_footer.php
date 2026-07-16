@@ -3,9 +3,9 @@
 		<div class="ftBannerBlock">
 			<div class="ctInner">
 				<div class="ftImgGroup">
-					<img src="assets/img/common/ft_logo.png" alt="footer" width="356" height="274">
-					<img src="assets/img/common/ft_illustration_pc.png" alt="footer illustration pc" class="pcOnly" width="878" height="201">
-					<img src="assets/img/common/ft_illustration_sp.png" alt="footer illustration sp" class="spOnly" width="320" height="2816">
+					<img src="assets/img/common/ft_logo.png" class="logo" alt="" width="356" height="274">
+					<img src="assets/img/common/ft_illustration_pc.png" class="fullImg pcOnly" alt="" width="878" height="201">
+					<img src="assets/img/common/ft_illustration_sp.png" class="fullImg spOnly" alt="" width="320" height="2816">
 				</div>
 				<div class="ftListGroup">
 					<dl class="ftSitemap">
