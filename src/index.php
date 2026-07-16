@@ -508,7 +508,6 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 	<!-- endbuild -->
 
 	<script src="assets/js/common.min.js?<?=$common_js_mtime?>"></script>
-	<script src="assets/js/other.js"></script>
 </body>
 
 </html>
