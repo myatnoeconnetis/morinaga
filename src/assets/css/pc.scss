@@ -228,7 +228,7 @@ common
 				width: calc(100% + 40px);
 				box-sizing: border-box;
 				margin-left: -20px;
-				border-bottom: 2px solid #D6D6D6;
+				border-bottom: 1px solid #D6D6D6;
 				max-height: 137px;
 				
 				img {
@@ -517,6 +517,8 @@ ctTop
 								text-decoration: 1px underline solid;
 								line-height: 1.5;
 								letter-spacing: 0;
+								opacity: 1;
+								transition: opacity 0.3s ease;
 								
 								&::before {
 									content: "";
@@ -529,12 +531,14 @@ ctTop
 									cursor: pointer;
 									display: none;
 								}
+
+								&:hover {
+									opacity: 0.7;
+								}
 							}
 						}
 					}
-				}
-
-				
+				}				
 			}
 		}
 	}//visionBlock
@@ -706,6 +710,12 @@ ctTop
 						position: relative;
 						padding-right: 28px;
 						margin: 0 0 3px auto;
+						opacity: 1;
+						transition: opacity 0.3s ease;
+
+						&:hover {
+							opacity: 0.7;
+						}
 
 						&::after {
 							content: "";
@@ -945,6 +955,14 @@ ctTop
 						width: 470px;
 					}
 
+					&:hover {
+						.content {
+							.seeMore {
+								opacity: 0.7;
+							}
+						}
+					}
+
 					.content {
 						flex: 1;
 
@@ -998,6 +1016,7 @@ ctTop
 							position: relative;
 							transition: opacity 0.3s ease;
 							color: #3CB174;
+							opacity: 1;
 			
 							&::after {
 								content: '';

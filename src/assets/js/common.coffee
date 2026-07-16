@@ -130,8 +130,7 @@ setEvent = ->
 			infinite: true,
 			duration: 500,
 			draggable: true,
-			# autoplay: true,
-			# autoplaySpeed: 2000,
+			autoplay: true,
 			fade: true,
 		})
 
