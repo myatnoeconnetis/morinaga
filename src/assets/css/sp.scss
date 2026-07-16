@@ -26,7 +26,7 @@
 		position: relative;
 
 		.ftBannerBlock {
-			margin: 120px 0 130px;
+			margin: 0 0 117px;
 
 			.ftImgGroup {
 				position: relative;
@@ -44,10 +44,11 @@
 						max-width: 178px;
 					}
 					
-					&:last-child {
+					&.fullImg {
+						width:100%;
 						max-width: 160px;
 						top: 117px;
-						right: -28px;
+						right: -20px;
 					}
 				}
 			}
@@ -90,6 +91,10 @@
 									&:last-child {
 										a {
 											white-space: nowrap;
+
+											span {
+												display: inline-block;
+											}
 										}
 									}
 								}
