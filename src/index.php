@@ -268,7 +268,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 							</div>
 
 							<div class="performanceArea">
-								<p class="areaTtl">2026年3月末時点の実績</p>
+								<p class="areaTtl">これまでの実績</p>
 
 								<div class="twoCol">
 									<div class="statsCol">
@@ -284,6 +284,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 											<dt>参加役職員数</dt>
 											<dd>716名</dd>
 										</dl>
+                                        <span class="redText">2026年３月末時点</span>
 									</div>
 									<div class="imgCol">
 										<div class="slider">
@@ -333,7 +334,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 									<li class="card">
 										<a href="#">
 											<figure>
-												<img src="assets/img/top/candy_factory.png" alt="Candy factory image" width="676" height="392">
+												<img src="assets/img/top/tour_img1.png" alt="" width="676" height="392">
 											</figure>
 											<p class="ttl">キッザニア東京「お菓子工場」</p>
 											<p class="category">対象</p>
@@ -345,7 +346,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 									<li class="card">
 										<a href="#">
 											<figure>
-												<img src="assets/img/top/recycling.png" alt="Recycling image" width="676" height="392">
+												<img src="assets/img/top/tour_img2.png" alt="" width="676" height="392">
 											</figure>
 											<p class="ttl">ｉｎゼリーリサイクルプログラム＆プロギング</p>
 											<p class="category">対象</p>
@@ -357,7 +358,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 									<li class="card">
 										<a href="#">
 											<figure>
-												<img src="assets/img/top/smile_park.png" alt="Smile park image" width="676" height="392">
+												<img src="assets/img/top/tour_img3.png" alt="" width="676" height="392">
 											</figure>
 											<p class="ttl">モリナガスマイルパーク</p>
 											<p class="category">対象</p>

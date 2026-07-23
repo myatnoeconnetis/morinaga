@@ -850,10 +850,16 @@ ctTop
 							border-radius: 20px 20px 0 0;
 						}
 
-						&:last-child {
+						&:last-of-type {
 							border-radius: 0 0  20px 20px;
 						}
 					}
+
+                    .redText {
+                        color: #AF001B;
+                        font-weight: 700;
+                        text-align: right;
+                    }
 				}
 
 				.imgCol {
