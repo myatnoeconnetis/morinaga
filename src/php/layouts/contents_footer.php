@@ -10,7 +10,7 @@
 				<div class="ftListGroup">
 					<dl class="ftSitemap">
 						<dt>
-							<p>体験して深める</p>
+							<p>体験で深める</p>
 						</dt>
 						<dd>
 							<ul>
@@ -21,10 +21,7 @@
 									<a href="#">森永製菓のキャラメル教室</a>
 								</li>
 								<li>
-									<a href="#">森永1 チョコ for 1 スマイル未</a>
-								</li>
-								<li>
-									<a href="#">来ラーニング</a>
+									<a href="#"><span>森永1 チョコ for 1 スマイル</span><span>未来ラーニング</span></a>
 								</li>
 								<li>
 									<a href="#">森永製菓のキャリア授業</a>
@@ -119,7 +116,7 @@
 									<a href="#">バーチャル工場見学憶</a>
 								</li>
 								<li>
-									<a href="#"><span>対象別（年齢別）</span><span>コンテンツ紹介一覧</span></a>
+									<a href="#"><span>対象別コンテンツ一覧</span></a>
 								</li>
 							</ul>
 						</dd>
