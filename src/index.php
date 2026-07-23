@@ -158,7 +158,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										</div>
 									</li>
 									<li>
-										<figure class="imgCol">
+										<figure class="imgCol pcOnly">
 											<img src="assets/img/top/info_img2.png" alt="">
 										</figure>
 										<div class="textCol">
@@ -167,7 +167,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										</div>
 									</li>
 									<li>
-										<figure class="imgCol">
+										<figure class="imgCol pcOnly">
 											<img src="assets/img/top/info_img3.png" alt="">
 										</figure>
 										<div class="textCol">
@@ -176,7 +176,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										</div>
 									</li>
 									<li>
-										<figure class="imgCol">
+										<figure class="imgCol pcOnly">
 											<img src="assets/img/top/info_img4.png" alt="">
 										</figure>
 										<div class="textCol">
