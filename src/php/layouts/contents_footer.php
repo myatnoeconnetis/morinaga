@@ -21,13 +21,13 @@
 									<a href="#">森永製菓のキャラメル教室</a>
 								</li>
 								<li>
-									<a href="#"><span>森永1 チョコ for 1 スマイル</span><span>未来ラーニング</span></a>
+									<a href="#"><span>森永1 チョコ for 1 スマイル<br>未来ラーニング</span></a>
 								</li>
 								<li>
 									<a href="#">森永製菓のキャリア授業</a>
 								</li>
 								<li>
-									<a href="#"><span>森永製菓の菓子育</span><span>「メルとマールのピクニック」</span></a>
+									<a href="#"><span>森永製菓の菓子育<br>「メルとマールのピクニック」</span></a>
 								</li>
 								<li>
 									<a href="#">実施校一覧（PDF）</a>
