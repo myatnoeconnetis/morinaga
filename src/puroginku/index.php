@@ -175,6 +175,7 @@
 							<div class="twoCol">
 								<div class="visualCol">
 									<div class="title">プロギング</div>
+									<div class="title subTt spOnly">走って拾って、心も体も、<br class="spOnly">まちも健やかに</div>
 									<div class="slider">
 										<figure>
 											<img src="../assets/img/puroginku/slider2_img1.jpg" alt="Slider image" width="1040" height="560">
@@ -195,7 +196,7 @@
 								</div>
 								<div class="textCol">
 									<div class="title">プロギング</div>
-									<div class="title subTt">走って拾って、心も体も、まちも健やかに</div>
+									<div class="title subTt pcOnly">走って拾って、心も体も、まちも健やかに</div>
 									<p class="text">プロギングは、ジョギングをしながら、まちのごみを拾うスポーツです。<br>「ｉｎブランド」では、プロギングを広めていく活動を通じて、<br>健やかな心と体、まちづくりを応援しています。<br>年齢・性別を問わず、参加者同士で声をかけ合いながら、一緒に走ってごみを拾っていきます。自然と会話が弾み、ゴールするころには一体感が深まり、笑顔が広がります。<br>人と人、そして、人とまちのつながりを深めながら、ごみを見つけて拾う達成感や、まちがきれいになっていく清々しさを感じていただく機会となることを目指しています。</p>
 								</div>
 							</div>
