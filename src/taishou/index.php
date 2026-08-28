@@ -75,7 +75,7 @@
 									<td></td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon8.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -89,8 +89,8 @@
 									<td></td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon6.png" alt="">
-											<img class="pictogramIcon" src="../assets/img/common/icon8.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -102,7 +102,7 @@
 									<td></td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon8.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -116,11 +116,11 @@
 									<td></td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon1.png" alt="">
-											<img class="pictogramIcon" src="../assets/img/common/icon3.png" alt="">
-											<img class="pictogramIcon" src="../assets/img/common/icon4.png" alt="">
-											<img class="pictogramIcon" src="../assets/img/common/icon5.png" alt="">
-											<img class="pictogramIcon" src="../assets/img/common/icon12.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon1.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon3.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon5.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon12.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -156,7 +156,7 @@
 									<td></td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon6.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -168,7 +168,7 @@
 									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon8.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -186,8 +186,8 @@
 									</td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon1.png" alt="">
-											<img class="pictogramIcon" src="../assets/img/common/icon12.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon1.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon12.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -203,8 +203,8 @@
 								</td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon2.png" alt="">
-											<img class="pictogramIcon" src="../assets/img/common/icon4.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon2.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -220,11 +220,11 @@
 									</td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon1.png" alt="">
-											<img class="pictogramIcon" src="../assets/img/common/icon3.png" alt="">
-											<img class="pictogramIcon" src="../assets/img/common/icon4.png" alt="">
-											<img class="pictogramIcon" src="../assets/img/common/icon5.png" alt="">
-											<img class="pictogramIcon" src="../assets/img/common/icon12.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon1.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon3.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon5.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon12.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -240,8 +240,8 @@
 									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon4.png" alt="">
-											<img class="pictogramIcon" src="../assets/img/common/icon6.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -275,7 +275,7 @@
 									</td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon6.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -313,7 +313,7 @@
 									</td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon1.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon1.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -333,7 +333,7 @@
 									</td>
 									<td>
 										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/common/icon5.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/taishou/icon5.png" alt="">
 										</div>
 									</td>
 								</tr>
@@ -350,7 +350,7 @@
 						<ul class="pictogramList">
 							<li class="pictogram1">
 								<div class="imgArea">
-									<img src="../assets/img/common/icon1.png" alt="" width="200" height="200">
+									<img src="../assets/img/taishou/icon1.png" alt="" width="200" height="200">
 								</div>
 								<div class="textArea">
 									<p class="listTtl">共食</p>
@@ -359,7 +359,7 @@
 							</li>
 							<li class="pictogram2">
 								<div class="imgArea">
-									<img src="../assets/img/common/icon2.png" alt="" width="200" height="200">
+									<img src="../assets/img/taishou/icon2.png" alt="" width="200" height="200">
 								</div>
 								<div class="textArea">
 									<p class="listTtl">朝食欠食の改善</p>
@@ -368,7 +368,7 @@
 							</li>
 							<li class="pictogram3">
 								<div class="imgArea">
-									<img src="../assets/img/common/icon3.png" alt="" width="200" height="200">
+									<img src="../assets/img/taishou/icon3.png" alt="" width="200" height="200">
 								</div>
 								<div class="textArea">
 									<p class="listTtl">栄養バランスの良い食事</p>
@@ -377,7 +377,7 @@
 							</li>
 							<li class="pictogram4">
 								<div class="imgArea">
-									<img src="../assets/img/common/icon4.png" alt="" width="200" height="200">
+									<img src="../assets/img/taishou/icon4.png" alt="" width="200" height="200">
 								</div>
 								<div class="textArea">
 									<p class="listTtl">生活習慣病の予防</p>
@@ -386,7 +386,7 @@
 							</li>
 							<li class="pictogram5">
 								<div class="imgArea">
-									<img src="../assets/img/common/icon5.png" alt="" width="200" height="200">
+									<img src="../assets/img/taishou/icon5.png" alt="" width="200" height="200">
 								</div>
 								<div class="textArea">
 									<p class="listTtl">歯や口腔の健康</p>
@@ -395,7 +395,7 @@
 							</li>
 							<li class="pictogram6">
 								<div class="imgArea">
-									<img src="../assets/img/common/icon6.png" alt="" width="200" height="200">
+									<img src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
 								</div>
 								<div class="textArea">
 									<p class="listTtl">食の安全</p>
@@ -404,7 +404,7 @@
 							</li>
 							<li class="pictogram7">
 								<div class="imgArea">
-									<img src="../assets/img/common/icon7.png" alt="" width="200" height="200">
+									<img src="../assets/img/taishou/icon7.png" alt="" width="200" height="200">
 								</div>
 								<div class="textArea">
 									<p class="listTtl">災害への備え</p>
@@ -413,7 +413,7 @@
 							</li>
 							<li class="pictogram8">
 								<div class="imgArea">
-									<img src="../assets/img/common/icon8.png" alt="" width="200" height="200">
+									<img src="../assets/img/taishou/icon8.png" alt="" width="200" height="200">
 								</div>
 								<div class="textArea">
 									<p class="listTtl">環境への配慮（調和）</p>
@@ -422,7 +422,7 @@
 							</li>
 							<li class="pictogram9">
 								<div class="imgArea">
-									<img src="../assets/img/common/icon9.png" alt="" width="200" height="200">
+									<img src="../assets/img/taishou/icon9.png" alt="" width="200" height="200">
 								</div>
 								<div class="textArea">
 									<p class="listTtl">地産地消等の推進</p>
@@ -431,7 +431,7 @@
 							</li>
 							<li class="pictogram10">
 								<div class="imgArea">
-									<img src="../assets/img/common/icon10.png" alt="" width="200" height="200">
+									<img src="../assets/img/taishou/icon10.png" alt="" width="200" height="200">
 								</div>
 								<div class="textArea">
 									<p class="listTtl">農林漁業体験</p>
@@ -440,7 +440,7 @@
 							</li>
 							<li class="pictogram11">
 								<div class="imgArea">
-									<img src="../assets/img/common/icon11.png" alt="" width="200" height="200">
+									<img src="../assets/img/taishou/icon11.png" alt="" width="200" height="200">
 								</div>
 								<div class="textArea">
 									<p class="listTtl">日本の食文化の継承</p>
@@ -449,7 +449,7 @@
 							</li>
 							<li class="pictogram12">
 								<div class="imgArea">
-									<img src="../assets/img/common/icon12.png" alt="" width="200" height="200">
+									<img src="../assets/img/taishou/icon12.png" alt="" width="200" height="200">
 								</div>
 								<div class="textArea">
 									<p class="listTtl">食育の推進</p>
