@@ -85,22 +85,26 @@ setNavListScroll = ->
 
 	$(window).scroll ->
 		currentScrollY = window.scrollY
-		isScrolled = currentScrollY > 450
 		isScrollingDown = currentScrollY > lastScrollTop
 
 		if window.innerWidth <= SP_BREAKPOINT
 			return
 
+		# Check navList position
+		navListRect = navList.getBoundingClientRect()
+		isSticky = navListRect.bottom <= 0
+
 		# Sticky state
-		if isScrolled
+		if isSticky
 			navList.classList.add 'sticky'
+			$('.navList .popupMenu').removeClass 'open'
 		else
 			navList.classList.remove 'sticky', 'show'
 
 		# Visibility state
 		if isScrollingDown
 			navList.classList.remove 'show'
-		else if isScrolled
+		else if isSticky
 			navList.classList.add 'show'
 		else
 			navList.classList.remove 'show'
