@@ -641,6 +641,7 @@ common
 		margin-top: 60px;
 		display: flex;
 		gap: 40px;
+		position: relative;
 
 		.title {
 			font-size: 24px;
@@ -692,12 +693,51 @@ common
 			}
 
 			.table {
+				margin-top: 25px;
+
 				dl {
 					display: flex;
+					text-align: center;
+					margin-bottom: 1px;
+
+					&:first-child {
+						dt {
+							border-top-left-radius: 5px;
+						}
+
+						dd {
+							border-top-right-radius: 5px;
+							border-top: 1px solid #AF001B;
+						}
+					}
+
+					&:last-child {
+						dt {
+							border-bottom-left-radius: 5px;
+						}
+
+						dd {
+							border-bottom-right-radius: 5px;
+						}
+					}
 
 					dt {
 						background-color: #AF001B;
 						color: #fff;
+						font-weight: 700;
+						width: 236px;
+						padding: 5px 0;
+						box-sizing: border-box;
+					}
+					
+					dd {
+						width: calc(100% - 236px);
+						color: #333333;
+						font-weight: 700;
+						padding: 5px 0;
+						box-sizing: border-box;
+						border: 1px solid #AF001B;
+						border-top: none;
 					}
 				}
 			}
@@ -1441,6 +1481,30 @@ ctKoujoumigaku
 --------------------------------------------------------------------------------------- */
 .ctKoujoumigaku {
 	.ctPage {
+		.twoCol {
+			.floatImg {
+				position: absolute;
+	
+				&.floatImg1 {
+					width: 150px;
+					bottom: -78px;
+    				left: 183px;
+				}
+	
+				&.floatImg2 {
+					width: 116px;
+					right: 199px;
+    				bottom: -63px;
+				}
+	
+				&.floatImg3 {
+					width: 103px;
+					bottom: -154px;
+					left: 95px;
+				}
+			}
+		}
+		
 		.btnWrap {
 			.btnLink {
 				max-width: 306px;

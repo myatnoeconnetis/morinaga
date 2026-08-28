@@ -57,6 +57,7 @@
 							</div>
 
 							<div class="twoCol">
+								<img src="../assets/img/koujoumigaku/float_img1.png" class="floatImg floatImg1" alt="" width="301" height="334" >
 								<div class="textCol">
 									<div class="title">
 										キッザニア東京
@@ -74,6 +75,7 @@
 							</div>
 
 							<div class="twoCol">
+								<img src="../assets/img/koujoumigaku/float_img2.png" class="floatImg floatImg2" alt="" width="233" height="233">
 								<div class="visualCol">
 									<div class="title">「お菓子工場」での仕事</div>
 									<div class="slider">
@@ -98,9 +100,10 @@
 							</div>
 
 							<div class="twoCol">
+								<img src="../assets/img/koujoumigaku/float_img3.png" class="floatImg floatImg3" alt="" width="206" height="202">
 								<div class="textCol">
 									<div class="title">アクティビティ紹介</div>
-									<p class="text">成型機やカッティングマシンを使ったり、<br>容器に詰めてラベルを貼ってパッケージングしたり、<br>お菓子を完成させるまでの様々な工程を体験いただけます。</p>
+									<p class="text">成型機やカッティングマシンを使ったり、<br>容器に詰めてラベルを貼ってパッケージングしたり、<br class="pcOnly">お菓子を完成させるまでの様々な工程を体験いただけます。</p>
 									<div class="table">
 										<dl>
 											<dt>パビリオン名</dt>

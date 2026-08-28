@@ -244,7 +244,7 @@
 
 				.titleImg {
 					margin-left: 0px;
-					margin-bottom: 10px;
+					margin-bottom: 18px;
 				}
 			}
 
@@ -268,6 +268,22 @@
 				.text {
 					margin-top: 0px;
 					line-height: 2;
+				}
+
+				.table {
+					dl {
+						margin-bottom: 1px;
+	
+						dt {
+							width: 40%;
+							padding: 5px 0;
+						}
+						
+						dd {
+							width: 60%;
+							padding: 5px 0;
+						}
+					}
 				}
 			}
 		}
@@ -610,6 +626,33 @@
 	--------------------------------------------------------------------------------------- */
 	.ctKoujoumigaku {
 		.ctPage {
+			.twoCol {
+				.floatImg {
+					position: absolute;
+		
+					&.floatImg1 {
+						right: 5px;
+						bottom: -94px;
+						left: auto;
+						width: 94px;
+						transform: scaleX(-1);
+					}
+		
+					&.floatImg2 {
+						right: 11px;
+						bottom: -100px;
+						width: 87px;
+					}
+		
+					&.floatImg3 {
+						right: 0px;
+						bottom: -223px;
+						left: auto;
+						width: 115px;
+					}
+				}
+			}
+
 			.btnWrap {
 				margin: 30px 0 212px;
 
