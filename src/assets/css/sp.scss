@@ -632,7 +632,7 @@
 		}
 
 		.tableBlock {
-			margin: 40px auto 62px;
+			margin: 40px auto 78px;
 
 			.tableTitle {
 				margin-bottom: 24px;
@@ -702,7 +702,11 @@
 		}
 
 		.pictogramsBlock {
-			margin-bottom: 170px;
+			margin-bottom: 162px;
+
+			.pictogramTtl {
+				margin-bottom: 54px;
+			}
 			
 			.pictogramList {
 				display: flex;
