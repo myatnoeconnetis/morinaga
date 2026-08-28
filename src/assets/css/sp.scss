@@ -626,6 +626,81 @@
 	ctTaishou
 	--------------------------------------------------------------------------------------- */
 	.ctTaishou {
+
+		.ctInner {
+			padding: 0 15px;
+		}
+
+		.tableBlock {
+			margin: 40px auto 62px;
+
+			.tableTitle {
+				margin-bottom: 24px;
+			}
+
+			.contentTable {
+
+				.contentNameCol {
+					width: 26.7%;
+				}
+
+				.ageCol {
+					width: 12.6%;
+				}
+
+				.pictogramCol {
+					width: 41.2%;
+				}
+
+				thead {
+					tr {
+						height: 60px;
+
+						th {
+							padding: 3px 2px;
+							font-size: 8px;
+							font-weight: 700;
+						}
+					}
+				}
+
+				tbody {
+					tr {
+						height: 43px;
+
+						th {
+							padding: 6px;
+							font-size: 7.57px;
+							line-height: 1.25;
+							font-weight: 700;
+						}
+
+						td {
+							padding: 0 5px;
+							font-size: 8px;
+							line-height: 1.25;
+						}
+					}
+				}
+
+				.circleMarker {
+					width: 8px;
+					height: 8px;
+					border: 0.58px solid #000;
+				}
+
+				.pictogramList {
+					gap: 2px;
+				}
+
+				.pictogramIcon {
+					width: 21px;
+					height: 21px;
+					flex-basis: 21px;
+				}
+			}
+		}
+
 		.pictogramsBlock {
 			margin-bottom: 170px;
 			
