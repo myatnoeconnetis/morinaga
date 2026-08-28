@@ -305,10 +305,10 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										<img src="assets/img/top/mirai.png" alt="Mirai image" width="680" height="339">
 									</figure>
 									<div class="content">
-										<p class="lessonTtl">「食のしごと」から「働く」を<br>想像してみよう</p>
-										<p class="labelBadge"><span class="badge">対象</span>中学校、高等学校、高等専門学校の在学生</p>
-										<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習（探求）の時間</p>
-										<p class="text">森永製菓の社員が事業内容や実際の働き方などを説明し、質疑応答などのコミュニケーションを通じて、職業やキャリアを考え、進路や働くことのイメージを深める機会を提供します。</p>
+										<p class="lessonTtl">「わたしたちの未来」を考えよう</p>
+										<p class="labelBadge"><span class="badge">対象</span>小学校４～６年生</p>
+										<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習の時間 「持続可能な社会の実現」</p>
+										<p class="text">チョコレートを題材に、社会課題を「自分ごと化」して考える授業です。カカオ産地の動画やワークなどを通して「誰一人取り残さない」持続可能な社会について考え、行動するきっかけを作ります。</p>
 										<a href="#">詳細を見る</a>
 									</div>
 								</li>
@@ -317,10 +317,10 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										<img src="assets/img/top/head_thumb.png" alt="Head Thumb image" width="680" height="338">
 									</figure>
 									<div class="content">
-										<p class="lessonTtl">「わたしたちの未来」を考えよう</p>
-										<p class="labelBadge"><span class="badge">対象</span>小学校４～６年生</p>
-										<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習の時間 「持続可能な社会の実現」</p>
-										<p class="text">チョコレートを題材に、社会課題を「自分ごと化」して考える授業です。クイズやワークを通して「誰一人取り残さない」持続可能な社会について考え、行動するきっかけを作ります。</p>
+										<p class="lessonTtl">「食のしごと」から「働く」を<br>想像してみよう</p>
+										<p class="labelBadge"><span class="badge">対象</span>中学校、高等学校、高等専門学校の在学生</p>
+										<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習（探求）の時間</p>
+										<p class="text">森永製菓の社員が事業内容や実際の働き方などを説明し、質疑応答などのコミュニケーションを通じて、職業やキャリアを考え、進路や働くことのイメージを深める機会を提供します。</p>
 										<a href="#">詳細を見る</a>
 									</div>
 								</li>
@@ -407,7 +407,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 								</div>
 								<ul class="colCardList">
 									<li class="card">
-										<a href="#">
+										<a href="/koujoumigaku/">
 											<figure>
 												<img src="assets/img/top/tour_img1.png" alt="" width="676" height="392">
 											</figure>
@@ -419,7 +419,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										</a>
 									</li>
 									<li class="card">
-										<a href="#">
+										<a href="/puroginku/">
 											<figure>
 												<img src="assets/img/top/tour_img2.png" alt="" width="676" height="392">
 											</figure>
@@ -431,7 +431,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										</a>
 									</li>
 									<li class="card">
-										<a href="#">
+										<a href="/kashikosodate/">
 											<figure>
 												<img src="assets/img/top/tour_img3.png" alt="" width="676" height="392">
 											</figure>
@@ -524,10 +524,10 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
                                         <figure>
                                             <img src="assets/img/top/knowledge_img6.jpg" alt="" width="680" height="383">
                                         </figure>
-                                        <h3 class="ttl">アレルギー“だから” がないラボ</h3>
+                                        <h3 class="ttl">森永 アレルギー"だから"がないLabo</h3>
                                         <p class="category">対象</p>
                                         <p class="subTtl">全世代</p>
-                                        <p class="desc">「食物アレルギー“だから”がない世界」 を目指すプロジェクトをご紹介します。</p>
+                                        <p class="desc">「食物アレルギー“だから”がない世界」 の実現を目指すプロジェクトをご紹介します。</p>
                                         <span class="seeMore" aria-hidden="true">詳細を見る</span>
                                     </a>
                                 </li>
@@ -539,7 +539,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
                                         <h3 class="ttl">森永おくち研究所</h3>
                                         <p class="category">対象</p>
                                         <p class="subTtl">全世代</p>
-                                        <p class="desc">おくちケアをおいしく、たのしく、つづけるための情報をお届けします。</p>
+                                        <p class="desc">おくちケアをおいしく、たのしく、続けるための情報を分かりやすくお届けします。</p>
                                         <span class="seeMore" aria-hidden="true">詳細を見る</span>
                                     </a>
                                 </li>
@@ -557,7 +557,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
                                 </li>
                             </ul>
 							<div class="btnWrap">
-								<a href="#" class="btnLink">対象別コンテンツ一覧</a>
+								<a href="/taishou/" class="btnLink">対象別コンテンツ一覧</a>
 							</div>
                         </div>
 					</section>

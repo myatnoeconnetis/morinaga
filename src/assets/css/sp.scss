@@ -234,6 +234,67 @@
 		display: none;
 	}//floatArea
 
+	/*slider*/
+	.slider {
+		padding-bottom: 36px;
+	}//slider
+
+	/* ctPage */
+	.ctPage {
+		.pageBnr {
+			min-height: 40px;
+			margin-bottom: 22px;
+			
+			.pageBnrTxt {
+				font-size: 16px;
+				max-width: 100%;
+				padding: 0 20px;
+			}
+		}
+
+		.bnrBlock {
+			border-radius: 0px;
+			width: calc(100% + 40px);
+			margin-left: -20px;
+		}
+
+		.twoCol {
+			flex-direction: column;
+			gap: 30px;
+			margin-top: 70px;
+
+			.title {
+				flex-direction: column;
+				align-items: flex-start;
+				margin-bottom: 40px;
+				margin-top: 0px;
+			}
+
+			.visualCol {
+				width: 100%;
+				order: 1;
+
+				.title {
+					display: flex;
+				}
+			}
+
+			.textCol {
+				width: 100%;
+				order: 2;
+
+				.title {
+					display: none;
+				}
+
+				.text {
+					margin-top: 0px;
+					line-height: 2;
+				}
+			}
+		}
+	}//ctPage
+
 	/* --------------------------------------------------------------------------------------
 	ctTop
 	--------------------------------------------------------------------------------------- */
@@ -465,10 +526,6 @@
 
 					.imgCol {
 						width: 100%;
-
-						.slider {
-							padding-bottom: 36px;
-						}
 					}
 				}
 
@@ -569,6 +626,23 @@
 			padding: 40px 0 100px;
 		}
 	}//ctTop
+
+	/* --------------------------------------------------------------------------------------
+	ctKoujoumigaku
+	--------------------------------------------------------------------------------------- */
+	.ctKoujoumigaku {
+		.ctPage {
+			.btnWrap {
+				margin: 30px 0 212px;
+
+				.btnLink {
+					padding: 15px 45px;
+					max-width: 306px;
+					width: 100%;
+				}
+			}
+		}
+	}
 
 	/* --------------------------------------------------------------------------------------
 	ctTaishou

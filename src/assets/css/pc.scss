@@ -338,6 +338,7 @@ common
 		transition: all 0.5s;
 		border-radius: 35px;
 		position: relative;
+		box-sizing: border-box;
 	
 		&::after {
 			content: '';
@@ -542,6 +543,171 @@ common
 		}
 	}
 }//breadcrumbs
+
+/* slider */
+.slider {
+	padding-bottom: 44px;
+
+	.slick-autoplay-toggle-button {
+		display: none;
+	}
+
+	.slick-dots {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: flex;
+		justify-content: center;
+		gap: 25px;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		
+		li {
+			margin: 0;
+			line-height: 0;
+			
+			button {
+				width: 14px;
+				height: 14px;
+				padding: 0;
+				border: none;
+				border-radius: 50%;
+				background-color: #D9D9D9;
+				cursor: pointer;
+				font-size: 0;
+				transition: background-color 0.3s ease;
+			}
+			
+			&.slick-active {
+				button {
+					background-color: #967D64;
+				}
+			}
+		}
+	}
+
+	.slick-list {
+		height: 100%;
+	}
+
+	.slick-track {
+		height: 100%;
+		line-height: 0;
+	}
+
+	.slick-slide {
+		& > div {
+			height: 100%;
+
+			figure {
+				border-radius: 20px;
+				overflow: hidden;
+			}
+		}
+	}
+}//slider
+
+/* ctPage */
+.ctPage {
+	.pageBnr {
+		background-color: #AF001B;
+		min-height: 60px;
+		display: flex;
+		align-items: center;
+		margin-bottom: 50px;
+		
+		.pageBnrTxt {
+			color: #fff;
+			font-size: 28px;
+			font-weight: 700;
+			max-width: 1120px;
+			margin: 0 auto;
+			box-sizing: border-box;
+			padding: 0 20px;
+			width: 100%;
+		}
+	}
+
+	.bnrBlock {
+		border-radius: 30px;
+		overflow: hidden;
+		box-shadow: 0px 4px 4px rgba($color: #000000, $alpha: 0.25);
+	}
+
+	.twoCol {
+		margin-top: 60px;
+		display: flex;
+		gap: 40px;
+
+		.title {
+			font-size: 24px;
+			font-weight: 700;
+			color: #AF001B;
+			display: flex;
+			align-items: center;
+			margin-top: -10px;
+
+			&:has(img) {
+				margin-top: 0px;
+			}
+
+			img {
+				width: 200px;
+				margin-left: 20px;
+			}
+		}
+
+		.visualCol {
+			width: 520px;
+
+			.title {
+				display: none;
+			}
+
+			.slider {
+				.slick-dots {
+					li {
+						&.slick-active {
+							button {
+								background-color: #AF001B;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.textCol {
+			width: calc(100% - 560px);
+
+			.text {
+				margin-top: 17px;
+			}
+		}
+	}
+
+	.btnWrap {
+		margin: 60px 0px;
+
+		.btnLink {
+			background: #AF001B;
+			padding: 15px 45px;
+
+			&:hover {
+				background: #fff;
+				border: 2px solid #AF001B;
+				color: #AF001B;
+
+				&::after {
+					filter: brightness(0) saturate(100%) invert(11%) sepia(99%) saturate(4927%) hue-rotate(344deg) brightness(82%) contrast(114%);
+				}
+			}
+
+		}
+	}
+}//ctPage
 
 /* --------------------------------------------------------------------------------------
 ctTop
@@ -1065,70 +1231,6 @@ ctTop
 
 				.imgCol {
 					width: 550px;
-					
-					.slider {
-						padding-bottom: 44px;
-
-						.slick-autoplay-toggle-button {
-							display: none;
-						}
-
-						.slick-dots {
-							position: absolute;
-							bottom: 0;
-							left: 0;
-							right: 0;
-							display: flex;
-							justify-content: center;
-							gap: 25px;
-							margin: 0;
-							padding: 0;
-							list-style: none;
-							
-							li {
-								margin: 0;
-								line-height: 0;
-								
-								button {
-									width: 14px;
-									height: 14px;
-									padding: 0;
-									border: none;
-									border-radius: 50%;
-									background-color: #D9D9D9;
-									cursor: pointer;
-									font-size: 0;
-									transition: background-color 0.3s ease;
-								}
-								
-								&.slick-active {
-									button {
-										background-color: #967D64;
-									}
-								}
-							}
-						}
-
-						.slick-list {
-							height: 100%;
-						}
-					
-						.slick-track {
-							height: 100%;
-							line-height: 0;
-						}
-					
-						.slick-slide {
-							& > div {
-								height: 100%;
-	
-								figure {
-									border-radius: 20px;
-									overflow: hidden;
-								}
-							}
-						}
-					}
 				}
 			}
 
@@ -1317,6 +1419,20 @@ ctTop
 	}//knowledgeBlock
 
 }//ctTop
+
+/* --------------------------------------------------------------------------------------
+ctKoujoumigaku
+--------------------------------------------------------------------------------------- */
+.ctKoujoumigaku {
+	.ctPage {
+		.btnWrap {
+			.btnLink {
+				max-width: 306px;
+				width: 100%;
+			}
+		}
+	}
+}
 
 /* --------------------------------------------------------------------------------------
 ctTaishou
