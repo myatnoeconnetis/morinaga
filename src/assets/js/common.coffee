@@ -139,6 +139,26 @@ setEvent = ->
 		initSlider()
 	else
 		$(window).on 'load', initSlider
+
+	# popupMenu
+	$('.navList .navItem > a').on 'click', (e) ->
+		e.preventDefault()
+
+		$('.navList .popupMenu').removeClass 'open'
+
+		$(this)
+			.closest('.navItem')
+			.find('.popupMenu')
+			.addClass 'open'
+
+	$('.navList .closeBtn').on 'click', ->
+		$(this)
+			.closest('.popupMenu')
+			.removeClass 'open'
+
+	$(document).on 'click', (e) ->
+		unless $(e.target).closest('.popupMenu, .navList .navItem > a').length
+			$('.navList .popupMenu').removeClass 'open'
 	
 
 	return
