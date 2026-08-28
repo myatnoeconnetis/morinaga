@@ -1,0 +1,218 @@
+<?php
+	require_once('../php/init.php');
+	require_once("../php/layouts/page_header.php");
+?>
+	<title>ｉｎゼリーリサイクルプログラム＆プロギング</title>
+	<meta property="og:title" content="ｉｎゼリーリサイクルプログラム＆プロギング">
+</head>
+
+<body>
+
+    <!-- wrapper -->
+    <div id="wrapper">
+
+        <!-- innerWrapper -->
+        <div id="innerWrapper" class="ctPuroginku">
+
+            <!-- header -->
+            <?php require_once("../php/layouts/contents_header.php"); ?>
+            <!-- /header -->
+
+            <!-- ctArea -->
+            <div id="ctArea">
+				<main>
+
+					<!-- breadcrumbs -->
+					<nav class="breadcrumbs">
+						<ul>
+							<li>
+								<a href="#">ホーム</a>
+							</li>
+							<li>
+								<a href="#">知る・楽しむ</a>
+							</li>
+							<li>
+								<a href="#">食育・工場見学</a>
+							</li>
+							<li>
+								<a href="#">森永製菓の食育</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- /breadcrumbs -->
+
+					<!-- navList -->
+					<div class="navList">
+						<div class="navListInner">
+							<ul>
+								<li class="navItem">
+									<a href="#"><span>体験で深める</span></a>
+									<div class="popupMenu">
+										<div class="titleBlock">
+											<div class="popupTitle">体験で深める<span>Experience</span></div>
+											<button type="button" class="closeBtn">閉じる</button>
+										</div>
+										<div class="linkList">
+											<ul>
+												<li><a href="#">出張授業</a></li>
+												<li><a href="#">森永製菓のキャラメル教室</a></li>
+												<li><a href="#">森永1 チョコ for 1 スマイル<br>未来ラーニング</a></li>
+												<li><a href="#">森永製菓のキャリア授業</a></li>
+											</ul>
+											<ul>
+												<li><a href="#">森永製菓の菓子育<br>「メルとマールのピクニック」</a></li>
+												<li><a href="#">実施校一覧（PDF）</a></li>
+												<li><a href="#">活動レポート</a></li>
+												<li><a href="#">MORIUM＆鶴見工場見学</a></li>
+											</ul>
+											<ul>
+												<li><a href="#">キッザニア東京</a></li>
+												<li><a href="#">プロギング</a></li>
+												<li><a href="#">モリナガスマイルパーク</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="navItem">
+									<a href="#"><span>知識を広げる</span></a>
+									<div class="popupMenu">
+										<div class="titleBlock">
+											<div class="popupTitle">知識を広げる<span>Knowledge</span></div>
+											<button type="button" class="closeBtn">閉じる</button>
+										</div>
+										<div class="linkList">
+											<ul>
+												<li><a href="#">食のしごと</a></li>
+												<li><a href="#">お菓子の記憶</a></li>
+												<li><a href="#">医師と考える食育</a></li>
+											</ul>
+											<ul>
+												<li><a href="#">食品表示</a></li>
+												<li><a href="#">森永製菓の菓子育</a></li>
+												<li><a href="#">アレルギー“だから”<br>がないラボ</a></li>
+											</ul>
+											<ul>
+												<li><a href="#">森永おくち研究所</a></li>
+												<li><a href="#">バーチャル工場見学憶</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="navItem">
+									<a href="#"><span>関連リンク</span></a>
+									<div class="popupMenu">
+										<div class="titleBlock">
+											<div class="popupTitle">関連リンク<span>Related Links</span></div>
+											<button type="button" class="closeBtn">閉じる</button>
+										</div>
+										<div class="linkList">
+											<ul>
+												<li><a href="#">MORIUM＆鶴見工場見学</a></li>
+												<li><a href="#">モリナガスマイルパーク</a></li>
+												<li><a href="#">森永製菓の菓子育</a></li>
+											</ul>
+											<ul>
+												<li><a href="#">1 チョコ for 1 スマイル</a></li>
+												<li><a href="#">ｉｎゼリーリサイクルプログラム＆プロギング</a></li>
+												<li><a href="#">アレルギー“だから”<br>がないラボ</a></li>
+											</ul>
+											<ul>
+												<li><a href="#">森永おくち研究所</a></li>
+												<li><a href="#">バーチャル工場見学憶</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- /navList -->
+
+					<div class="ctPage">
+						<div class="pageBnr">
+							<p class="pageBnrTxt">ｉｎゼリーリサイクルプログラム＆プロギング</p>
+						</div>
+
+						<div class="ctInner">
+							<div class="bnrBlock">
+								<img src="../assets/img/puroginku/bnr_img.png" class="pcOnly" alt="" width="2160" height="700">
+								<img src="../assets/img/puroginku/bnr_img_sp.png" class="spOnly" alt="" width="780" height="392">
+							</div>
+
+							<div class="twoCol">
+								<div class="textCol">
+									<div class="title">
+										ｉｎゼリーリサイクルプログラム
+									</div>
+									<p class="text">近年、プラスチック廃棄物による海洋汚染が深刻な問題となっており、世界的に関心が高まっています。<br>ｉｎゼリーは、環境に与える影響を認識し、プラスチック使用商品による環境負荷の低減に取り組んでいます。キャップの開けやすさやプラスチック使用量の削減などの改良を行った上で、2021年からテラサイクルジャパン社と協力し、容器リサイクルプログラムを開始しました。<br>このプログラムは飲み終えたパウチタイプゼリー飲料の容器を回収し、資源として新たな製品へリサイクルする取り組みです。<br>専用のリサイクルBOXを、小学校から高校の他、スポーツチームの拠点、登山口や自治体の施設（スポーツセンター等）などに設置しており、SDGsに関心を持つ子どもたちやスポーツ愛好者の皆様にプログラムに参加していただいています。<br>回収したよう容器はトングとして生まれ変わり、回収ボックスの設置にご協力いただいた学校や施設に寄贈し、ジョギングをしながらごみ拾いをする「プロギング」でも活用されています。</p>
+								</div>
+								<div class="visualCol">
+									<div class="title">「お菓子工場」でのお仕事</div>
+									<div class="slider">
+										<figure>
+											<img src="../assets/img/puroginku/slider_img1.jpg" alt="Slider image" width="1040" height="564">
+										</figure>
+										<figure>
+											<img src="../assets/img/puroginku/slider_img2.jpg" alt="Slider image" width="1040" height="564">
+										</figure>
+										<figure>
+											<img src="../assets/img/puroginku/slider_img3.jpg" alt="Slider image" width="1701" height="1208">
+										</figure>
+										<figure>
+											<img src="../assets/img/puroginku/slider_img4.jpg" alt="Slider image" width="1040" height="564">
+										</figure>
+										<figure>
+											<img src="../assets/img/puroginku/slider_img5.jpg" alt="Slider image" width="1040" height="564">
+										</figure>
+									</div>
+								</div>
+							</div>
+
+							<div class="btnWrap">
+								<a href="#" target="_blank" class="btnLink">リサイクルプログラムに参加</a>
+							</div>
+
+							<div class="twoCol">
+								<div class="visualCol">
+									<div class="title">プロギング</div>
+									<div class="slider">
+										<figure>
+											<img src="../assets/img/puroginku/slider2_img1.jpg" alt="Slider image" width="1040" height="560">
+										</figure>
+										<figure>
+											<img src="../assets/img/puroginku/slider2_img2.jpg" alt="Slider image" width="1040" height="560">
+										</figure>
+										<figure>
+											<img src="../assets/img/puroginku/slider2_img3.jpg" alt="Slider image" width="1040" height="560">
+										</figure>
+										<figure>
+											<img src="../assets/img/puroginku/slider2_img4.jpg" alt="Slider image" width="1040" height="560">
+										</figure>
+										<figure>
+											<img src="../assets/img/puroginku/slider2_img5.jpg" alt="Slider image" width="1040" height="560">
+										</figure>
+									</div>
+								</div>
+								<div class="textCol">
+									<div class="title">プロギング</div>
+									<div class="title subTt">走って拾って、心も体も、まちも健やかに</div>
+									<p class="text">プロギングは、ジョギングをしながら、まちのごみを拾うスポーツです。<br>「ｉｎブランド」では、プロギングを広めていく活動を通じて、<br>健やかな心と体、まちづくりを応援しています。<br>年齢・性別を問わず、参加者同士で声をかけ合いながら、一緒に走ってごみを拾っていきます。自然と会話が弾み、ゴールするころには一体感が深まり、笑顔が広がります。<br>人と人、そして、人とまちのつながりを深めながら、ごみを見つけて拾う達成感や、まちがきれいになっていく清々しさを感じていただく機会となることを目指しています。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</main>
+            </div>
+            <!-- /ctArea -->
+
+            <!-- footer -->
+            <?php require_once("../php/layouts/contents_footer.php"); ?>
+            <!-- /footer -->
+
+        </div>
+        <!-- / innerWrapper -->
+
+    </div>
+    <!-- / wrapper -->
+
+    <?php require_once('../php/layouts/page_footer.php'); ?>
