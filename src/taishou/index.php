@@ -157,17 +157,24 @@
 									<td></td>
 									<td></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon8.png" alt="食育ピクトグラム8"></div>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon8.png" alt="">
+										</div>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">森永製菓のキャラメル教室</th>
 									<td></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
 									<td></td>
 									<td></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon6.png" alt="食育ピクトグラム6"><img class="pictogramIcon" src="../assets/img/common/icon8.png" alt="食育ピクトグラム8"></div>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon6.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/common/icon8.png" alt="">
+										</div>
 									</td>
 								</tr>
 								<tr>
@@ -177,37 +184,63 @@
 									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
 									<td></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon8.png" alt="食育ピクトグラム8"></div>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon8.png" alt="">
+										</div>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">森永製菓の菓子育「メルとマールのピクニック」</th>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
 									<td></td>
 									<td></td>
 									<td></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon1.png" alt="食育ピクトグラム1"><img class="pictogramIcon" src="../assets/img/common/icon3.png" alt="食育ピクトグラム3"><img class="pictogramIcon" src="../assets/img/common/icon4.png" alt="食育ピクトグラム4"><img class="pictogramIcon" src="../assets/img/common/icon5.png" alt="食育ピクトグラム5"><img class="pictogramIcon" src="../assets/img/common/icon12.png" alt="食育ピクトグラム12"></div>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon1.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/common/icon3.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/common/icon4.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/common/icon5.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/common/icon12.png" alt="">
+										</div>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">MORIUM＆鶴見工場見学</th>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
 									<td>
 										<div class="pictogramList"></div>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">キッザニア東京「お菓子工場」</th>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
 									<td></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon6.png" alt="食育ピクトグラム6"></div>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon6.png" alt="">
+										</div>
 									</td>
 								</tr>
 								<tr>
@@ -217,54 +250,95 @@
 									<td></td>
 									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon8.png" alt="食育ピクトグラム8"></div>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon8.png" alt="">
+										</div>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">お菓子の記憶</th>
 									<td></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon1.png" alt="食育ピクトグラム1"><img class="pictogramIcon" src="../assets/img/common/icon12.png" alt="食育ピクトグラム12"></div>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon1.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/common/icon12.png" alt="">
+										</div>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">医師と考える食育</th>
 									<td></td>
 									<td></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon2.png" alt="食育ピクトグラム2"><img class="pictogramIcon" src="../assets/img/common/icon4.png" alt="食育ピクトグラム4"></div>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+									<span class="circleMarker" role="img" aria-label="対象"></span>
+								</td>
+									<td>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon2.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/common/icon4.png" alt="">
+										</div>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">森永製菓の菓子育</th>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td></td>
-									<td></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon1.png" alt="食育ピクトグラム1"><img class="pictogramIcon" src="../assets/img/common/icon3.png" alt="食育ピクトグラム3"><img class="pictogramIcon" src="../assets/img/common/icon4.png" alt="食育ピクトグラム4"><img class="pictogramIcon" src="../assets/img/common/icon5.png" alt="食育ピクトグラム5"><img class="pictogramIcon" src="../assets/img/common/icon12.png" alt="食育ピクトグラム12"></div>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td></td>
+									<td></td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon1.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/common/icon3.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/common/icon4.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/common/icon5.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/common/icon12.png" alt="">
+										</div>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">食品表示</th>
 									<td></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
 									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon4.png" alt="食育ピクトグラム4"><img class="pictogramIcon" src="../assets/img/common/icon6.png" alt="食育ピクトグラム6"></div>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon4.png" alt="">
+											<img class="pictogramIcon" src="../assets/img/common/icon6.png" alt="">
+										</div>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">バーチャル工場見学</th>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
 									<td></td>
 									<td>
 										<div class="pictogramList"></div>
@@ -273,41 +347,77 @@
 								<tr>
 									<th scope="row">食のしごと</th>
 									<td></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon6.png" alt="食育ピクトグラム6"></div>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon6.png" alt="">
+										</div>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">活動レポート</th>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
 									<td>
 										<div class="pictogramList"></div>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">アレルギー “だから” がないラボ</th>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon1.png" alt="食育ピクトグラム1"></div>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon1.png" alt="">
+										</div>
 									</td>
 								</tr>
 								<tr>
 									<th scope="row">森永おくち研究所</th>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
 									<td>
-										<div class="pictogramList"><img class="pictogramIcon" src="../assets/img/common/icon5.png" alt="食育ピクトグラム5"></div>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<span class="circleMarker" role="img" aria-label="対象"></span>
+									</td>
+									<td>
+										<div class="pictogramList">
+											<img class="pictogramIcon" src="../assets/img/common/icon5.png" alt="">
+										</div>
 									</td>
 								</tr>
 							</tbody>
