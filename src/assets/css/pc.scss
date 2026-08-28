@@ -653,7 +653,7 @@ common
 				margin-top: 0px;
 			}
 
-			img {
+			.titleImg {
 				width: 200px;
 				margin-left: 20px;
 			}
@@ -684,6 +684,17 @@ common
 
 			.text {
 				margin-top: 17px;
+			}
+
+			.table {
+				dl {
+					display: flex;
+
+					dt {
+						background-color: #AF001B;
+						color: #fff;
+					}
+				}
 			}
 		}
 	}

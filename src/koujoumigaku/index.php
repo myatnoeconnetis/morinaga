@@ -1,5 +1,5 @@
 <?php
-	require_once('../php/init.php');
+	require_once("../php/init.php");
 	require_once("../php/layouts/page_header.php");
 ?>
 	<title>キッザニア東京「お菓子工場」</title>
@@ -42,90 +42,7 @@
 					<!-- /breadcrumbs -->
 
 					<!-- navList -->
-					<div class="navList">
-						<div class="navListInner">
-							<ul>
-								<li class="navItem">
-									<a href="#"><span>体験で深める</span></a>
-									<div class="popupMenu">
-										<div class="titleBlock">
-											<div class="popupTitle">体験で深める<span>Experience</span></div>
-											<button type="button" class="closeBtn">閉じる</button>
-										</div>
-										<div class="linkList">
-											<ul>
-												<li><a href="#">出張授業</a></li>
-												<li><a href="#">森永製菓のキャラメル教室</a></li>
-												<li><a href="#">森永1 チョコ for 1 スマイル<br>未来ラーニング</a></li>
-												<li><a href="#">森永製菓のキャリア授業</a></li>
-											</ul>
-											<ul>
-												<li><a href="#">森永製菓の菓子育<br>「メルとマールのピクニック」</a></li>
-												<li><a href="#">実施校一覧（PDF）</a></li>
-												<li><a href="#">活動レポート</a></li>
-												<li><a href="#">MORIUM＆鶴見工場見学</a></li>
-											</ul>
-											<ul>
-												<li><a href="#">キッザニア東京</a></li>
-												<li><a href="#">プロギング</a></li>
-												<li><a href="#">モリナガスマイルパーク</a></li>
-											</ul>
-										</div>
-									</div>
-								</li>
-								<li class="navItem">
-									<a href="#"><span>知識を広げる</span></a>
-									<div class="popupMenu">
-										<div class="titleBlock">
-											<div class="popupTitle">知識を広げる<span>Knowledge</span></div>
-											<button type="button" class="closeBtn">閉じる</button>
-										</div>
-										<div class="linkList">
-											<ul>
-												<li><a href="#">食のしごと</a></li>
-												<li><a href="#">お菓子の記憶</a></li>
-												<li><a href="#">医師と考える食育</a></li>
-											</ul>
-											<ul>
-												<li><a href="#">食品表示</a></li>
-												<li><a href="#">森永製菓の菓子育</a></li>
-												<li><a href="#">アレルギー“だから”<br>がないラボ</a></li>
-											</ul>
-											<ul>
-												<li><a href="#">森永おくち研究所</a></li>
-												<li><a href="#">バーチャル工場見学憶</a></li>
-											</ul>
-										</div>
-									</div>
-								</li>
-								<li class="navItem">
-									<a href="#"><span>関連リンク</span></a>
-									<div class="popupMenu">
-										<div class="titleBlock">
-											<div class="popupTitle">関連リンク<span>Related Links</span></div>
-											<button type="button" class="closeBtn">閉じる</button>
-										</div>
-										<div class="linkList">
-											<ul>
-												<li><a href="#">MORIUM＆鶴見工場見学</a></li>
-												<li><a href="#">モリナガスマイルパーク</a></li>
-												<li><a href="#">森永製菓の菓子育</a></li>
-											</ul>
-											<ul>
-												<li><a href="#">1 チョコ for 1 スマイル</a></li>
-												<li><a href="#">キッザニア東京「お菓子工場」</a></li>
-												<li><a href="#">アレルギー“だから”<br>がないラボ</a></li>
-											</ul>
-											<ul>
-												<li><a href="#">森永おくち研究所</a></li>
-												<li><a href="#">バーチャル工場見学憶</a></li>
-											</ul>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
+					<?php require_once("../php/layouts/contents_nav.php"); ?>
 					<!-- /navList -->
 
 					<div class="ctPage">
@@ -143,19 +60,22 @@
 								<div class="textCol">
 									<div class="title">
 										キッザニア東京
-										<img src="../assets/img/koujoumigaku/title_img.png" alt="" width="400" height="140">
+										<img src="../assets/img/koujoumigaku/title_img.png" class="titleImg" alt="" width="400" height="140">
 									</div>
-									<p class="text">キッザニアでは、実社会の約2/3サイズの街並みに、実在する企業が出展するパビリオンが建ち並び、さまざまな仕事やサービスを体験できます。<br>コンセプトは、「エデュケーション（学び）」と「エンターテインメント（楽しさ）」を合わせた『エデュテインメント』。こども達が好きな仕事にチャレンジし、楽しみながら社会の仕組みを学べる「こどもが主役の街」です。</p>
+									<p class="text">キッザニアでは、実社会の約2/3サイズの街並みに、実在する企業が出展するパビリオンが建ち並び、様々な仕事やサービスを体験できます。<br>コンセプトは、「エデュケーション（学び）」と「エンターテインメント（楽しさ）」を合わせた『エデュテインメント』。子どもたちが好きな仕事にチャレンジし、楽しみながら社会の仕組みを学べる「こどもが主役の街」です。</p>
 								</div>
 								<div class="visualCol">
-									<div class="title">キッザニア東京</div>
+									<div class="title">
+										キッザニア東京
+										<img src="../assets/img/koujoumigaku/title_img.png" class="titleImg" alt="" width="400" height="140">
+									</div>
 									<img src="../assets/img/koujoumigaku/koujoumigaku_img1.png" alt="" width="1040" height="571">
 								</div>
 							</div>
 
 							<div class="twoCol">
 								<div class="visualCol">
-									<div class="title">「お菓子工場」でのお仕事</div>
+									<div class="title">「お菓子工場」での仕事</div>
 									<div class="slider">
 										<figure>
 											<img src="../assets/img/koujoumigaku/slider_img1.png" alt="Slider image" width="1040" height="560">
@@ -172,8 +92,41 @@
 									</div>
 								</div>
 								<div class="textCol">
-									<div class="title">「お菓子工場」でのお仕事</div>
-									<p class="text">当社の「お菓子工場」パビリオンでは、子ども達は「お菓子工場スタッフ」として、「ハイチュウ」についての歴史や知識を学んだ後、手作業と機械を使って、うずまき模様のオリジナル「ハイチュウ」を作ります。異物混入のチェックも行い、食の安全についても学びます。<br>製造体験を通じ、五感を使ってお菓子がもたらす価値やものづくりの工夫を体験してもらうとともに、食品衛生やルール・マナーへの理解を深め、子どもたちの自立性と社会性を養うことを目指しています。<br>世代を超えて親しまれる身近な「食」を通じて、次世代を担う子どもたちの育成に貢献してまいります。</p>
+									<div class="title">「お菓子工場」での仕事</div>
+									<p class="text">当社が出展する「お菓子工場」では、子どもたちは「お菓子工場スタッフ」として、「ハイチュウ」についての歴史や知識を学んだ後、手作業と機械を使って、うずまき模様のオリジナル「ハイチュウ」を作ります。異物混入のチェックも行い、食の安全についても学びます。<br>製造体験を通じ、五感を使ってお菓子がもたらす価値やものづくりの工夫を体験してもらうとともに、食品衛生やルール・マナーへの理解を深め、子どもたちの自立性と社会性を養うことを目指しています。<br>世代を超えて親しまれる身近な「食」を通じて、次世代を担う子どもたちの育成に貢献してまいります。</p>
+								</div>
+							</div>
+
+							<div class="twoCol">
+								<div class="textCol">
+									<div class="title">アクティビティ紹介</div>
+									<p class="text">成型機やカッティングマシンを使ったり、<br>容器に詰めてラベルを貼ってパッケージングしたり、<br>お菓子を完成させるまでの様々な工程を体験いただけます。</p>
+									<div class="table">
+										<dl>
+											<dt>パビリオン名</dt>
+											<dd>お菓子工場</dd>
+										</dl>
+										<dl>
+											<dt>職業名</dt>
+											<dd>お菓子工場スタッフ</dd>
+										</dl>
+										<dl>
+											<dt>定員</dt>
+											<dd>各6名／１回</dd>
+										</dl>
+										<dl>
+											<dt>所要時間</dt>
+											<dd>〜35分</dd>
+										</dl>
+										<dl>
+											<dt>成果物</dt>
+											<dd>オリジナルのお菓子</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="visualCol">
+									<div class="title">アクティビティ紹介</div>
+									<img src="../assets/img/koujoumigaku/koujoumigaku_img2.png" alt="" width="1040" height="560">
 								</div>
 							</div>
 
