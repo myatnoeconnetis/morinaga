@@ -569,4 +569,33 @@
 			padding: 40px 0 100px;
 		}
 	}//ctTop
+
+	/* --------------------------------------------------------------------------------------
+	ctTaishou
+	--------------------------------------------------------------------------------------- */
+	.ctTaishou {
+		.pictogramsBlock {
+			margin-bottom: 170px;
+			
+			.pictogramList {
+				display: flex;
+				flex-direction: column;
+				gap: 46px;
+
+				& > li {
+					display: flex;
+					gap: 20px;
+					width: 100%;
+
+					.imgArea {
+						display: block;
+					}
+
+					.textArea {
+						display: block;
+					}
+				}
+			}
+		}//.pictogramsBlock
+	}//ctTaishou
 }

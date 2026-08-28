@@ -128,8 +128,8 @@
 
 	<!-- ftBottomBlock -->
 	<div class="ftBottomBlock">
-		<img src="assets/img/common/footer_bottom_pc.png" alt="" class="pcOnly" width="2560" height="814">
-		<img src="assets/img/common/footer_bottom_sp.png" alt="" class="spOnly" width="780" height="2202">
+		<img src="<?=DOC_ROOT?>assets/img/common/footer_bottom_pc.png" alt="" class="pcOnly" width="2560" height="814">
+		<img src="<?=DOC_ROOT?>assets/img/common/footer_bottom_sp.png" alt="" class="spOnly" width="780" height="2202">
 	</div>
 	<!-- /ftBottomBlock -->
 </footer>

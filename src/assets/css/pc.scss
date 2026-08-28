@@ -1317,3 +1317,126 @@ ctTop
 	}//knowledgeBlock
 
 }//ctTop
+
+/* --------------------------------------------------------------------------------------
+ctTaishou
+--------------------------------------------------------------------------------------- */
+.ctTaishou {
+	.pictogramsBlock {
+		margin-bottom: 215px;
+
+		.pictogramTtl {
+			font-size: 24px;
+			font-weight: 700;
+			color: #AF001B;
+			margin-bottom: 67px;
+			line-height: 1.25;
+		}
+
+		.pictogramList {
+			max-width: 987px;
+			margin: 0 auto;
+			display: flex;
+			flex-flow: wrap;
+			gap: 47px 80px;
+	
+			& > li {
+				width: calc((100% - 80px) / 2);
+				display: flex;
+				gap: 23px;
+
+				.imgArea {
+					width: 100px;
+				}
+
+				.textArea {
+					flex: 1;
+					
+					.listTtl {
+						font-size: 24px;
+						font-weight: 700;
+						line-height: 1.25;
+						margin-bottom: 26px;
+					}
+					
+					.text {
+						color: #000;
+						font-weight: 500;
+					}
+				}
+
+				&.pictogram1 {
+					.listTtl {
+						color: #E84E36;
+					}
+				}
+
+				&.pictogram2 {
+					.listTtl {
+						color: #F4952B;
+					}
+				}
+
+				&.pictogram3 {
+					.listTtl {
+						color: #C4ACCE;
+					}
+				}
+
+				&.pictogram4 {
+					.listTtl {
+						color: #787B84;
+					}
+				}
+
+				&.pictogram5 {
+					.listTtl {
+						color: #006AA6;
+					}
+				}
+
+				&.pictogram6 {
+					.listTtl {
+						color: #7AC6E6;
+					}
+				}
+				
+				&.pictogram7 {
+					.listTtl {
+						color: #B13482;
+					}
+				}
+
+				&.pictogram8 {
+					.listTtl {
+						color: #A4A15E;
+					}
+				}
+
+				&.pictogram9 {
+					.listTtl {
+						color: #44AC77;
+					}
+				}
+
+				&.pictogram10 {
+					.listTtl {
+						color: #C8D85C;
+					}
+				}
+
+				&.pictogram11 {
+					.listTtl {
+						color: #87402C;
+					}
+				}
+
+				&.pictogram12 {
+					.listTtl {
+						color: #F28B84;
+					}
+				}
+			}
+		}
+	}//pictogramsBlock
+}//ctTaishou
