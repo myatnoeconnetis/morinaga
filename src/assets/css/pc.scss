@@ -1469,7 +1469,7 @@ ctTaishou
 		.contentTable {
 			width: 100%;
 			table-layout: fixed;
-			border: 1px solid #8B8B8B;
+			border: 1px solid #000;
 			border-collapse: collapse;
 
 			.contentNameCol {
@@ -1487,7 +1487,7 @@ ctTaishou
 			th,
 			td {
 				box-sizing: border-box;
-				border: 1px solid #8B8B8B;
+				border: 1px solid #000;
 				vertical-align: middle;
 			}
 
@@ -1547,7 +1547,7 @@ ctTaishou
 				width: 20px;
 				height: 20px;
 				margin: 0 auto;
-				border: 1.6px solid #000000;
+				border: 1.6px solid #000;
 				border-radius: 50%;
 				box-sizing: border-box;
 			}
