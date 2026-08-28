@@ -140,6 +140,12 @@
 							</div>
 
 							<div class="noticeBlock">
+								<div class="floatArea">
+									<img src="assets/img/top/info_float_img1.png" class="floatImg floatImg1" alt="" width="215" height="286" >
+									<img src="assets/img/top/experience_float_img5.png" class="floatImg floatImg2" alt="" width="375" height="408">
+									<img src="assets/img/top/experience_float_img8.png" class="floatImg floatImg3" alt="" width="356" height="310">
+									<img src="assets/img/top/info_float_img2.png" class="floatImg floatImg4" alt="" width="247" height="249">
+								</div>
 								<div class="title">菓子育とは</div>
 								<p class="text">菓子育は、子どもたちのすこやかな成長を応援する<br>森永製菓の食育の取り組みです。</p>
 								<p class="text">お菓子の価値は、栄養補給だけでなく、人と人、心と心をつなぐ<br>コミュニケーションの役割であると考えています。</p>

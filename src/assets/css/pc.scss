@@ -1763,9 +1763,40 @@ ctKashikosodate
 --------------------------------------------------------------------------------------- */
 .ctKashikosodate {
 	.noticeBlock {
-		margin-bottom: 90px;
+		margin-bottom: 100px;
 		display: inherit;
 		text-align: center;
+		position: relative;
+
+		.floatArea {
+			.floatImg {
+				position: absolute;
+	
+				&.floatImg1 {
+					width: 74px;
+					bottom: max(calc(50% - 10px), 1px);
+					left: max(calc(50% - 480px), 1px);
+				}
+	
+				&.floatImg2 {
+					width: 121px;
+					bottom: -120px;
+					left: max(calc(50% - 550px), 1px);
+				}
+	
+				&.floatImg3 {
+					width: 124px;
+					bottom: max(calc(50% - 5px), 1px);
+					right: max(calc(50% - 500px), 1px);
+				}
+
+				&.floatImg4 {
+					width: 105px;
+					bottom: -120px;
+					right: max(calc(50% - 550px), 1px);
+				}
+			}
+		}
 		
 		.title {
 			display: inherit;

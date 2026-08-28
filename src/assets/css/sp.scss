@@ -777,6 +777,36 @@
 	.ctKashikosodate {
 		.noticeBlock {
 			margin-bottom: 70px;
+
+			.floatArea {
+				display: block;
+
+				.floatImg {
+					position: absolute;
+		
+					&.floatImg1 {
+						width: 40px;
+						top: 0;
+						bottom: 0;
+					}
+		
+					&.floatImg2 {
+						width: 64px;
+						bottom: -50px;
+					}
+		
+					&.floatImg3 {
+						width: 72px;
+						top: -40px;
+						bottom: 0;
+					}
+
+					&.floatImg4 {
+						width: 64px;
+						bottom: -60px;
+					}
+				}
+			}
 		}
 
 		.ytVideo {
