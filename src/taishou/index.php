@@ -63,7 +63,7 @@
 									<th scope="col">小学<br class="spOnly">４～６年<br>（保護者・教員）</th>
 									<th scope="col">中高生<br>（保護者・教員）</th>
 									<th scope="col">大学<br class="spOnly">～大人</th>
-									<th scope="col">食育ピクトグラムの該当項目<br>及び食育ピクトグラムについて</th>
+									<th scope="col">食育ピクトグラムの該当項目<br><span>※</span><span>食育ピクトグラムについて</span></th>
 								</tr>
 							</thead>
 							<tbody>
