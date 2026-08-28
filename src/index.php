@@ -224,7 +224,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 									<div class="content">
 										<p class="lessonTtl">「わたしたちの未来」を考えよう</p>
 										<p class="labelBadge"><span class="badge">対象</span>小学校４～６年生</p>
-										<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習の時間 「持続可能な社会の実現」</p>
+										<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習（探求）の時間 「持続可能な社会の実現」</p>
 										<p class="text">チョコレートを題材に、社会課題を「自分ごと化」して考える授業です。カカオ産地の動画やワークなどを通して「誰一人取り残さない」持続可能な社会について考え、行動するきっかけを作ります。</p>
 										<a href="#">詳細を見る</a>
 									</div>

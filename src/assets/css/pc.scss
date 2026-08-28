@@ -1096,6 +1096,9 @@ ctTop
 					border-radius: 0 0 20px 20px;
 
 					.lessonTtl {
+						display: flex;
+						align-items: center;
+						justify-content: center;
 						color: #AF001B;
 						font-weight: 700;
 						font-size: 24px;
