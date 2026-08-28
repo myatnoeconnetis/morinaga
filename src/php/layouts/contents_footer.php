@@ -3,9 +3,9 @@
 		<div class="ftBannerBlock">
 			<div class="ctInner">
 				<div class="ftImgGroup">
-					<img src="assets/img/common/ft_logo.png" class="logo" alt="" width="356" height="274">
-					<img src="assets/img/common/ft_illustration_pc.png" class="fullImg pcOnly" alt="" width="878" height="201">
-					<img src="assets/img/common/ft_illustration_sp.png" class="fullImg spOnly" alt="" width="320" height="2816">
+					<img src="<?=DOC_ROOT?>assets/img/common/ft_logo.png" class="logo" alt="" width="356" height="274">
+					<img src="<?=DOC_ROOT?>assets/img/common/ft_illustration_pc.png" class="fullImg pcOnly" alt="" width="878" height="201">
+					<img src="<?=DOC_ROOT?>assets/img/common/ft_illustration_sp.png" class="fullImg spOnly" alt="" width="320" height="2816">
 				</div>
 				<div class="ftListGroup">
 					<dl class="ftSitemap">
@@ -116,7 +116,7 @@
 									<a href="#">バーチャル工場見学憶</a>
 								</li>
 								<li>
-									<a href="#"><span>対象別コンテンツ一覧</span></a>
+									<a href="<?=DOC_ROOT?>taishou/"><span>対象別コンテンツ一覧</span></a>
 								</li>
 							</ul>
 						</dd>
@@ -128,8 +128,8 @@
 
 	<!-- ftBottomBlock -->
 	<div class="ftBottomBlock">
-		<img src="assets/img/common/footer_bottom_pc.png" alt="" class="pcOnly" width="2560" height="814">
-		<img src="assets/img/common/footer_bottom_sp.png" alt="" class="spOnly" width="780" height="2202">
+		<img src="<?=DOC_ROOT?>assets/img/common/footer_bottom_pc.png" alt="" class="pcOnly" width="2560" height="814">
+		<img src="<?=DOC_ROOT?>assets/img/common/footer_bottom_sp.png" alt="" class="spOnly" width="780" height="2202">
 	</div>
 	<!-- /ftBottomBlock -->
 </footer>
