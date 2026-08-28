@@ -330,7 +330,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 											</figure>
 											<p class="ttl">キッザニア東京「お菓子工場」</p>
 											<p class="category">対象</p>
-											<p class="subTtl">３歳～中学生</p>
+											<p class="subTtl">３歳～15歳</p>
 											<p class="desc">五感を使ってお菓子がもたらす価値やものづくりの工夫を体験。食品衛生やルール・マナーへの理解を深め、子どもたちの自立性と社会性を養います。</p>
 											<span class="seeMore" aria-hidden="true">詳細を見る</span>
 										</a>

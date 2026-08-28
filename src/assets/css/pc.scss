@@ -1585,12 +1585,12 @@ ctTaishou
 			margin: 0 auto;
 			display: flex;
 			flex-flow: wrap;
-			gap: 47px 80px;
+			gap: 47px 70px;
 	
 			& > li {
-				width: calc((100% - 80px) / 2);
+				width: calc((100% - 70px) / 2);
 				display: flex;
-				gap: 23px;
+				gap: 20px;
 
 				.imgArea {
 					width: 100px;
@@ -1609,6 +1609,7 @@ ctTaishou
 					.text {
 						color: #000;
 						font-weight: 500;
+						letter-spacing: -0.3px;
 					}
 				}
 
