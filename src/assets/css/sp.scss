@@ -725,4 +725,30 @@
 			}
 		}//.pictogramsBlock
 	}//ctTaishou
+
+	/* --------------------------------------------------------------------------------------
+	ctKashikosodate
+	--------------------------------------------------------------------------------------- */
+	.ctKashikosodate {
+		.noticeBlock {
+			margin-bottom: 70px;
+		}
+
+		.ytVideo {
+			max-width: 350px;
+			margin: 30px auto 0;
+
+			iframe {
+				width: 100%;
+				max-width: 350px;
+				height: 197px;
+				margin: 0 auto;
+			}
+		}
+
+		.btnWrap {
+			margin-bottom: 120px;
+		}
+	}//ctKashikosodate
+
 }

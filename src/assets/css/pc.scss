@@ -636,7 +636,8 @@ common
 		box-shadow: 0px 4px 4px rgba($color: #000000, $alpha: 0.25);
 	}
 
-	.twoCol {
+	.twoCol,
+	.noticeBlock {
 		margin-top: 60px;
 		display: flex;
 		gap: 40px;
@@ -656,6 +657,10 @@ common
 			.titleImg {
 				width: 200px;
 				margin-left: 20px;
+			}
+
+			&.subTt {
+				color: #967D64;
 			}
 		}
 
@@ -1682,3 +1687,39 @@ ctTaishou
 		}
 	}//pictogramsBlock
 }//ctTaishou
+
+/* --------------------------------------------------------------------------------------
+ctKashikosodate
+--------------------------------------------------------------------------------------- */
+.ctKashikosodate {
+	.noticeBlock {
+		margin-bottom: 90px;
+		display: inherit;
+		text-align: center;
+		
+		.title {
+			display: inherit;
+			padding-bottom: 25px;
+		}
+
+		.text {
+			&:not(:last-of-type) {
+				padding-bottom: 30px;
+			}
+		}
+	}
+
+	.secTextGp {
+		margin-top: 30px;
+		
+		.text {
+			margin-top: 5px!important;
+		}
+	}
+
+	.ytVideo {
+		width: 100%;
+		max-width: 610px;
+		margin: 80px auto 0;
+	}
+}//ctKashikosodate
