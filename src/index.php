@@ -110,9 +110,10 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 									<img src="assets/img/top/title_img.png" alt="" width="600" height="464">
 								</figure>
 
-								<figure class="titleTxtImg">
-									<img src="assets/img/top/title_txt_img.png" alt="" width="1284" height="202">
-								</figure>
+								<h1 class="titleTxtImg">
+									<span>”おいしく、たのしく、すこやかに”食で未来を育む。</span>
+									<img src="assets/img/top/title_txt_img.png" alt="おいしく、たのしく、すこやかに”食で未来を育む。" width="1284" height="202">
+								</h1>
 
 								<p class="text"><span class="intro">「日本の人々に<br class="spOnly">栄養価のあるおいしいお菓子を届けたい」</span>1899 年、創業者・森永太一郎の想いから <br class="spOnly"> 森永製菓は誕生しました。 <br>森永製菓の食育は、<br>120 年を超える歴史のなかで <br class="spOnly">育んできた想いを受け継ぎ、<br>他者への思いやりを大切にしながら、 <br>「心・体・環境の健康」へ<br class="spOnly">貢献できるよう活動を行っています。<br>従業員もともに学びながら、<br>世界の人々の笑顔を<br class="spOnly">未来につないでいきたいと考えています。</p>
 
@@ -234,7 +235,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										<img src="assets/img/top/head_thumb.png" alt="Head Thumb image" width="680" height="338">
 									</figure>
 									<div class="content">
-										<p class="lessonTtl">「食のしごと」から「働く」を<br>想像してみよう</p>
+										<p class="lessonTtl">「食のしごと」から「働く」を<br class="pcOnly">想像してみよう</p>
 										<p class="labelBadge"><span class="badge">対象</span>中学校、高等学校、高等専門学校の在学生</p>
 										<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習（探求）の時間</p>
 										<p class="text">森永製菓の社員が事業内容や実際の働き方などを説明し、質疑応答などのコミュニケーションを通じて、職業やキャリアを考え、進路や働くことのイメージを深める機会を提供します。</p>
