@@ -230,23 +230,23 @@
 			width: calc(100% + 40px);
 			margin-left: -20px;
 		}
+		
+		.title {
+			flex-direction: column-reverse;
+			align-items: flex-start;
+			margin-bottom: 35px;
+			margin-top: 0px;
+
+			.titleImg {
+				margin-left: 0px;
+				margin-bottom: 18px;
+			}
+		}
 
 		.twoCol {
 			flex-direction: column;
 			gap: 30px;
 			margin-top: 70px;
-
-			.title {
-				flex-direction: column-reverse;
-				align-items: flex-start;
-				margin-bottom: 35px;
-				margin-top: 0px;
-
-				.titleImg {
-					margin-left: 0px;
-					margin-bottom: 18px;
-				}
-			}
 
 			.visualCol {
 				width: 100%;
@@ -776,7 +776,7 @@
 	--------------------------------------------------------------------------------------- */
 	.ctKashikosodate {
 		.noticeBlock {
-			margin-bottom: 70px;
+			margin: 66px 0 70px;
 
 			.floatArea {
 				display: block;
@@ -807,6 +807,18 @@
 					}
 				}
 			}
+
+			.title {
+				padding-bottom: 0;
+			}
+	
+			.text {
+				line-height: 2;
+	
+				&:not(:last-of-type) {
+					padding-bottom: 34px;
+				}
+			}
 		}
 
 		.ytVideo {
@@ -830,16 +842,27 @@
 	ctPuroginku
 	--------------------------------------------------------------------------------------- */
 	.ctPuroginku {
-
 		.ctPage {
+			.btnWrap {
+				margin: 60px 0;
+	
+				.btnLink {
+					padding: 15px 45px;
+				}
+			}
+			
 			.twoCol {
 				.visualCol {
-					.title.subTt {
-						margin-top: -25px;
+					.title {
+						letter-spacing: -0.6px;
+					}
+					
+					.subTt {
+						font-size: 20px;
+						margin: -25px 0 35px;
 					}
 				}
 			}
 		}
 	}//ctPuroginku
-
 }
