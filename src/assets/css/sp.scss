@@ -822,15 +822,9 @@
 		}
 
 		.ytVideo {
-			max-width: 350px;
 			margin: 30px auto 0;
-
-			iframe {
-				width: 100%;
-				max-width: 350px;
-				height: 197px;
-				margin: 0 auto;
-			}
+			width: 100%;
+			padding-bottom: 56.7%;
 		}
 
 		.btnWrap {

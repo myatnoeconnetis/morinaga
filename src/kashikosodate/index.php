@@ -93,7 +93,7 @@
 							</div>
 
 							<div class="ytVideo">
-								<iframe width="610" height="344" src="https://www.youtube.com/embed/BCNwaaGw3E4?si=3Dnq6xiyYSRMU1tz" title="メルとマールのピクニック" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+								<iframe src="https://www.youtube.com/embed/BCNwaaGw3E4?si=3Dnq6xiyYSRMU1tz" title="メルとマールのピクニック" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 							</div>
 
 							<div class="btnWrap">
