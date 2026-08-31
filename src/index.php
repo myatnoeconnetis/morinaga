@@ -306,7 +306,6 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 							</div>
 
 							<div class="tourArea">
-								<p class="redTtl spOnly">森永エンゼルミュージアム<br>MORIUM(モリウム)& 工場見学[予約制]</p>
 								<div class="tsurumiFactory">
 									<a href="#">
 										<figure>
