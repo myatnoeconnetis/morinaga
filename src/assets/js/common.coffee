@@ -138,9 +138,9 @@ setEvent = ->
 			fade: true,
 		})
 		$('.slider').each ->
-			name = slider.data('slider-name')
+			name = $(this).data('slider-name')
 			return unless name
-			$(this).attr 'aria-label', "#{$(this).data('slider-name')} carousel"
+			$(this).attr 'aria-label', "#{name} carousel"
 
 	#window.loadイベントが既に発火済みの場合は即座に実行、そうでなければイベントを待つ
 	if document.readyState == 'complete'
