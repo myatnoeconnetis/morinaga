@@ -69,7 +69,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 					<nav class="breadcrumbs">
 						<ul>
 							<li>
-								<a href="#">ホーム</a>
+								<a href="/">ホーム</a>
 							</li>
 							<li>
 								<a href="#">知る・楽しむ</a>

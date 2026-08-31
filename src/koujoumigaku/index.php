@@ -47,7 +47,7 @@
 
 					<div class="ctPage">
 						<div class="pageBnr">
-							<p class="pageBnrTxt">キッザニア東京「お菓子工場」</p>
+							<h1 class="pageBnrTxt">キッザニア東京「お菓子工場」</h1>
 						</div>
 
 						<div class="ctInner">

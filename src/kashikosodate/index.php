@@ -26,7 +26,7 @@
 					<nav class="breadcrumbs">
 						<ul>
 							<li>
-								<a href="#">ホーム</a>
+								<a href="/">ホーム</a>
 							</li>
 							<li>
 								<a href="#">知る・楽しむ</a>
@@ -47,7 +47,7 @@
 
 					<div class="ctPage">
 						<div class="pageBnr">
-							<p class="pageBnrTxt">メルとマールのピクニック</p>
+							<h1 class="pageBnrTxt">メルとマールのピクニック</h1>
 						</div>
 
 						<div class="ctInner">
