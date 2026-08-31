@@ -547,6 +547,15 @@ common
 /* slider */
 .slider {
 	padding-bottom: 44px;
+	
+	& > figure {
+		border-radius: 20px;
+		overflow: hidden;
+
+		&:not(:first-child) {
+			display: none;
+		}
+	}
 
 	.slick-autoplay-toggle-button {
 		display: none;
