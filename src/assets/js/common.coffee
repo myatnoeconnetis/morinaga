@@ -147,7 +147,8 @@ setEvent = ->
 	# popupMenu
 	$('.navList .navItem > a').on 'click', (e) ->
 		e.preventDefault()
-
+		$('.navList .navItem > a').removeClass 'active'
+		$(this).addClass 'active'
 		$('.navList .popupMenu').removeClass 'open'
 
 		$(this)
@@ -159,10 +160,16 @@ setEvent = ->
 		$(this)
 			.closest('.popupMenu')
 			.removeClass 'open'
+		
+		$(this)
+			.closest('.navItem')
+			.find('> a')
+			.removeClass 'active'
 
 	$(document).on 'click', (e) ->
 		unless $(e.target).closest('.popupMenu, .navList .navItem > a').length
 			$('.navList .popupMenu').removeClass 'open'
+			$('.navList .navItem > a').removeClass 'active'
 	
 
 	return
