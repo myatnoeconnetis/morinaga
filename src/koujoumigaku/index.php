@@ -26,7 +26,7 @@
 					<nav class="breadcrumbs">
 						<ul>
 							<li>
-								<a href="#">ホーム</a>
+								<a href="/">ホーム</a>
 							</li>
 							<li>
 								<a href="#">知る・楽しむ</a>
