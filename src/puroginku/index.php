@@ -65,7 +65,7 @@
 								</div>
 								<div class="visualCol">
 									<div class="title">ｉｎゼリーリサイクルプログラム</div>
-									<div class="slider">
+									<div class="slider"  data-slider-name="Jelly Recycling">
 										<figure>
 											<img src="../assets/img/puroginku/slider_img1.jpg" alt="Slider image" width="1040" height="564">
 										</figure>
@@ -93,7 +93,7 @@
 								<div class="visualCol">
 									<div class="title">プロギング</div>
 									<div class="subTt spOnly">走って拾って、心も体も、<br class="spOnly">まちも健やかに</div>
-									<div class="slider">
+									<div class="slider" data-slider-name="Prodding">
 										<figure>
 											<img src="../assets/img/puroginku/slider2_img1.jpg" alt="Slider image" width="1040" height="560">
 										</figure>
