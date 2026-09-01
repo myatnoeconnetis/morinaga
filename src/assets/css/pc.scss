@@ -389,8 +389,8 @@ common
 	}
 }//btnWrap
 
-/*colCardList*/
-.colCardList {
+/*colList*/
+.colList {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	flex-flow: wrap;
@@ -418,89 +418,89 @@ common
 				}
 			}
 		}
+	}
+	
+	a {
+		display: grid;
+		grid-row: span 6;
+		grid-template-rows: subgrid;
+		box-sizing: border-box;
+		width: 100%;
+		background-color: #fff;
+		box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+		border-radius: 8px;
+		padding: 0 20px 40px 20px;
+		border: 1px solid #D6D6D6;
+		overflow: hidden;
 
-		a {
-			display: grid;
-			grid-row: span 6;
-			grid-template-rows: subgrid;
-			box-sizing: border-box;
-			width: 100%;
-			background-color: #fff;
-			box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-			border-radius: 8px;
-			padding: 0 20px 40px 20px;
-			border: 1px solid #D6D6D6;
+		figure {
 			overflow: hidden;
-
-			figure {
-				overflow: hidden;
-				width: calc(100% + 40px);
-				box-sizing: border-box;
-				margin-left: -20px;
-				border-bottom: 1px solid #D6D6D6;
-				max-height: 137px;
-				
-				img {
-					transition: all 0.3s ease;
-					transform: scale(1.05);
-				}
+			width: calc(100% + 40px);
+			box-sizing: border-box;
+			margin-left: -20px;
+			border-bottom: 1px solid #D6D6D6;
+			max-height: 137px;
+			
+			img {
+				transition: all 0.3s ease;
+				transform: scale(1.05);
 			}
+		}
 
-			.ttl {
-				margin-top: 16px;
-				font-size: 20px;
-				font-weight: 700;
-				color: #AF001B;
-			}
+		.ttl {
+			margin-top: 16px;
+			font-size: 20px;
+			font-weight: 700;
+			color: #AF001B;
+		}
 
-			.category {
-				padding: 1px 10px;
-				background: linear-gradient(90deg, #4CC186 0%, #2CD48B 100%);
-				width: fit-content;
-				border-radius: 15px;
-				font-size: 12px;
-				font-weight: 700;
-				color: #FFF;
-				margin-top: 8px;
-			}
+		.category {
+			padding: 1px 10px;
+			background: linear-gradient(90deg, #4CC186 0%, #2CD48B 100%);
+			width: fit-content;
+			border-radius: 15px;
+			font-size: 12px;
+			font-weight: 700;
+			color: #FFF;
+			margin-top: 8px;
+		}
 
-			.subTtl {
-				font-weight: 500;
-				color: #000;
-				margin-top: 2px;
-			}
+		.subTtl {
+			font-weight: 500;
+			color: #000;
+			margin-top: 2px;
+		}
 
-			.desc {
-				font-size: 16px;
-				color: #000;
-				margin: 7px 0 53px;
-			}
+		.desc {
+			font-size: 16px;
+			color: #000;
+			margin: 7px 0 53px;
+		}
 
-			.seeMore {
-				font-size: 14px;
-				font-weight: 500;
-				display: block;
-				width: fit-content;
-				margin: auto 0 0 auto;
-				padding-right: 28px;
-				position: relative;
-				transition: opacity 0.3s ease;
-				color: #3CB174;
+		.seeMore {
+			font-size: 14px;
+			font-weight: 500;
+			display: block;
+			width: fit-content;
+			margin: auto 0 0 auto;
+			padding-right: 28px;
+			position: relative;
+			transition: opacity 0.3s ease;
+			color: #3CB174;
 
-				&::after {
-					content: '';
-					position: absolute;
-					right: 0;
-					top: 50%;
-					transform: translateY(-50%);
-					background: url(../img/common/icon_green_right.png) no-repeat center/cover;
-					width: 20px;
-					height: 20px;
-				}
+			&::after {
+				content: '';
+				position: absolute;
+				right: 0;
+				top: 50%;
+				transform: translateY(-50%);
+				background: url(../img/common/icon_green_right.png) no-repeat center/cover;
+				width: 20px;
+				height: 20px;
 			}
 		}
 	}
-}//colCardList
+}//colList
 
 /* breadcrumbs */
 .breadcrumbs {
@@ -1331,98 +1331,7 @@ ctTop
 		}
 
 		.tourArea {
-			.tsurumiFactory {
-				& > a {
-					display: flex;
-					box-shadow: 0px 4px 4px 0px #0000001A;
-					border: 1px solid #D6D6D6;
-					border-radius: 20px;
-					padding: 30px;
-					gap: 39px;
-
-					& > figure {
-						width: 470px;
-					}
-
-					&:hover {
-						.content {
-							.seeMore {
-								opacity: 0.7;
-							}
-						}
-					}
-
-					.content {
-						flex: 1;
-
-						.ttl {
-							color: #AF001B;
-							font-size: 24px;
-							font-weight: 700;
-							line-height: 1.25;
-							transform: translateY(-8px);
-						}
-
-						.notice {
-							color: #967D64;
-							font-size: 20px;
-							font-weight: 700;
-							margin-bottom: 14px;
-						}
-
-						.category {
-							padding: 1px 10px;
-							background: linear-gradient(90deg, #4CC186 0%, #2CD48B 100%);
-							width: fit-content;
-							border-radius: 15px;
-							font-size: 12px;
-							font-weight: 700;
-							color: #FFF;
-							display: inline-block;
-							margin-right: 3px;
-						}
-			
-						.subTtl {
-							display: inline-block;
-							font-weight: 400;
-							font-size: 14px;
-							color: #000;
-						}
-			
-						.desc {
-							color: #333;
-							margin: 24px 0;
-
-						}
-			
-						.seeMore {
-							font-size: 14px;
-							font-weight: 500;
-							display: block;
-							width: fit-content;
-							margin: auto 0 0 auto;
-							padding-right: 28px;
-							position: relative;
-							transition: opacity 0.3s ease;
-							color: #3CB174;
-							opacity: 1;
-			
-							&::after {
-								content: '';
-								position: absolute;
-								right: 0;
-								top: 50%;
-								transform: translateY(-50%);
-								background: url(../img/common/icon_green_right.png) no-repeat center/cover;
-								width: 20px;
-								height: 20px;
-							}
-						}
-					}
-				}
-			}
-
-			.colCardList {
+			.colList {
 				grid-template-columns: repeat(3,1fr);
 				margin-top: 30px;
 				margin-bottom: 0;
@@ -1457,6 +1366,88 @@ ctTop
 						.desc {
 							margin: 7px 0 18px;
 							color: #333;
+						}
+					}
+				}
+
+				&.oneCol {
+					display: block;
+					margin: 0;
+					column-gap: 0;
+
+					a {
+						display: flex;
+						box-shadow: 0px 4px 4px 0px #0000001A;
+						border: 1px solid #D6D6D6;
+						border-radius: 20px;
+						padding: 30px;
+						gap: 39px;
+	
+						 figure {
+							width: 470px;
+							width: 473px;
+							margin: 0;
+							border: none;
+							max-height: unset;
+							overflow: hidden;
+							align-self: flex-start;
+							border-radius: 10px;
+
+							img {
+								transform: scale(1);
+							}
+						}
+	
+						&:hover {
+							figure {
+								transform: scale(1);
+
+								img {
+									transform: scale(1.05);
+									opacity: 0.7;
+								}
+							}
+
+							.content {
+								.seeMore {
+									opacity: 0.7;
+								}
+							}
+						}
+	
+						.content {
+							flex: 1;
+	
+							.ttl {
+								font-size: 24px;
+								line-height: 1.25;
+								transform: translateY(-8px);
+								margin-top: 0;
+							}
+	
+							.notice {
+								color: #967D64;
+								font-size: 20px;
+								font-weight: 700;
+								margin-bottom: 14px;
+							}
+	
+							.category {
+								display: inline-block;
+								margin: 0 3px 0 0;
+							}
+				
+							.subTtl {
+								display: inline-block;
+								font-weight: 400;
+								font-size: 14px;
+							}
+				
+							.desc {
+								color: #333;
+								margin: 24px 0;
+	
+							}
 						}
 					}
 				}
@@ -1879,3 +1870,116 @@ ctPuroginku
 		}
 	}
 }//ctPuroginku
+
+/* --------------------------------------------------------------------------------------
+ctColumn
+--------------------------------------------------------------------------------------- */
+.ctColumn {
+	.bnrBlock {
+		box-shadow: unset;
+		margin-bottom: 44px;
+	}
+
+	.colList {
+		grid-template-columns: repeat(3,1fr);
+		gap: 33px;
+		margin-top: 0;
+		width: calc(100% + 10px);
+		margin-left: -5px;
+
+		.ttl {
+			font-size: 18px;
+			margin: 17px 0 12px;
+		}
+
+		.subTtl {
+			font-weight: 700;
+			margin: 0 0 9px;
+			color: #333;
+		}
+
+		.desc {
+			color: #333;
+			margin: 0 0 20px;
+		}
+
+		.card {
+			gap: 0;
+			margin-bottom: 0;
+			grid-row: span 5;
+
+			&:hover {
+				a {
+					figure {
+						img {
+							transform: scale(1.05);
+						}
+					}
+				}
+			}
+
+			 a {
+				padding-bottom: 33px;
+
+				figure {
+					aspect-ratio: 338 / 196;
+					max-height: unset;
+
+					img {
+						transform: scale(1);
+					}
+				}
+			}
+		}
+
+		&.oneCol {
+			display: flex;
+			flex-direction: column;
+			gap: 30px;
+			width: 100%;
+			margin: 0;
+
+			.card {
+				display: block;
+				box-sizing: border-box;
+				
+				a {
+					padding: 30px;
+					display: flex;
+					border-radius: 20px;
+					gap: 39px;
+
+					figure {
+						width: 473px;
+						margin: 0;
+						border: none;
+						aspect-ratio: unset;
+					}
+
+					.textArea {
+						flex: 1;
+					}
+
+					.ttl {
+						margin-top: 0;
+					}
+
+					.subTtl {
+						margin-bottom: 20px;
+					}
+
+					.desc {
+						margin-bottom: 27px;
+					}
+				}
+			}
+		}
+	}
+
+	.btnWrap {
+		.btnLink {
+			max-width: 360px;
+			width: 100%;
+		}
+	}
+}//ctColumn

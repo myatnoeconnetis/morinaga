@@ -306,7 +306,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 							</div>
 
 							<div class="tourArea">
-								<div class="tsurumiFactory">
+								<div class="colList oneCol">
 									<a href="#">
 										<figure>
 											<img class="pcOnly" src="assets/img/top/tsurumi_factory_pc.png" alt="Tsurumi factory image" width="940" height="508">
@@ -322,7 +322,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										</div>
 									</a>
 								</div>
-								<ul class="colCardList">
+								<ul class="colList">
 									<li class="card">
 										<a href="/koujoumigaku/">
 											<figure>
@@ -375,7 +375,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 						<div class="ctInner">
                             <h2 class="blockTtl">知識を広げる<span>knowledge</span></h2>
 							<p class="text">お菓子や食に関する専門的な解説から<br>ふわっと心温まるエピソードなど<br>様々なオンラインコンテンツを通じて、<br>学びへの興味喚起や知識の拡充を<br class="spOnly">サポートします。</p>
-                            <ul class="colCardList">
+                            <ul class="colList">
                                 <li class="card">
                                     <a href="#">
                                         <figure>
