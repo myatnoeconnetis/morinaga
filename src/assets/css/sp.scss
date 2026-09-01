@@ -289,6 +289,72 @@
 		}
 	}//ctPage
 
+	/* ctColumnDetail */
+	.ctColumnDetail {
+		.borderBlock {
+			.topPart,
+			.bottomPart {
+				width: 100%;
+				flex-direction: column;
+			}
+
+			.topPart {
+				gap: 50px;
+				padding: 50px 50px 30px 50px;
+
+				.textCol {
+					.title {
+						margin-bottom: 25px;
+					}
+				}
+			}
+
+			.bottomPart {
+				padding: 50px 23px;
+				justify-content: center;
+				gap: 60px;
+
+				.textCol {
+					width: 100%;
+
+					.title {
+						margin-bottom: 20px;
+						display: flex;
+						flex-direction: column;
+						align-items: flex-start;
+
+						.textSmall {
+							font-size: 16px;
+						}
+					}
+
+					p {
+						color: #000;
+					}
+				}
+			}
+		}
+
+		.twoCol {
+			gap: 50px;
+			margin-top: 50px;
+
+			.imgCol,
+			.textCol,
+			&:nth-child(2) .textCol {
+				width: 100%;
+			}
+		}
+
+		.btnWrap {
+			margin-bottom: 120px;
+
+			.btnLink {
+				padding: 15px 45px;
+			}
+		}
+	}//ctColumnDetail
+
 	/* --------------------------------------------------------------------------------------
 	ctTop
 	--------------------------------------------------------------------------------------- */
