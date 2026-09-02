@@ -21,8 +21,8 @@
 		}
 	}//breadcrumbs
 
-	/* Footer */
-	footer {
+	/* ftBlock */
+	.ftBlock {
 		position: relative;
 
 		.ftBannerBlock {
@@ -212,18 +212,20 @@
 		padding-bottom: 36px;
 	}//slider
 
+	/* pageBnr */
+	.pageBnr {
+		min-height: 40px;
+		margin-bottom: 22px;
+		
+		.pageBnrTxt {
+			font-size: 16px;
+			max-width: 100%;
+			padding: 0 20px;
+		}
+	}//pageBnr
+
 	/* ctPage */
 	.ctPage {
-		.pageBnr {
-			min-height: 40px;
-			margin-bottom: 22px;
-			
-			.pageBnrTxt {
-				font-size: 16px;
-				max-width: 100%;
-				padding: 0 20px;
-			}
-		}
 
 		.bnrBlock {
 			border-radius: 0px;
@@ -417,6 +419,7 @@
 							justify-content: flex-start;
 							font-size: 18px;
 							line-height: 1.35;
+							text-align: left;
 						}
 
 						.labelBadge {
