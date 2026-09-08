@@ -25,7 +25,7 @@
 							<li><a href="#">キッザニア東京</a></li>
 							<li><a href="#">プロギング</a></li>
 							<li><a href="#">モリナガスマイルパーク</a></li>
-							<li><a href="/" class="btnHome">森永製菓の食育トップ</a></li>
+							<li><a href="<?=DOC_ROOT?>" class="btnHome">森永製菓の食育トップ</a></li>
 						</ul>
 					</div>
 				</div>
@@ -51,7 +51,7 @@
 						<ul>
 							<li><a href="#">森永おくち研究所</a></li>
 							<li><a href="#">バーチャル工場見学憶</a></li>
-							<li><a href="/" class="btnHome">森永製菓の食育トップ</a></li>
+							<li><a href="<?=DOC_ROOT?>" class="btnHome">森永製菓の食育トップ</a></li>
 						</ul>
 					</div>
 				</div>
@@ -77,7 +77,7 @@
 						<ul>
 							<li><a href="#">森永おくち研究所</a></li>
 							<li><a href="#">バーチャル工場見学憶</a></li>
-							<li><a href="/" class="btnHome">森永製菓の食育トップ</a></li>
+							<li><a href="<?=DOC_ROOT?>" class="btnHome">森永製菓の食育トップ</a></li>
 						</ul>
 					</div>
 				</div>
