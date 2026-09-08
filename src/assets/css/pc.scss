@@ -28,7 +28,7 @@ common
 		background-color: #fff;
 		padding: 17px 15px;
 		left: 0;
-		z-index: 9;
+		z-index: 11;
 		box-sizing: border-box;
 		transition: transform 0.3s;
 
@@ -1622,7 +1622,7 @@ ctTaishou
 		}
 
 		.tableWrap {
-			max-height: 560px;
+			max-height: 698px;
 			overflow-y: auto;
 			-ms-overflow-style: none;
 			scrollbar-width: none;

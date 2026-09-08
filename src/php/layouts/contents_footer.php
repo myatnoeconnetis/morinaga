@@ -3,7 +3,9 @@
 		<div class="ftBannerBlock">
 			<div class="ctInner">
 				<div class="ftImgGroup">
-					<img src="<?=DOC_ROOT?>assets/img/common/ft_logo.png" class="logo" alt="" width="356" height="274">
+					<a href="/" class="logo">
+						<img src="<?=DOC_ROOT?>assets/img/common/ft_logo.png" alt="" width="356" height="274">
+					</a>
 					<img src="<?=DOC_ROOT?>assets/img/common/ft_illustration_pc.png" class="fullImg pcOnly" alt="" width="878" height="201">
 					<img src="<?=DOC_ROOT?>assets/img/common/ft_illustration_sp.png" class="fullImg spOnly" alt="" width="320" height="2816">
 				</div>

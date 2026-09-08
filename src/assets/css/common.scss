@@ -229,14 +229,15 @@ img {
 			justify-content: space-between;
 			gap: 30px;
 
+			.logo {
+				display: block;
+				width: 178px;
+			}
+
 			img {
 				width: 100%;
 				height: auto;
 				object-fit: cover;
-
-				&.logo {
-					width: 178px;
-				}
 
 				&.fullImg {
 					width: calc(100% - 208px);
