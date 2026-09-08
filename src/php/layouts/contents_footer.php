@@ -1,4 +1,4 @@
-<footer>	
+<div class="ftBlock">	
 	<!-- ftBannerBlock -->
 		<div class="ftBannerBlock">
 			<div class="ctInner">
@@ -132,4 +132,4 @@
 		<img src="<?=DOC_ROOT?>assets/img/common/footer_bottom_sp.png" alt="" class="spOnly" width="780" height="2202">
 	</div>
 	<!-- /ftBottomBlock -->
-</footer>
+</div>

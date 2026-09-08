@@ -98,6 +98,7 @@ setNavListScroll = ->
 		if isSticky
 			navList.classList.add 'sticky'
 			$('.navList .popupMenu').removeClass 'open'
+			$('.navList .navItem > a').removeClass 'active'
 		else
 			navList.classList.remove 'sticky', 'show'
 

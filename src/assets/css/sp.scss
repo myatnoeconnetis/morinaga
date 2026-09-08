@@ -21,8 +21,8 @@
 		}
 	}//breadcrumbs
 
-	/* Footer */
-	footer {
+	/* ftBlock */
+	.ftBlock {
 		position: relative;
 
 		.ftBannerBlock {
@@ -212,18 +212,20 @@
 		padding-bottom: 36px;
 	}//slider
 
+	/* pageBnr */
+	.pageBnr {
+		min-height: 40px;
+		margin-bottom: 22px;
+		
+		.pageBnrTxt {
+			font-size: 16px;
+			max-width: 100%;
+			padding: 0 20px;
+		}
+	}//pageBnr
+
 	/* ctPage */
 	.ctPage {
-		.pageBnr {
-			min-height: 40px;
-			margin-bottom: 22px;
-			
-			.pageBnrTxt {
-				font-size: 16px;
-				max-width: 100%;
-				padding: 0 20px;
-			}
-		}
 
 		.bnrBlock {
 			border-radius: 0px;
@@ -483,6 +485,7 @@
 							justify-content: flex-start;
 							font-size: 18px;
 							line-height: 1.35;
+							text-align: left;
 						}
 
 						.labelBadge {
@@ -746,7 +749,20 @@
 				margin-bottom: 24px;
 			}
 
+			.tableWrap {
+				max-height: 320px;
+				overflow-y: auto;
+				-ms-overflow-style: none;
+				scrollbar-width: none;
+
+				&::-webkit-scrollbar {
+					display: none;
+				}
+			}
+
 			.contentTable {
+				border-collapse: separate;
+				border-spacing: 0;
 
 				.contentNameCol {
 					width: 26.7%;
@@ -765,10 +781,25 @@
 						height: 60px;
 
 						th {
+							position: sticky;
+							top: 0;
+							z-index: 10;
 							padding: 3px 2px;
 							font-size: 8px;
 							font-weight: 700;
 							line-height: 1.25;
+							border-top: 1px solid #000;
+							border-bottom: 1px solid #000;
+							border-right: 1px solid #000;
+
+							&:first-child {
+								border-left: 1px solid #000;
+							}
+
+							.pictoLink {
+								color: #FFFFFF;
+								text-decoration: none;
+							}
 						}
 					}
 				}
@@ -782,6 +813,11 @@
 							padding: 6px;
 							line-height: 1.25;
 							font-weight: 700;
+
+							a {
+								color: #000000;
+								text-decoration: none;
+							}
 						}
 
 						td {
@@ -805,6 +841,16 @@
 					width: 21px;
 					height: 21px;
 					flex-basis: 21px;
+				}
+
+				.categoryRow {
+					height: 32px;
+
+					th {
+						padding: 0 12px;
+						font-size: 11px;
+						line-height: 1.25;
+					}
 				}
 			}
 		}

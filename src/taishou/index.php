@@ -47,304 +47,371 @@
 				<div class="tableBlock">
 					<div class="ctInner">
 						<h1 class="tableTitle">対象別（年齢別）<br class="spOnly">コンテンツ紹介一覧</h1>
-						<table class="contentTable">
-							<colgroup>
-								<col class="contentNameCol">
-								<col class="ageCol">
-								<col class="ageCol">
-								<col class="ageCol">
-								<col class="ageCol">
-								<col class="pictogramCol">
-							</colgroup>
-							<thead>
-								<tr>
-									<th scope="col"><span>コンテンツ名</span></th>
-									<th scope="col">幼児～<br class="spOnly">小学低学<br class="spOnly">年<br class="pcOnly">（保護者・教員）</th>
-									<th scope="col">小学<br class="spOnly">４～６年<br>（保護者・教員）</th>
-									<th scope="col">中高生<br>（保護者・教員）</th>
-									<th scope="col">大学<br class="spOnly">～大人</th>
-									<th scope="col">食育ピクトグラムの該当項目<br><span>※</span><span>食育ピクトグラムについて</span></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<th scope="row">森永１チョコ for １スマイル<br> 未来ラーング<br>〜チョコレートでSDGsを学ぶ〜</th>
-									<td></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td></td>
-									<td></td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">森永製菓のキャラメル教室</th>
-									<td></td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td></td>
-									<td></td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">森永製菓のキャリア授業</th>
-									<td></td>
-									<td></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td></td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">森永製菓の菓子育「メルとマールのピクニック」</th>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon1.png" alt="" width="200" height="200">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon3.png" alt="" width="200" height="200">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="" width="200" height="200">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon5.png" alt="" width="200" height="200">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon12.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">MORIUM＆鶴見工場見学</th>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<div class="pictogramList"></div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">キッザニア東京「お菓子工場」</th>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td></td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">プロギング＆in ゼリーリサイクルプログラム</th>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">お菓子の記憶</th>
-									<td></td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon1.png" alt="" width="200" height="200">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon12.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">医師と考える食育</th>
-									<td></td>
-									<td></td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-									<span class="circleMarker" role="img" aria-label="対象"></span>
-								</td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon2.png" alt="" width="200" height="200">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">森永製菓の菓子育</th>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td></td>
-									<td></td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon1.png" alt="" width="200" height="200">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon3.png" alt="" width="200" height="200">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="" width="200" height="200">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon5.png" alt="" width="200" height="200">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon12.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">食品表示</th>
-									<td></td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
+						<div class="tableWrap">
+							<table class="contentTable">
+								<colgroup>
+									<col class="contentNameCol">
+									<col class="ageCol">
+									<col class="ageCol">
+									<col class="ageCol">
+									<col class="ageCol">
+									<col class="pictogramCol">
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col"><span>コンテンツ名</span></th>
+										<th scope="col">幼児～<br class="spOnly">小学低学<br class="spOnly">年<br class="pcOnly">（保護者・教員）</th>
+										<th scope="col">小学<br class="spOnly">４～６年<br>（保護者・教員）</th>
+										<th scope="col">中高生<br>（保護者・教員）</th>
+										<th scope="col">大学<br class="spOnly">～大人</th>
+										<th scope="col">
+											食育ピクトグラムの該当項目<br>
+											<a class="pictoLink" href="#pictogramsBlock"><span>※</span><span>食育ピクトグラムについて</span></a>
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="categoryRow categoryRow--red">
+										<th scope="row" colspan="6">体験で深める</th>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">森永製菓のキャラメル教室</a>
+										</th>
+										<td></td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
 										</td>
-									<td><span class="circleMarker" role="img" aria-label="対象"></span></td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="" width="200" height="200">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">バーチャル工場見学</th>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td></td>
-									<td>
-										<div class="pictogramList"></div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">食のしごと</th>
-									<td></td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">活動レポート</th>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<div class="pictogramList"></div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">アレルギー “だから” がないラボ</th>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon1.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">森永おくち研究所</th>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<span class="circleMarker" role="img" aria-label="対象"></span>
-									</td>
-									<td>
-										<div class="pictogramList">
-											<img class="pictogramIcon" src="../assets/img/taishou/icon5.png" alt="" width="200" height="200">
-										</div>
-									</td>
-								</tr>
-							</tbody>
-						</table>
+										<td></td>
+										<td></td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon10.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">森永１チョコ for １スマイル<br>未来ラーング<br>〜チョコレートでSDGsを学ぶ〜</a>
+										</th>
+										<td></td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td></td>
+										<td></td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">森永製菓のキャリア授業</a>
+										</th>
+										<td></td>
+										<td></td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td></td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">森永製菓の菓子育「メルとマールのピクニック」</a>
+										</th>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon1.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon3.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon5.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon12.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">活動レポート</a>
+										</th>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon10.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">MORIUM＆鶴見工場見学</a>
+										</th>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">キッザニア東京「お菓子工場」</a>
+										</th>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td></td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon10.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon12.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">プロギング＆in ゼリーリサイクルプログラム</a>
+										</th>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr class="categoryRow categoryRow--brown">
+										<th scope="row" colspan="6">知識を広げる</th>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">食のしごと</a>
+										</th>
+										<td></td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon12.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">お菓子の記憶</a>
+										</th>
+										<td></td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon1.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon12.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">医師と考える食育</a>
+										</th>
+										<td></td>
+										<td></td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon2.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon3.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row"><a href="#">食品表示</a></th>
+										<td></td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">森永製菓の菓子育</a>
+										</th>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td></td>
+										<td></td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon1.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon3.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon4.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon5.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon12.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">バーチャル工場見学</a>
+										</th>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td></td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon8.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon10.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon12.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">アレルギー “だから” がないラボ</a>
+										</th>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon1.png" alt="" width="200" height="200">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon6.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<a href="#">森永おくち研究所</a>
+										</th>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<span class="circleMarker" role="img" aria-label="対象"></span>
+										</td>
+										<td>
+											<div class="pictogramList">
+												<img class="pictogramIcon" src="../assets/img/taishou/icon5.png" alt="" width="200" height="200">
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
 					</div>
 				</div>
 				<!-- /tableBlock -->
 
 				<!-- pictogramsBlock -->
-				<div class="pictogramsBlock">
+				<div class="pictogramsBlock" id="pictogramsBlock">
 					<div class="ctInner">
 						<p class="pictogramTtl">食育ピクトグラムについて</p>
 						<ul class="pictogramList">
