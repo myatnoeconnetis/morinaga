@@ -135,6 +135,7 @@
 
 							<div class="btnWrap">
 								<a href="https://www.kidzania.jp/membersite/reserve/fee?shop_cd=1" target="_blank" class="btnLink">来場予約する</a>
+								<a href="/" class="btnHome">森永製菓の食育トップ</a>
 							</div>
 						</div>
 					</div>

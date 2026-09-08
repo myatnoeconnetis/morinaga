@@ -527,6 +527,10 @@
 					</div>
 				</div>
 				<!-- /pictogramsBlock -->
+
+				<div class="btnWrap">
+					<a href="/" class="btnHome">森永製菓の食育トップ</a>
+				</div>
             </div>
             <!-- /ctArea -->
 

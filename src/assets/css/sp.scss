@@ -157,6 +157,10 @@
 										min-height: 53px;
 										height: auto;
 									}
+
+									.btnHome {
+										max-width: 100%;
+									}
 								}
 							}
 						}
@@ -789,8 +793,6 @@
 		}
 
 		.pictogramsBlock {
-			margin-bottom: 162px;
-
 			.pictogramTtl {
 				margin-bottom: 54px;
 			}
@@ -815,6 +817,10 @@
 				}
 			}
 		}//.pictogramsBlock
+
+		.btnWrap {
+			margin: 80px 0 162px;
+		}
 	}//ctTaishou
 
 	/* --------------------------------------------------------------------------------------

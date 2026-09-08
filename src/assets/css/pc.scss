@@ -110,7 +110,7 @@ common
 					padding: 23px 31px 35px;
 					box-sizing: border-box;
 					border-top: 10px solid transparent;
-					z-index: 1;
+					z-index: 11;
 					opacity: 0;
 					visibility: hidden;
 					transition: all 0.5s ease;
@@ -166,15 +166,19 @@ common
 								}
 
 								a {
+									height: 53px;
+									border-radius: 10px;
+									display: flex;
+									align-items: center;
+								}
+
+								a:not(.btnHome) {
 									font-size: 14px;
 									color: #333333;
 									background-color: #fff;
 									border: 1px solid #D6D6D6;
 									width: 100%;
 									border-radius: 10px;
-									display: flex;
-									align-items: center;
-									height: 53px;
 									padding: 5px 22px 5px 25px;
 									box-sizing: border-box;
 									line-height: 1.25;
@@ -202,6 +206,21 @@ common
 										transform: translateY(-50%);
 									}
 								}
+
+								.btnHome {
+									padding: 5px 22px 5px 80px;
+									text-align: left;
+
+									&::before {
+										left: 13px;
+									}
+								
+									&::after {
+										right: 9px;
+										top: 50%;
+										transform: translateY(-50%);
+									}
+								}
 							}
 						}
 					}
@@ -221,7 +240,7 @@ common
 						.linkList {
 							ul {
 								li {
-									a {
+									a:not(.btnHome) {
 										&::before {
 											background-color: #AF001B;
 										}
@@ -250,7 +269,7 @@ common
 						.linkList {
 							ul {
 								li {
-									a {
+									a:not(.btnHome) {
 										&::before {
 											background-color: #967D64;
 										}
@@ -279,7 +298,7 @@ common
 						.linkList {
 							ul {
 								li {
-									a {
+									a:not(.btnHome) {
 										&::before {
 											background-color: #337AB8;
 										}
@@ -330,7 +349,11 @@ common
 
 /*btnLink*/
 .btnWrap {
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
 
 	.btnLink {
 		font-size: 18px;
@@ -388,6 +411,48 @@ common
 		}
 	}
 }//btnWrap
+
+/*btnHome*/
+.btnHome {
+	font-weight: 700;
+	color: #fff;
+	background: #3CB174;
+	border-radius: 30px;
+	padding: 18px 39px 18px 89px;
+	text-align: center;
+	display: inline-block;
+	transition: all 0.5s;
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+    max-width: 300px;
+
+	&::before {
+		content: '';
+		display: inline-block;
+		width: 58px;
+		height: 45px;
+		background: url('../img/common/ft_logo.png') no-repeat;
+		background-size: 100% auto;
+		position: absolute;
+		left: 28px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	&::after {
+		content: '';
+		display: inline-block;
+		width: 9px;
+		height: 16px;
+		background: url('../img/common/arr_right.svg') no-repeat;
+		background-size: 100% auto;
+		position: absolute;
+		right: 25px;
+		top: calc(50% - 6px);
+		transition: all 0.5s;
+	}
+}//btnHome
 
 /*colCardList*/
 .colCardList {
@@ -680,7 +745,7 @@ common
 	}
 
 	.twoCol {
-		margin-top: 60px;
+		margin-top: 80px;
 		display: flex;
 		gap: 40px;
 		position: relative;
@@ -765,7 +830,7 @@ common
 	}
 
 	.btnWrap {
-		margin: 60px 0px;
+		margin: 80px 0px;
 
 		.btnLink {
 			background: #AF001B;
@@ -1727,8 +1792,6 @@ ctTaishou
 	}//tableBlock
 
 	.pictogramsBlock {
-		margin-bottom: 190px;
-
 		.pictogramTtl {
 			font-size: 24px;
 			font-weight: 700;
@@ -1843,6 +1906,10 @@ ctTaishou
 			}
 		}
 	}//pictogramsBlock
+
+	.btnWrap {
+		margin: 80px 0 120px;
+	}
 }//ctTaishou
 
 /* --------------------------------------------------------------------------------------
@@ -1910,7 +1977,8 @@ ctKashikosodate
 
 	.btnWrap {
 		.btnLink {
-			padding: 15px 45px;
+			max-width: 300px;
+			width: 100%;
 		}
 	}
 
@@ -1942,10 +2010,9 @@ ctPuroginku
 		margin-bottom: 95px;
 
 		.btnWrap {
-			margin: 60px 0 90px;
-
 			.btnLink {
-				padding: 15px 98px;
+				max-width: 431px;
+				width: 100%;
 			}
 		}
 
