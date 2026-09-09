@@ -80,16 +80,16 @@
 									<div class="title">「お菓子工場」での仕事</div>
 									<div class="slider">
 										<figure>
-											<img src="../assets/img/koujoumigaku/slider_img1.png" alt="Slider image" width="1040" height="560">
+											<img src="../assets/img/koujoumigaku/slider_img1.jpg" alt="" width="3794" height="2528">
 										</figure>
 										<figure>
-											<img src="../assets/img/koujoumigaku/slider_img1.png" alt="Slider image" width="1040" height="560">
+											<img src="../assets/img/koujoumigaku/slider_img2.jpg" alt="" width="3395" height="2264">
 										</figure>
 										<figure>
-											<img src="../assets/img/koujoumigaku/slider_img1.png" alt="Slider image" width="1040" height="560">
+											<img src="../assets/img/koujoumigaku/slider_img3.jpg" alt="" width="3364" height="2244">
 										</figure>
 										<figure>
-											<img src="../assets/img/koujoumigaku/slider_img1.png" alt="Slider image" width="1040" height="560">
+											<img src="../assets/img/koujoumigaku/slider_img4.jpg" alt="" width="3568" height="2378">
 										</figure>
 									</div>
 								</div>
