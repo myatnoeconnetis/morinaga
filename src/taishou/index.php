@@ -76,7 +76,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">森永製菓のキャラメル教室</a>
+											<a href="../caramel-class/">森永製菓のキャラメル教室</a>
 										</th>
 										<td></td>
 										<td>
@@ -94,7 +94,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">森永１チョコ for １スマイル<br>未来ラーング<br>〜チョコレートでSDGsを学ぶ〜</a>
+											<a href="../mirai-learning/">森永１チョコ for １スマイル<br>未来ラーング<br>〜チョコレートでSDGsを学ぶ〜</a>
 										</th>
 										<td></td>
 										<td>
@@ -110,7 +110,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">森永製菓のキャリア授業</a>
+											<a href="../career-class/">森永製菓のキャリア授業</a>
 										</th>
 										<td></td>
 										<td></td>
@@ -126,7 +126,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">森永製菓の菓子育「メルとマールのピクニック」</a>
+											<a href="../kashikosodate/">森永製菓の菓子育「メルとマールのピクニック」</a>
 										</th>
 										<td>
 											<span class="circleMarker" role="img" aria-label="対象"></span>
@@ -192,7 +192,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">キッザニア東京「お菓子工場」</a>
+											<a href="../koujoumigaku/">キッザニア東京「お菓子工場」</a>
 										</th>
 										<td>
 											<span class="circleMarker" role="img" aria-label="対象"></span>
@@ -214,7 +214,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">プロギング＆in ゼリーリサイクルプログラム</a>
+											<a href="../puroginku/">プロギング＆in ゼリーリサイクルプログラム</a>
 										</th>
 										<td></td>
 										<td></td>
@@ -234,7 +234,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">食のしごと</a>
+											<a href="../job/">食のしごと</a>
 										</th>
 										<td></td>
 										<td>
@@ -255,7 +255,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">お菓子の記憶</a>
+											<a href="../memory/">お菓子の記憶</a>
 										</th>
 										<td></td>
 										<td>
@@ -276,7 +276,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">医師と考える食育</a>
+											<a href="../doctor/">医師と考える食育</a>
 										</th>
 										<td></td>
 										<td></td>
@@ -295,7 +295,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th scope="row"><a href="#">食品表示</a></th>
+										<th scope="row"><a href="../foodlabel/">食品表示</a></th>
 										<td></td>
 										<td>
 											<span class="circleMarker" role="img" aria-label="対象"></span>

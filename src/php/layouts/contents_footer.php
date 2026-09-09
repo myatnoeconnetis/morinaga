@@ -3,7 +3,7 @@
 		<div class="ftBannerBlock">
 			<div class="ctInner">
 				<div class="ftImgGroup">
-					<a href="/" class="logo">
+					<a href="<?=DOC_ROOT?>" class="logo">
 						<img src="<?=DOC_ROOT?>assets/img/common/ft_logo.png" alt="森永製菓の食育" width="356" height="274">
 					</a>
 					<img src="<?=DOC_ROOT?>assets/img/common/ft_illustration_pc.png" class="fullImg pcOnly" alt="" width="878" height="201">
@@ -17,22 +17,22 @@
 						<dd>
 							<ul>
 								<li>
-									<a href="#">出張授業</a>
+									<a href="<?=DOC_ROOT?>#class">出張授業</a>
 								</li>
 								<li>
-									<a href="#">森永製菓のキャラメル教室</a>
+									<a href="<?=DOC_ROOT?>caramel-class/">森永製菓のキャラメル教室</a>
 								</li>
 								<li>
-									<a href="#"><span>森永1 チョコ for 1 スマイル<br>未来ラーニング</span></a>
+									<a href="<?=DOC_ROOT?>mirai-learning/"><span>森永1 チョコ for 1 スマイル<br>未来ラーニング</span></a>
 								</li>
 								<li>
-									<a href="#">森永製菓のキャリア授業</a>
+									<a href="<?=DOC_ROOT?>career-class/">森永製菓のキャリア授業</a>
 								</li>
 								<li>
-									<a href="#"><span>森永製菓の菓子育<br>「メルとマールのピクニック」</span></a>
+									<a href="<?=DOC_ROOT?>kashikosodate/"><span>森永製菓の菓子育<br>「メルとマールのピクニック」</span></a>
 								</li>
 								<li>
-									<a href="#">実施校一覧（PDF）</a>
+									<a href="<?=DOC_ROOT?>assets/pdf/index/list2024_2025.pdf" target="_blank">実施校一覧（PDF）</a>
 								</li>
 								<li>
 									<a href="#">活動レポート</a>
@@ -43,13 +43,13 @@
 									<a href="#">MORIUM＆鶴見工場見学</a>
 								</li>
 								<li>
-									<a href="#">キッザニア東京</a>
+									<a href="<?=DOC_ROOT?>koujoumigaku/">キッザニア東京</a>
 								</li>
 								<li>
-									<a href="#">プロギング</a>
+									<a href="<?=DOC_ROOT?>puroginku/">プロギング</a>
 								</li>
 								<li>
-									<a href="#">モリナガスマイルパーク</a>
+									<a href="<?=DOC_ROOT?>kashikosodate/">モリナガスマイルパーク</a>
 								</li>
 							</ul>
 						</dd>
@@ -61,16 +61,16 @@
 						<dd>
 							<ul>
 								<li>
-									<a href="#">食のしごと</a>
+									<a href="<?=DOC_ROOT?>job/">食のしごと</a>
 								</li>
 								<li>
-									<a href="#">お菓子の記憶</a>
+									<a href="<?=DOC_ROOT?>memory/">お菓子の記憶</a>
 								</li>
 								<li>
-									<a href="#">医師と考える食育</a>
+									<a href="<?=DOC_ROOT?>doctor/">医師と考える食育</a>
 								</li>
 								<li>
-									<a href="#">食品表示</a>
+									<a href="<?=DOC_ROOT?>foodlabel/">食品表示</a>
 								</li>
 								<li>
 									<a href="#">森永製菓の菓子育</a>
@@ -97,16 +97,16 @@
 									<a href="#">MORIUM＆鶴見工場見学</a>
 								</li>
 								<li>
-									<a href="#">モリナガスマイルパーク</a>
+									<a href="<?=DOC_ROOT?>kashikosodate/">モリナガスマイルパーク</a>
 								</li>
 								<li>
 									<a href="#">森永製菓の菓子育</a>
 								</li>
 								<li>
-									<a href="#">1 チョコ for 1 スマイル</a>
+									<a href="<?=DOC_ROOT?>mirai-learning/">1 チョコ for 1 スマイル</a>
 								</li>
 								<li>
-									<a href="#">キッザニア東京「お菓子工場」</a>
+									<a href="<?=DOC_ROOT?>koujoumigaku/">キッザニア東京「お菓子工場」</a>
 								</li>
 								<li>
 									<a href="#">アレルギー“だから” がないラボ</a>
