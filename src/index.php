@@ -202,7 +202,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 							<h3 class="blockTtl">体験で深める<span>Experience</span></h3>
 							<p class="desc">４つのプログラムの出張授業をはじめ、<br>森永エンゼルミュージアム <br class="spOnly">MORIUM＆鶴見工場見学ツアーや<br>キッザニア東京での<br class="spOnly">お菓子工場パビリオンなど、<br>様々な体験を通じて、<br class="spOnly">学びの深化をサポートします。</p>
 	
-							<h4 class="redTtl">出張授業</h4>
+							<h4 class="redTtl" id="class">出張授業</h4>
 							<p class="para">2017年に出張授業「森永製菓のキャラメル教室」を開始し、現在は４つのプログラムを全国の小学校・中学校・高等学校や幼稚園・保育所で、当社の役職員が講師となり実施しています。各自治体や教育機関、教育委員会と連携するとともに、遠隔地の方々も参加しやすいよう、オンラインでの実施も推進しています。</p>
 
 							<ul class="lessons">

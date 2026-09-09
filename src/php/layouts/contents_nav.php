@@ -10,21 +10,21 @@
 					</div>
 					<div class="linkList">
 						<ul>
-							<li><a href="#">出張授業</a></li>
-							<li><a href="#">森永製菓のキャラメル教室</a></li>
-							<li><a href="#">森永1 チョコ for 1 スマイル<br>未来ラーニング</a></li>
-							<li><a href="#">森永製菓のキャリア授業</a></li>
+							<li><a href="<?=DOC_ROOT?>#class">出張授業</a></li>
+							<li><a href="<?=DOC_ROOT?>caramel-class/">森永製菓のキャラメル教室</a></li>
+							<li><a href="<?=DOC_ROOT?>mirai-learning/">森永1 チョコ for 1 スマイル<br>未来ラーニング</a></li>
+							<li><a href="<?=DOC_ROOT?>career-class/">森永製菓のキャリア授業</a></li>
 						</ul>
 						<ul>
-							<li><a href="#">森永製菓の菓子育<br>「メルとマールのピクニック」</a></li>
-							<li><a href="#">実施校一覧（PDF）</a></li>
+							<li><a href="<?=DOC_ROOT?>kashikosodate/">森永製菓の菓子育<br>「メルとマールのピクニック」</a></li>
+							<li><a href="<?=DOC_ROOT?>assets/pdf/index/list2024_2025.pdf" target="_blank">実施校一覧（PDF）</a></li>
 							<li><a href="#">活動レポート</a></li>
 							<li><a href="#">MORIUM＆鶴見工場見学</a></li>
 						</ul>
 						<ul>
-							<li><a href="#">キッザニア東京</a></li>
-							<li><a href="#">プロギング</a></li>
-							<li><a href="#">モリナガスマイルパーク</a></li>
+							<li><a href="<?=DOC_ROOT?>koujoumigaku/">キッザニア東京</a></li>
+							<li><a href="<?=DOC_ROOT?>puroginku/">プロギング</a></li>
+							<li><a href="<?=DOC_ROOT?>kashikosodate/">モリナガスマイルパーク</a></li>
 							<li><a href="<?=DOC_ROOT?>" class="btnHome">森永製菓の食育トップ</a></li>
 						</ul>
 					</div>
@@ -39,12 +39,12 @@
 					</div>
 					<div class="linkList">
 						<ul>
-							<li><a href="#">食のしごと</a></li>
-							<li><a href="#">お菓子の記憶</a></li>
-							<li><a href="#">医師と考える食育</a></li>
+							<li><a href="<?=DOC_ROOT?>job/">食のしごと</a></li>
+							<li><a href="<?=DOC_ROOT?>memory/">お菓子の記憶</a></li>
+							<li><a href="<?=DOC_ROOT?>doctor/">医師と考える食育</a></li>
 						</ul>
 						<ul>
-							<li><a href="#">食品表示</a></li>
+							<li><a href="<?=DOC_ROOT?>foodlabel/">食品表示</a></li>
 							<li><a href="#">森永製菓の菓子育</a></li>
 							<li><a href="#">アレルギー“だから”<br>がないラボ</a></li>
 						</ul>
@@ -66,12 +66,12 @@
 					<div class="linkList">
 						<ul>
 							<li><a href="#">MORIUM＆鶴見工場見学</a></li>
-							<li><a href="#">モリナガスマイルパーク</a></li>
+							<li><a href="<?=DOC_ROOT?>kashikosodate/">モリナガスマイルパーク</a></li>
 							<li><a href="#">森永製菓の菓子育</a></li>
 						</ul>
 						<ul>
-							<li><a href="#">1 チョコ for 1 スマイル</a></li>
-							<li><a href="#">キッザニア東京「お菓子工場」</a></li>
+							<li><a href="<?=DOC_ROOT?>mirai-learning/">1 チョコ for 1 スマイル</a></li>
+							<li><a href="<?=DOC_ROOT?>koujoumigaku/">キッザニア東京「お菓子工場」</a></li>
 							<li><a href="#">アレルギー“だから”<br>がないラボ</a></li>
 						</ul>
 						<ul>
