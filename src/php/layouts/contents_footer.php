@@ -29,7 +29,7 @@
 									<a href="<?=DOC_ROOT?>career-class/">森永製菓のキャリア授業</a>
 								</li>
 								<li>
-									<a href="<?=DOC_ROOT?>kashikosodate/"><span>森永製菓の菓子育<br>「メルとマールのピクニック」</span></a>
+									<a href="<?=DOC_ROOT?>mel-marl/"><span>森永製菓の菓子育<br>「メルとマールのピクニック」</span></a>
 								</li>
 								<li>
 									<a href="<?=DOC_ROOT?>assets/pdf/index/list2024_2025.pdf" target="_blank">実施校一覧（PDF）</a>
@@ -43,13 +43,13 @@
 									<a href="#">MORIUM＆鶴見工場見学</a>
 								</li>
 								<li>
-									<a href="<?=DOC_ROOT?>koujoumigaku/">キッザニア東京</a>
+									<a href="<?=DOC_ROOT?>kidzania/">キッザニア東京</a>
 								</li>
 								<li>
-									<a href="<?=DOC_ROOT?>puroginku/">プロギング</a>
+									<a href="<?=DOC_ROOT?>recycle-plogging/">プロギング</a>
 								</li>
 								<li>
-									<a href="<?=DOC_ROOT?>kashikosodate/">モリナガスマイルパーク</a>
+									<a href="<?=DOC_ROOT?>mel-marl/">モリナガスマイルパーク</a>
 								</li>
 							</ul>
 						</dd>
@@ -97,7 +97,7 @@
 									<a href="#">MORIUM＆鶴見工場見学</a>
 								</li>
 								<li>
-									<a href="<?=DOC_ROOT?>kashikosodate/">モリナガスマイルパーク</a>
+									<a href="<?=DOC_ROOT?>mel-marl/">モリナガスマイルパーク</a>
 								</li>
 								<li>
 									<a href="#">森永製菓の菓子育</a>
@@ -106,7 +106,7 @@
 									<a href="<?=DOC_ROOT?>mirai-learning/">1 チョコ for 1 スマイル</a>
 								</li>
 								<li>
-									<a href="<?=DOC_ROOT?>koujoumigaku/">キッザニア東京「お菓子工場」</a>
+									<a href="<?=DOC_ROOT?>kidzania/">キッザニア東京「お菓子工場」</a>
 								</li>
 								<li>
 									<a href="#">アレルギー“だから” がないラボ</a>
@@ -118,7 +118,7 @@
 									<a href="#">バーチャル工場見学憶</a>
 								</li>
 								<li>
-									<a href="<?=DOC_ROOT?>taishou/"><span>対象別コンテンツ一覧</span></a>
+									<a href="<?=DOC_ROOT?>contents/"><span>対象別コンテンツ一覧</span></a>
 								</li>
 							</ul>
 						</dd>

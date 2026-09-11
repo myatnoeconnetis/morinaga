@@ -12,7 +12,7 @@
     <div id="wrapper">
 
         <!-- innerWrapper -->
-        <div id="innerWrapper" class="ctKoujoumigaku">
+        <div id="innerWrapper" class="ctKidzania">
 
             <!-- header -->
             <?php require_once("../php/layouts/contents_header.php"); ?>
@@ -52,44 +52,44 @@
 
 						<div class="ctInner">
 							<div class="bnrBlock">
-								<img src="../assets/img/koujoumigaku/bnr_img.png" class="pcOnly" alt="" width="2160" height="700">
-								<img src="../assets/img/koujoumigaku/bnr_img_sp.png" class="spOnly" alt="" width="780" height="392">
+								<img src="../assets/img/kidzania/bnr_img.png" class="pcOnly" alt="" width="2160" height="700">
+								<img src="../assets/img/kidzania/bnr_img_sp.png" class="spOnly" alt="" width="780" height="392">
 							</div>
 
 							<div class="twoCol">
-								<img src="../assets/img/koujoumigaku/float_img1.png" class="floatImg floatImg1" alt="" width="301" height="334" >
+								<img src="../assets/img/kidzania/float_img1.png" class="floatImg floatImg1" alt="" width="301" height="334" >
 								<div class="textCol">
 									<div class="title">
 										キッザニア東京
-										<img src="../assets/img/koujoumigaku/title_img.png" class="titleImg" alt="" width="400" height="140">
+										<img src="../assets/img/kidzania/title_img.png" class="titleImg" alt="" width="400" height="140">
 									</div>
 									<p class="text">キッザニアでは、実社会の約2/3サイズの街並みに、実在する企業が出展するパビリオンが建ち並び、様々な仕事やサービスを体験できます。<br>コンセプトは、「エデュケーション（学び）」と「エンターテインメント（楽しさ）」を合わせた『エデュテインメント』。子どもたちが好きな仕事にチャレンジし、楽しみながら社会の仕組みを学べる「こどもが主役の街」です。</p>
 								</div>
 								<div class="visualCol">
 									<div class="title">
 										キッザニア東京
-										<img src="../assets/img/koujoumigaku/title_img.png" class="titleImg" alt="" width="400" height="140">
+										<img src="../assets/img/kidzania/title_img.png" class="titleImg" alt="" width="400" height="140">
 									</div>
-									<img src="../assets/img/koujoumigaku/koujoumigaku_img1.png" alt="" width="1040" height="571">
+									<img src="../assets/img/kidzania/visual_img1.png" alt="" width="1040" height="571">
 								</div>
 							</div>
 
 							<div class="twoCol">
-								<img src="../assets/img/koujoumigaku/float_img2.png" class="floatImg floatImg2" alt="" width="233" height="233">
+								<img src="../assets/img/kidzania/float_img2.png" class="floatImg floatImg2" alt="" width="233" height="233">
 								<div class="visualCol">
 									<div class="title">「お菓子工場」での仕事</div>
 									<div class="slider">
 										<figure>
-											<img src="../assets/img/koujoumigaku/slider_img1.jpg" alt="" width="3794" height="2528">
+											<img src="../assets/img/kidzania/slider_img1.jpg" alt="" width="3794" height="2528">
 										</figure>
 										<figure>
-											<img src="../assets/img/koujoumigaku/slider_img2.jpg" alt="" width="3395" height="2264">
+											<img src="../assets/img/kidzania/slider_img2.jpg" alt="" width="3395" height="2264">
 										</figure>
 										<figure>
-											<img src="../assets/img/koujoumigaku/slider_img3.jpg" alt="" width="3364" height="2244">
+											<img src="../assets/img/kidzania/slider_img3.jpg" alt="" width="3364" height="2244">
 										</figure>
 										<figure>
-											<img src="../assets/img/koujoumigaku/slider_img4.jpg" alt="" width="3568" height="2378">
+											<img src="../assets/img/kidzania/slider_img4.jpg" alt="" width="3568" height="2378">
 										</figure>
 									</div>
 								</div>
@@ -100,7 +100,7 @@
 							</div>
 
 							<div class="twoCol">
-								<img src="../assets/img/koujoumigaku/float_img3.png" class="floatImg floatImg3" alt="" width="206" height="202">
+								<img src="../assets/img/kidzania/float_img3.png" class="floatImg floatImg3" alt="" width="206" height="202">
 								<div class="textCol">
 									<div class="title">アクティビティ紹介</div>
 									<p class="text">成型機やカッティングマシンを使ったり、<br>容器に詰めてラベルを貼ってパッケージングしたり、<br class="pcOnly">お菓子を完成させるまでの様々な工程を体験いただけます。</p>
@@ -129,7 +129,7 @@
 								</div>
 								<div class="visualCol">
 									<div class="title">アクティビティ紹介</div>
-									<img src="../assets/img/koujoumigaku/koujoumigaku_img2.png" alt="" width="1040" height="560">
+									<img src="../assets/img/kidzania/visual_img2.png" alt="" width="1040" height="560">
 								</div>
 							</div>
 

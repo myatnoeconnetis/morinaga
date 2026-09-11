@@ -12,7 +12,7 @@
     <div id="wrapper">
 
         <!-- innerWrapper -->
-        <div id="innerWrapper" class="ctKashikosodate">
+        <div id="innerWrapper" class="ctMelmarl">
 
             <!-- header -->
             <?php require_once("../php/layouts/contents_header.php"); ?>
@@ -52,8 +52,8 @@
 
 						<div class="ctInner">
 							<div class="bnrBlock">
-								<img src="../assets/img/kashikosodate/bnr_img.png" class="pcOnly" alt="" width="2160" height="700">
-								<img src="../assets/img/kashikosodate/bnr_img_sp.png" class="spOnly" alt="" width="780" height="392">
+								<img src="../assets/img/mel-marl/bnr_img.png" class="pcOnly" alt="" width="2160" height="700">
+								<img src="../assets/img/mel-marl/bnr_img_sp.png" class="spOnly" alt="" width="780" height="392">
 							</div>
 
 							<div class="noticeBlock">
@@ -71,7 +71,7 @@
 							<div class="twoCol">
 								<div class="visualCol">
 									<div class="title">菓子育絵本<br>「メルとマールのピクニック」</div>
-									<img src="../assets/img/kashikosodate/kashikosodate_img1.png" alt="" width="1040" height="764">
+									<img src="../assets/img/mel-marl/visual_img1.png" alt="" width="1040" height="764">
 								</div>
 								<div class="textCol">
 									<div class="title">菓子育絵本<br>「メルとマールのピクニック」</div>
@@ -88,7 +88,7 @@
 								</div>
 								<div class="visualCol">
 									<div class="title">劇遊びになった<br>「メルとマールのピクニック」</div>
-									<img src="../assets/img/kashikosodate/kashikosodate_img2.png" alt="" width="1040" height="565">
+									<img src="../assets/img/mel-marl/visual_img1.png" alt="" width="1040" height="565">
 								</div>
 							</div>
 

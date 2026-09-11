@@ -12,7 +12,7 @@
     <div id="wrapper">
 
         <!-- innerWrapper -->
-        <div id="innerWrapper" class="ctPuroginku">
+        <div id="innerWrapper" class="ctRecyclePlogging">
 
             <!-- header -->
             <?php require_once("../php/layouts/contents_header.php"); ?>
@@ -52,8 +52,8 @@
 
 						<div class="ctInner">
 							<div class="bnrBlock">
-								<img src="../assets/img/puroginku/bnr_img.png" class="pcOnly" alt="" width="2160" height="700">
-								<img src="../assets/img/puroginku/bnr_img_sp.png" class="spOnly" alt="" width="780" height="400">
+								<img src="../assets/img/recycle-plogging/bnr_img.png" class="pcOnly" alt="" width="2160" height="700">
+								<img src="../assets/img/recycle-plogging/bnr_img_sp.png" class="spOnly" alt="" width="780" height="400">
 							</div>
 
 							<div class="twoCol">
@@ -67,19 +67,19 @@
 									<div class="title">ｉｎゼリーリサイクルプログラム</div>
 									<div class="slider"  data-slider-name="Jelly Recycling">
 										<figure>
-											<img src="../assets/img/puroginku/slider_img1.jpg" alt="Slider image" width="1040" height="564">
+											<img src="../assets/img/recycle-plogging/slider_img1.jpg" alt="Slider image" width="1040" height="564">
 										</figure>
 										<figure>
-											<img src="../assets/img/puroginku/slider_img2.jpg" alt="Slider image" width="1040" height="564">
+											<img src="../assets/img/recycle-plogging/slider_img2.jpg" alt="Slider image" width="1040" height="564">
 										</figure>
 										<figure>
-											<img src="../assets/img/puroginku/slider_img3.jpg" alt="Slider image" width="1040" height="564">
+											<img src="../assets/img/recycle-plogging/slider_img3.jpg" alt="Slider image" width="1040" height="564">
 										</figure>
 										<figure>
-											<img src="../assets/img/puroginku/slider_img4.jpg" alt="Slider image" width="1040" height="564">
+											<img src="../assets/img/recycle-plogging/slider_img4.jpg" alt="Slider image" width="1040" height="564">
 										</figure>
 										<figure>
-											<img src="../assets/img/puroginku/slider_img5.jpg" alt="Slider image" width="1040" height="564">
+											<img src="../assets/img/recycle-plogging/slider_img5.jpg" alt="Slider image" width="1040" height="564">
 										</figure>
 									</div>
 								</div>
@@ -95,19 +95,19 @@
 									<div class="subTt spOnly">走って拾って、心も体も、<br class="spOnly">まちも健やかに</div>
 									<div class="slider" data-slider-name="Prodding">
 										<figure>
-											<img src="../assets/img/puroginku/slider2_img1.jpg" alt="Slider image" width="1040" height="560">
+											<img src="../assets/img/recycle-plogging/slider2_img1.jpg" alt="Slider image" width="1040" height="560">
 										</figure>
 										<figure>
-											<img src="../assets/img/puroginku/slider2_img2.jpg" alt="Slider image" width="1040" height="560">
+											<img src="../assets/img/recycle-plogging/slider2_img2.jpg" alt="Slider image" width="1040" height="560">
 										</figure>
 										<figure>
-											<img src="../assets/img/puroginku/slider2_img3.jpg" alt="Slider image" width="1040" height="560">
+											<img src="../assets/img/recycle-plogging/slider2_img3.jpg" alt="Slider image" width="1040" height="560">
 										</figure>
 										<figure>
-											<img src="../assets/img/puroginku/slider2_img4.jpg" alt="Slider image" width="1040" height="560">
+											<img src="../assets/img/recycle-plogging/slider2_img4.jpg" alt="Slider image" width="1040" height="560">
 										</figure>
 										<figure>
-											<img src="../assets/img/puroginku/slider2_img5.jpg" alt="Slider image" width="1040" height="560">
+											<img src="../assets/img/recycle-plogging/slider2_img5.jpg" alt="Slider image" width="1040" height="560">
 										</figure>
 									</div>
 								</div>

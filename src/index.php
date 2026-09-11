@@ -324,7 +324,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 								</div>
 								<ul class="colCardList">
 									<li class="card">
-										<a href="/koujoumigaku/">
+										<a href="/kidzania/">
 											<figure>
 												<img src="assets/img/top/tour_img1.png" alt="" width="676" height="392">
 											</figure>
@@ -336,7 +336,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										</a>
 									</li>
 									<li class="card">
-										<a href="/puroginku/">
+										<a href="/recycle-plogging/">
 											<figure>
 												<img src="assets/img/top/tour_img2.png" alt="" width="676" height="392">
 											</figure>
@@ -348,7 +348,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										</a>
 									</li>
 									<li class="card">
-										<a href="/kashikosodate/">
+										<a href="/mel-marl/">
 											<figure>
 												<img src="assets/img/top/tour_img3.png" alt="" width="676" height="392">
 											</figure>
@@ -474,7 +474,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
                                 </li>
                             </ul>
 							<div class="btnWrap">
-								<a href="/taishou/" class="btnLink">対象別コンテンツ一覧</a>
+								<a href="/contents/" class="btnLink">対象別コンテンツ一覧</a>
 							</div>
                         </div>
 					</section>
