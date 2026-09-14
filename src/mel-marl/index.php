@@ -6,13 +6,13 @@
 	<meta property="og:title" content="メルとマールのピクニック">
 </head>
 
-<body>
+<body id="ctRenewal">
 
     <!-- wrapper -->
     <div id="wrapper">
 
         <!-- innerWrapper -->
-        <div id="innerWrapper" class="ctMelmarl">
+        <div id="innerWrapper">
 
             <!-- header -->
             <?php require_once("../php/layouts/contents_header.php"); ?>
@@ -45,7 +45,7 @@
 					<?php require_once("../php/layouts/contents_nav.php"); ?>
 					<!-- /navList -->
 
-					<div class="ctPage">
+					<div id="ctMelmarl" class="ctPage">
 						<div class="pageBnr">
 							<h1 class="pageBnrTxt">メルとマールのピクニック</h1>
 						</div>

@@ -6,13 +6,13 @@
 	<meta property="og:title" content="ｉｎゼリーリサイクルプログラム＆プロギング">
 </head>
 
-<body>
+<body id="ctRenewal">
 
     <!-- wrapper -->
     <div id="wrapper">
 
         <!-- innerWrapper -->
-        <div id="innerWrapper" class="ctRecyclePlogging">
+        <div id="innerWrapper">
 
             <!-- header -->
             <?php require_once("../php/layouts/contents_header.php"); ?>
@@ -45,7 +45,7 @@
 					<?php require_once("../php/layouts/contents_nav.php"); ?>
 					<!-- /navList -->
 
-					<div class="ctPage">
+					<div id="ctRecyclePlogging" class="ctPage">
 						<div class="pageBnr">
 							<h1 class="pageBnrTxt">ｉｎゼリーリサイクルプログラム＆プロギング</h1>
 						</div>

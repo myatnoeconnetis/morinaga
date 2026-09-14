@@ -6,13 +6,13 @@
 	<meta property="og:title" content="キッザニア東京「お菓子工場」">
 </head>
 
-<body>
+<body id="ctRenewal">
 
     <!-- wrapper -->
     <div id="wrapper">
 
         <!-- innerWrapper -->
-        <div id="innerWrapper" class="ctKidzania">
+        <div id="innerWrapper">
 
             <!-- header -->
             <?php require_once("../php/layouts/contents_header.php"); ?>
@@ -45,7 +45,7 @@
 					<?php require_once("../php/layouts/contents_nav.php"); ?>
 					<!-- /navList -->
 
-					<div class="ctPage">
+					<div id="ctKidzania" class="ctPage">
 						<div class="pageBnr">
 							<h1 class="pageBnrTxt">キッザニア東京「お菓子工場」</h1>
 						</div>
