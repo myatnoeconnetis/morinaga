@@ -215,7 +215,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										<p class="labelBadge"><span class="badge">対象</span>小学校５・６年生</p>
 										<p class="labelBadge"><span class="badge">関連教科</span>社会科「わたしたちの生活と工業生産」</p>
 										<p class="text">製造ラインや働く人の動画・クイズ・発売当初の手工業をイメージしたワークを通じて、工業生産における工夫や努力、モノづくりへの想いを工場見学さながらの臨場感で学び、教科書の学びを深化します。</p>
-										<a href="#">詳細を見る</a>
+										<a href="/caramel-class/">詳細を見る</a>
 									</div>
 								</li>
 								<li class="foodRelated">
@@ -227,7 +227,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										<p class="labelBadge"><span class="badge">対象</span>小学校４～６年生</p>
 										<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習（探求）の時間 「持続可能な社会の実現」</p>
 										<p class="text">チョコレートを題材に、社会課題を「自分ごと化」して考える授業です。カカオ産地の動画やワークなどを通して「誰一人取り残さない」持続可能な社会について考え、行動するきっかけを作ります。</p>
-										<a href="#">詳細を見る</a>
+										<a href="/mirai-learning/">詳細を見る</a>
 									</div>
 								</li>
 								<li class="future">
@@ -239,7 +239,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										<p class="labelBadge"><span class="badge">対象</span>中学校、高等学校、高等専門学校の在学生</p>
 										<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習（探求）の時間</p>
 										<p class="text">森永製菓の社員が事業内容や実際の働き方などを説明し、質疑応答などのコミュニケーションを通じて、職業やキャリアを考え、進路や働くことのイメージを深める機会を提供します。</p>
-										<a href="#">詳細を見る</a>
+										<a href="/career-class/">詳細を見る</a>
 									</div>
 								</li>
 								<li class="pictureBooks">
@@ -251,13 +251,13 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										<p class="labelBadge"><span class="badge">対象</span>幼児～小学校低学年</p>
 										<p class="pcOnly">&nbsp;</p>
 										<p class="text">菓子育絵本「メルとマールのピクニック」を題材とした劇遊びを行うワークショップを通じて、創造性を育みながら、菓子の役割や菓子との上手な付き合い方を楽しく学びます。</p>
-										<a href="#">詳細を見る</a>
+										<a href="/mel-marl/">詳細を見る</a>
 									</div>
 								</li>
 							</ul>
 
 							<div class="btnWrap">
-								<a href="#" class="btnLink">活動レポート</a>
+								<a href="/report/03.html" class="btnLink">活動レポート</a>
 							</div>
 
 							<div class="performanceArea">
@@ -302,12 +302,12 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 							</div>
 
 							<div class="btnWrap">
-								<a href="#" class="btnLink pdf">実施校一覧（PDF）</a>
+								<a href="assets/pdf/index/list2024_2025.pdf" target="_blank" class="btnLink pdf">実施校一覧（PDF）</a>
 							</div>
 
 							<div class="tourArea">
 								<div class="tsurumiFactory">
-									<a href="#">
+									<a href="/factory/">
 										<figure>
 											<img class="pcOnly" src="assets/img/top/tsurumi_factory_pc.png" alt="Tsurumi factory image" width="940" height="508">
 											<img class="spOnly" src="assets/img/top/tsurumi_factory_sp.png" alt="Tsurumi factory image" width="940" height="508">
@@ -348,7 +348,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										</a>
 									</li>
 									<li class="card">
-										<a href="/mel-marl/">
+										<a href="/morinagasmilepark/">
 											<figure>
 												<img src="assets/img/top/tour_img3.png" alt="" width="676" height="392">
 											</figure>
@@ -377,7 +377,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 							<p class="text">お菓子や食に関する専門的な解説から<br>ふわっと心温まるエピソードなど<br>様々なオンラインコンテンツを通じて、<br>学びへの興味喚起や知識の拡充を<br class="spOnly">サポートします。</p>
                             <ul class="colCardList">
                                 <li class="card">
-                                    <a href="#">
+                                    <a href="/job/">
                                         <figure>
                                             <img src="assets/img/top/knowledge_img1.jpg" alt="" width="680" height="383">
                                         </figure>
@@ -389,7 +389,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
                                     </a>
                                 </li>
                                 <li class="card">
-                                    <a href="#">
+                                    <a href="/memory/">
                                         <figure>
                                             <img src="assets/img/top/knowledge_img2.jpg" alt="" width="680" height="383">
                                         </figure>
@@ -401,7 +401,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
                                     </a>
                                 </li>
                                 <li class="card">
-                                    <a href="#">
+                                    <a href="/doctor/">
                                         <figure>
                                             <img src="assets/img/top/knowledge_img3.jpg" alt="" width="680" height="383">
                                         </figure>
@@ -413,7 +413,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
                                     </a>
                                 </li>
                                 <li class="card">
-                                    <a href="#">
+                                    <a href="/foodlabel/">
                                         <figure>
                                             <img src="assets/img/top/knowledge_img4.jpg" alt="" width="680" height="383">
                                         </figure>
@@ -425,7 +425,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
                                     </a>
                                 </li>
                                 <li class="card">
-                                    <a href="#">
+                                    <a href="/kashiiku/">
                                         <figure>
                                             <img src="assets/img/top/knowledge_img5.jpg" alt="" width="680" height="383">
                                         </figure>
@@ -437,7 +437,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
                                     </a>
                                 </li>
                                 <li class="card">
-                                    <a href="#">
+                                    <a href="/allergy-lab/">
                                         <figure>
                                             <img src="assets/img/top/knowledge_img6.jpg" alt="" width="680" height="383">
                                         </figure>
@@ -449,7 +449,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
                                     </a>
                                 </li>
                                 <li class="card">
-                                    <a href="#">
+                                    <a href="https://okuchi-lab.jp/" target="_blank">
                                         <figure>
                                             <img src="assets/img/top/knowledge_img7.jpg" alt="" width="1200" height="630">
                                         </figure>
@@ -461,7 +461,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
                                     </a>
                                 </li>
                                 <li class="card">
-                                    <a href="#">
+                                    <a href="/factory/virtual/">
                                         <figure>
                                             <img src="assets/img/top/knowledge_img8.jpg" alt="" width="680" height="383">
                                         </figure>

@@ -97,7 +97,7 @@
 							</div>
 
 							<div class="btnWrap">
-								<a href="#" target="_blank" class="btnLink">森永製菓の菓子育</a>
+								<a href="../kashiiku/" target="_blank" class="btnLink">森永製菓の菓子育</a>
 								<a href="/" class="btnHome">森永製菓の食育トップ</a>
 							</div>
 						</div>

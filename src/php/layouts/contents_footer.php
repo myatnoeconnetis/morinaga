@@ -35,12 +35,12 @@
 									<a href="<?=DOC_ROOT?>assets/pdf/index/list2024_2025.pdf" target="_blank">実施校一覧（PDF）</a>
 								</li>
 								<li>
-									<a href="#">活動レポート</a>
+									<a href="<?=DOC_ROOT?>report/03.html">活動レポート</a>
 								</li>
 							</ul>
 							<ul>
 								<li>
-									<a href="#">MORIUM＆鶴見工場見学</a>
+									<a href="<?=DOC_ROOT?>factory/">MORIUM＆鶴見工場見学</a>
 								</li>
 								<li>
 									<a href="<?=DOC_ROOT?>kidzania/">キッザニア東京</a>
@@ -49,7 +49,7 @@
 									<a href="<?=DOC_ROOT?>recycle-plogging/">プロギング</a>
 								</li>
 								<li>
-									<a href="<?=DOC_ROOT?>mel-marl/">モリナガスマイルパーク</a>
+									<a href="<?=DOC_ROOT?>morinagasmilepark/">モリナガスマイルパーク</a>
 								</li>
 							</ul>
 						</dd>
@@ -73,16 +73,16 @@
 									<a href="<?=DOC_ROOT?>foodlabel/">食品表示</a>
 								</li>
 								<li>
-									<a href="#">森永製菓の菓子育</a>
+									<a href="<?=DOC_ROOT?>kashiiku/">森永製菓の菓子育</a>
 								</li>
 								<li>
-									<a href="#">アレルギー“だから” がないラボ</a>
+									<a href="<?=DOC_ROOT?>allergy-lab/">アレルギー“だから” がないラボ</a>
 								</li>
 								<li>
-									<a href="#">森永おくち研究所</a>
+									<a href="https://okuchi-lab.jp/" target="_blank">森永おくち研究所</a>
 								</li>
 								<li>
-									<a href="#">バーチャル工場見学憶</a>
+									<a href="<?=DOC_ROOT?>factory/virtual/">バーチャル工場見学憶</a>
 								</li>
 							</ul>
 						</dd>
@@ -94,28 +94,28 @@
 						<dd>
 							<ul>
 								<li>
-									<a href="#">MORIUM＆鶴見工場見学</a>
+									<a href="<?=DOC_ROOT?>factory/">MORIUM＆鶴見工場見学</a>
 								</li>
 								<li>
-									<a href="<?=DOC_ROOT?>mel-marl/">モリナガスマイルパーク</a>
+									<a href="<?=DOC_ROOT?>morinagasmilepark/">モリナガスマイルパーク</a>
 								</li>
 								<li>
-									<a href="#">森永製菓の菓子育</a>
+									<a href="<?=DOC_ROOT?>kashiiku/">森永製菓の菓子育</a>
 								</li>
 								<li>
-									<a href="<?=DOC_ROOT?>mirai-learning/">1 チョコ for 1 スマイル</a>
+									<a href="<?=DOC_ROOT?>1choco-1smile/">1 チョコ for 1 スマイル</a>
 								</li>
 								<li>
 									<a href="<?=DOC_ROOT?>kidzania/">キッザニア東京「お菓子工場」</a>
 								</li>
 								<li>
-									<a href="#">アレルギー“だから” がないラボ</a>
+									<a href="<?=DOC_ROOT?>allergy-lab/">アレルギー“だから” がないラボ</a>
 								</li>
 								<li>
-									<a href="#">森永おくち研究所</a>
+									<a href="https://okuchi-lab.jp/" target="_blank">森永おくち研究所</a>
 								</li>
 								<li>
-									<a href="#">バーチャル工場見学憶</a>
+									<a href="<?=DOC_ROOT?>factory/virtual/">バーチャル工場見学憶</a>
 								</li>
 								<li>
 									<a href="<?=DOC_ROOT?>contents/"><span>対象別コンテンツ一覧</span></a>

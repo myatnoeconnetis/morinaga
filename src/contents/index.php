@@ -145,7 +145,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">活動レポート</a>
+											<a href="../report/03.html">活動レポート</a>
 										</th>
 										<td>
 											<span class="circleMarker" role="img" aria-label="対象"></span>
@@ -169,7 +169,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">MORIUM＆鶴見工場見学</a>
+											<a href="../factory/">MORIUM＆鶴見工場見学</a>
 										</th>
 										<td>
 											<span class="circleMarker" role="img" aria-label="対象"></span>
@@ -314,7 +314,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">森永製菓の菓子育</a>
+											<a href="../kashiiku/">森永製菓の菓子育</a>
 										</th>
 										<td>
 											<span class="circleMarker" role="img" aria-label="対象"></span>
@@ -336,7 +336,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">バーチャル工場見学</a>
+											<a href="../factory/virtual/">バーチャル工場見学</a>
 										</th>
 										<td>
 											<span class="circleMarker" role="img" aria-label="対象"></span>
@@ -359,7 +359,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">アレルギー “だから” がないラボ</a>
+											<a href="../allergy-lab/">アレルギー “だから” がないラボ</a>
 										</th>
 										<td>
 											<span class="circleMarker" role="img" aria-label="対象"></span>
@@ -382,7 +382,7 @@
 									</tr>
 									<tr>
 										<th scope="row">
-											<a href="#">森永おくち研究所</a>
+											<a href="https://okuchi-lab.jp/" target="_blank">森永おくち研究所</a>
 										</th>
 										<td>
 											<span class="circleMarker" role="img" aria-label="対象"></span>

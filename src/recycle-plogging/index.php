@@ -86,7 +86,7 @@
 							</div>
 
 							<div class="btnWrap">
-								<a href="#" target="_blank" class="btnLink">リサイクルプログラムに参加</a>
+								<a href="https://www.terracycle.com/ja-JP/brigades/injelly" target="_blank" class="btnLink">リサイクルプログラムに参加</a>
 							</div>
 
 							<div class="twoCol">
