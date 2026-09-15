@@ -6,7 +6,7 @@
 	<meta property="og:title" content="対象別（年齢別）コンテンツ紹介一覧">
 </head>
 
-<body id="ctRenewal">
+<body id="ctRenewal" class="ctStickyTableHead">
     <!-- wrapper -->
     <div id="wrapper">
 
