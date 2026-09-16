@@ -685,28 +685,33 @@ $font-family-notosan: "Noto Sans JP", "Noto Sans", "Yu Gothic", "Meiryo", "Hirag
 
 	#ctContents {
 		.tableBlock {
+			position: relative;
+
 			.tableWrap {
 				max-height: none;
 				overflow: visible;
 			}
 
-			.contentTable {
-				thead {
-					tr {
-						th {
-							position: -webkit-sticky;
-							position: sticky;
-							top: 0;
-							z-index: 10;
-						}
-					}
+			.fixedTableHead {
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 20;
+				display: none;
+				background: #fff;
+
+				&.isShow {
+					display:block
+				}
+
+				table {
+					width: 100%;
+					table-layout: fixed;
+					border-spacing: 0;
+					border-collapse: separate;
 				}
 			}
 		}
-	}
-
-	&.ctStickyTableHead {
-		overflow: visible;
 	}
 
 	.ctPage {
@@ -1299,126 +1304,132 @@ ctTop
 			display: grid;
 			grid-template-columns: repeat(2,1fr);
 
-			& > li {
-				overflow: hidden;
-				border-radius: 30px;
-				padding: 0 15px 15px;
-				box-sizing: border-box;
+			li {
 				display: grid;
 				grid-row: span 6;
-				gap: 0;
 				grid-template-rows: subgrid;
 
-				.imgArea {
-					align-content: center;
-					margin: 0 auto;
-				}
-
-				.content {
-					grid-row: span 6;
+				a {
+					overflow: hidden;
+					border-radius: 30px;
+					padding: 0 15px 15px;
+					box-sizing: border-box;
 					display: grid;
+					grid-row: span 6;
+					gap: 0;
 					grid-template-rows: subgrid;
-					background-color: #fff;
-					padding: 15px 43px;
-					border-radius: 0 0 20px 20px;
+					color: #333;
+					opacity: 1;
+					transition: opacity 0.3s ease;
 
-					.lessonTtl {
-						display: flex;
-						align-items: center;
-						justify-content: center;
-						text-align: center;
-						color: #AF001B;
-						font-weight: 700;
-						font-size: 24px;
-						line-height: 1.25;
-						margin-bottom: 15px;
+					&:hover {
+						opacity: 0.7;
 					}
 
-					.labelBadge {
-						font-size: 14px;
-						margin-bottom: 10px;
-						
-						.badge {
-							color: #fff;
-							padding: 1px 10px 2px;
-							margin-right: 8px;
+					.imgArea {
+						align-content: center;
+						margin: 0 auto;
+					}
+
+					.content {
+						grid-row: span 6;
+						display: grid;
+						grid-template-rows: subgrid;
+						background-color: #fff;
+						padding: 15px 43px;
+						border-radius: 0 0 20px 20px;
+
+						.lessonTtl {
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							text-align: center;
+							color: #AF001B;
 							font-weight: 700;
-							font-size: 12px;
-							line-height: 1;
-							border-radius: 15px;
-							background: linear-gradient(180deg, #4CC186 0%, #2CD48B 100%);
+							font-size: 24px;
+							line-height: 1.25;
+							margin-bottom: 15px;
 						}
-					}
 
-					.text {
-						margin-bottom: 10px;
+						.labelBadge {
+							font-size: 14px;
+							margin-bottom: 10px;
+							
+							.badge {
+								color: #fff;
+								padding: 1px 10px 2px;
+								margin-right: 8px;
+								font-weight: 700;
+								font-size: 12px;
+								line-height: 1;
+								border-radius: 15px;
+								background: linear-gradient(180deg, #4CC186 0%, #2CD48B 100%);
+							}
+						}
+
+						.text {
+							margin-bottom: 10px;
+						}
+						
+						.seeMore {
+							color: #3CB174;
+							font-weight: 500;
+							font-size: 14px;
+							display: block;
+							width: fit-content;
+							position: relative;
+							padding-right: 28px;
+							margin: 0 0 3px auto;
+
+							&::after {
+								content: "";
+								position: absolute;
+								background: url("../img/common/icon_green_right.png") no-repeat center/contain;
+								width: 20px;
+								height: 20px;
+								top: 50%;
+								transform: translateY(-50%);
+								right: 0;
+								display: block;
+							}
+						}
 					}
 					
-					a {
-						color: #3CB174;
-						font-weight: 500;
-						font-size: 14px;
-						display: block;
-						width: fit-content;
-						position: relative;
-						padding-right: 28px;
-						margin: 0 0 3px auto;
-						opacity: 1;
-						transition: opacity 0.3s ease;
+					&.kyaramel {
+						background-color: #FFDA2B;
 
-						&:hover {
-							opacity: 0.7;
-						}
-
-						&::after {
-							content: "";
-							position: absolute;
-							background: url("../img/common/icon_green_right.png") no-repeat center/contain;
-							width: 20px;
-							height: 20px;
-							top: 50%;
-							transform: translateY(-50%);
-							right: 0;
-							display: block;
-
+						.imgArea {
+							padding: 22px 0;
+							width: 242px;
+							
 						}
 					}
-				}
-				
-				&.kyaramel {
-					background-color: #FFDA2B;
 
-					.imgArea {
-						padding: 22px 0;
-						width: 242px;
-						
+					&.foodRelated {
+						background-color: #399330;
+
+						.imgArea {
+							padding: 10px 0;
+							width: 340px;
+						}
 					}
-				}
 
-				&.foodRelated {
-					background-color: #399330;
+					&.future {
+						background-color: #ACE7F4;
 
-					.imgArea {
-						padding: 10px 0;
-						width: 340px;
+						.imgArea {
+							width: 340px;
+							padding: 14px 0;
+
+						}
 					}
-				}
 
-				&.future {
-					background-color: #ACE7F4;
+					&.pictureBooks {
+						background-color: #967D64;
 
-					.imgArea {
-						width: 340px;
-						padding: 14px 0;
-
-					}
-				}
-
-				&.pictureBooks {
-					background-color: #967D64;
-
-					.imgArea {
-						width: 330px;
+						.imgArea {
+							width: 330px;
+						}
 					}
 				}
 			}

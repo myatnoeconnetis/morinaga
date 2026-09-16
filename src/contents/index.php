@@ -6,7 +6,7 @@
 	<meta property="og:title" content="対象別（年齢別）コンテンツ紹介一覧">
 </head>
 
-<body id="ctRenewal" class="ctStickyTableHead">
+<body id="ctRenewal">
     <!-- wrapper -->
     <div id="wrapper">
 
@@ -217,9 +217,15 @@
 												<th scope="row">
 													<a href="../recycle-plogging/">プロギング＆in ゼリーリサイクルプログラム</a>
 												</th>
-												<td></td>
-												<td></td>
-												<td></td>
+												<td>
+													<span class="circleMarker" role="img" aria-label="対象"></span>
+												</td>
+												<td>
+													<span class="circleMarker" role="img" aria-label="対象"></span>
+												</td>
+												<td>
+													<span class="circleMarker" role="img" aria-label="対象"></span>
+												</td>
 												<td>
 													<span class="circleMarker" role="img" aria-label="対象"></span>
 												</td>
@@ -407,6 +413,32 @@
 										</tbody>
 									</table>
 								</div>
+								<!-- fixedTableHead: JSでスクロール追従表示する複製ヘッダー（PC/SP共通） -->
+								<div class="fixedTableHead" aria-hidden="true">
+									<table class="contentTable">
+										<colgroup>
+											<col class="contentNameCol">
+											<col class="ageCol">
+											<col class="ageCol">
+											<col class="ageCol">
+											<col class="ageCol">
+											<col class="pictogramCol">
+										</colgroup>
+										<thead>
+											<tr>
+												<th scope="col"><span>コンテンツ名</span></th>
+												<th scope="col">幼児～<br class="spOnly">小学低学<br class="spOnly">年<br class="pcOnly">（保護者・教員）</th>
+												<th scope="col">小学<br class="spOnly">４～６年<br>（保護者・教員）</th>
+												<th scope="col">中高生<br>（保護者・教員）</th>
+												<th scope="col">大学<br class="spOnly">～大人</th>
+												<th scope="col">
+													食育ピクトグラムの該当項目<br>
+													<span>※食育ピクトグラムについて</span>
+												</th>
+											</tr>
+										</thead>
+									</table>
+								</div>
 							</div>
 						</div>
 						<!-- /tableBlock -->
@@ -546,5 +578,81 @@
 
     </div>
     <!-- / wrapper -->
+
+	<script>
+	(function(){
+		/* 対象別コンテンツ一覧: テーブルヘッダー行(緑帯)のスクロール追従表示。
+		   position:sticky はサイト共通CSSの #page{overflow:hidden}（SP幅で発生）や
+		   #ctRenewal の overflow 指定の影響で環境により効かないことがあるため、
+		   JSで複製したヘッダー行を position:fixed で表示する方式に統一（PC/SP共通）。 */
+		var wrap = document.querySelector('#ctContents .tableBlock .tableWrap');
+		var table = wrap ? wrap.querySelector('.contentTable') : null;
+		var thead = table ? table.querySelector('thead') : null;
+		var fixedHead = document.querySelector('#ctContents .tableBlock .fixedTableHead');
+		if(!wrap || !table || !thead || !fixedHead) return;
+
+		var showing = false;
+		var ticking = false;
+		var headH = 0;
+
+		function syncPosition(){
+			var r = wrap.getBoundingClientRect();
+			fixedHead.style.left = r.left + 'px';
+			fixedHead.style.width = r.width + 'px';
+		}
+
+		function measureHeadH(){
+			headH = fixedHead.offsetHeight || thead.getBoundingClientRect().height;
+		}
+
+		function update(){
+			var theadRect = thead.getBoundingClientRect();
+			var tableRect = table.getBoundingClientRect();
+			var shouldShow = theadRect.top < 0 && tableRect.bottom > headH;
+			if(shouldShow){ syncPosition(); }
+			if(shouldShow !== showing){
+				fixedHead.classList.toggle('isShow', shouldShow);
+				showing = shouldShow;
+			}
+		}
+
+		/* スクロールごとに毎回 getBoundingClientRect（強制レイアウト）を呼ぶとスマホ実機で
+		   スクロールがカクつく・引っかかる原因になるため、requestAnimationFrameで
+		   1フレームにつき最大1回だけ計算するように間引く */
+		function onScroll(){
+			if(ticking) return;
+			ticking = true;
+			requestAnimationFrame(function(){
+				update();
+				ticking = false;
+			});
+		}
+
+		window.addEventListener('scroll', onScroll, {passive:true});
+		window.addEventListener('resize', function(){ measureHeadH(); syncPosition(); update(); }, {passive:true});
+
+		/* 初期化処理(getBoundingClientRect等のレイアウト計算)を、ページ読み込み直後の
+		   他スクリプト(共通ヘッダーのメガメニュー・カルーセル・GAタグ、/shokuikuのjQuery等)が
+		   まとめて実行され主スレッドが混み合うタイミングに重ねないよう、
+		   load後・ブラウザが空いたタイミングまで遅らせる（スマホ実機でのスクロール引っかかり対策） */
+		function init(){
+			measureHeadH();
+			syncPosition();
+			update();
+		}
+		function scheduleInit(){
+			if('requestIdleCallback' in window){
+				requestIdleCallback(init, {timeout: 1000});
+			} else {
+				setTimeout(init, 300);
+			}
+		}
+		if(document.readyState === 'complete'){
+			scheduleInit();
+		} else {
+			window.addEventListener('load', scheduleInit, {once:true});
+		}
+	})();
+	</script>
 
     <?php require_once('../php/layouts/page_footer.php'); ?>

@@ -208,53 +208,61 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 								<p class="para">2017年に出張授業「森永製菓のキャラメル教室」を開始し、現在は４つのプログラムを全国の小学校・中学校・高等学校や幼稚園・保育所で、当社の役職員が講師となり実施しています。各自治体や教育機関、教育委員会と連携するとともに、遠隔地の方々も参加しやすいよう、オンラインでの実施も推進しています。</p>
 
 								<ul class="lessons">
-									<li class="kyaramel">
-										<figure class="imgArea">
-											<img src="assets/img/top/kyaramel.png" alt="Kyaramel image" width="484" height="352">
-										</figure>
-										<div class="content">
-											<p class="lessonTtl">キャラメルの歴史から<br class="pcOnly">「工業生産」を学ぼう</p>
-											<p class="labelBadge"><span class="badge">対象</span>小学校５・６年生</p>
-											<p class="labelBadge"><span class="badge">関連教科</span>社会科「わたしたちの生活と工業生産」</p>
-											<p class="text">製造ラインや働く人の動画・クイズ・発売当初の手工業をイメージしたワークを通じて、工業生産における工夫や努力、モノづくりへの想いを工場見学さながらの臨場感で学び、教科書の学びを深化します。</p>
-											<a href="/caramel-class/">詳細を見る</a>
-										</div>
+									<li>
+										<a href="/caramel-class/" class="kyaramel">
+											<figure class="imgArea">
+												<img src="assets/img/top/kyaramel.png" alt="Kyaramel image" width="484" height="352">
+											</figure>
+											<div class="content">
+												<p class="lessonTtl">キャラメルの歴史から<br class="pcOnly">「工業生産」を学ぼう</p>
+												<p class="labelBadge"><span class="badge">対象</span>小学校５・６年生</p>
+												<p class="labelBadge"><span class="badge">関連教科</span>社会科「わたしたちの生活と工業生産」</p>
+												<p class="text">製造ラインや働く人の動画・クイズ・発売当初の手工業をイメージしたワークを通じて、工業生産における工夫や努力、モノづくりへの想いを工場見学さながらの臨場感で学び、教科書の学びを深化します。</p>
+												<span class="seeMore">詳細を見る</span>
+											</div>
+										</a>
 									</li>
-									<li class="foodRelated">
-										<figure class="imgArea">
-											<img src="assets/img/top/mirai.png" alt="Mirai image" width="680" height="339">
-										</figure>
-										<div class="content">
-											<p class="lessonTtl">「わたしたちの未来」を考えよう</p>
-											<p class="labelBadge"><span class="badge">対象</span>小学校４～６年生</p>
-											<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習（探求）の時間 「持続可能な社会の実現」</p>
-											<p class="text">チョコレートを題材に、社会課題を「自分ごと化」して考える授業です。カカオ産地の動画やワークなどを通して「誰一人取り残さない」持続可能な社会について考え、行動するきっかけを作ります。</p>
-											<a href="/mirai-learning/">詳細を見る</a>
-										</div>
+									<li>
+										<a href="/mirai-learning/" class="foodRelated">
+											<figure class="imgArea">
+												<img src="assets/img/top/mirai.png" alt="Mirai image" width="680" height="339">
+											</figure>
+											<div class="content">
+												<p class="lessonTtl">「わたしたちの未来」を考えよう</p>
+												<p class="labelBadge"><span class="badge">対象</span>小学校４～６年生</p>
+												<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習（探求）の時間 「持続可能な社会の実現」</p>
+												<p class="text">チョコレートを題材に、社会課題を「自分ごと化」して考える授業です。カカオ産地の動画やワークなどを通して「誰一人取り残さない」持続可能な社会について考え、行動するきっかけを作ります。</p>
+												<span class="seeMore">詳細を見る</span>
+											</div>
+										</a>
 									</li>
-									<li class="future">
-										<figure class="imgArea">
-											<img src="assets/img/top/head_thumb.png" alt="Head Thumb image" width="680" height="338">
-										</figure>
-										<div class="content">
-											<p class="lessonTtl">「食のしごと」から「働く」を<br class="pcOnly">想像してみよう</p>
-											<p class="labelBadge"><span class="badge">対象</span>中学校、高等学校、高等専門学校の在学生</p>
-											<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習（探求）の時間</p>
-											<p class="text">森永製菓の社員が事業内容や実際の働き方などを説明し、質疑応答などのコミュニケーションを通じて、職業やキャリアを考え、進路や働くことのイメージを深める機会を提供します。</p>
-											<a href="/career-class/">詳細を見る</a>
-										</div>
+									<li>
+										<a href="/career-class/" class="future">
+											<figure class="imgArea">
+												<img src="assets/img/top/head_thumb.png" alt="Head Thumb image" width="680" height="338">
+											</figure>
+											<div class="content">
+												<p class="lessonTtl">「食のしごと」から「働く」を<br class="pcOnly">想像してみよう</p>
+												<p class="labelBadge"><span class="badge">対象</span>中学校、高等学校、高等専門学校の在学生</p>
+												<p class="labelBadge"><span class="badge">関連教科</span>総合的な学習（探求）の時間</p>
+												<p class="text">森永製菓の社員が事業内容や実際の働き方などを説明し、質疑応答などのコミュニケーションを通じて、職業やキャリアを考え、進路や働くことのイメージを深める機会を提供します。</p>
+												<span class="seeMore"">詳細を見る</span>
+											</div>
+										</a>
 									</li>
-									<li class="pictureBooks">
-										<figure class="imgArea">
-											<img src="assets/img/top/merumaru.png" alt="Merumaru image" width="660" height="328">
-										</figure>
-										<div class="content">
-											<p class="lessonTtl">絵本の劇遊びから<br>「菓子の役割」を学ぼう</p>
-											<p class="labelBadge"><span class="badge">対象</span>幼児～小学校低学年</p>
-											<p class="pcOnly">&nbsp;</p>
-											<p class="text">菓子育絵本「メルとマールのピクニック」を題材とした劇遊びを行うワークショップを通じて、創造性を育みながら、菓子の役割や菓子との上手な付き合い方を楽しく学びます。</p>
-											<a href="/mel-marl/">詳細を見る</a>
-										</div>
+									<li>
+										<a href="/mel-marl/" class="pictureBooks">
+											<figure class="imgArea">
+												<img src="assets/img/top/merumaru.png" alt="Merumaru image" width="660" height="328">
+											</figure>
+											<div class="content">
+												<p class="lessonTtl">絵本の劇遊びから<br>「菓子の役割」を学ぼう</p>
+												<p class="labelBadge"><span class="badge">対象</span>幼児～小学校低学年</p>
+												<p class="pcOnly">&nbsp;</p>
+												<p class="text">菓子育絵本「メルとマールのピクニック」を題材とした劇遊びを行うワークショップを通じて、創造性を育みながら、菓子の役割や菓子との上手な付き合い方を楽しく学びます。</p>
+												<span class="seeMore">詳細を見る</span>
+											</div>
+										</a>
 									</li>
 								</ul>
 
@@ -284,19 +292,19 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										<div class="imgCol">
 											<div class="slider">
 												<figure>
-													<img src="assets/img/top/performance_slider_img1.png" alt="Performance slider image" width="1100" height="560">
+													<img src="assets/img/top/performance_slider_img1.jpg" alt="" width="500" height="343">
 												</figure>
 												<figure>
-													<img src="assets/img/top/performance_slider_img1.png" alt="Performance slider image" width="1100" height="560">
+													<img src="assets/img/top/performance_slider_img2.jpg" alt="" width="500" height="343">
 												</figure>
 												<figure>
-													<img src="assets/img/top/performance_slider_img1.png" alt="Performance slider image" width="1100" height="560">
+													<img src="assets/img/top/performance_slider_img3.jpg" alt="" width="500" height="343">
 												</figure>
 												<figure>
-													<img src="assets/img/top/performance_slider_img1.png" alt="Performance slider image" width="1100" height="560">
+													<img src="assets/img/top/performance_slider_img4.jpg" alt="" width="500" height="343">
 												</figure>
 												<figure>
-													<img src="assets/img/top/performance_slider_img1.png" alt="Performance slider image" width="1100" height="560">
+													<img src="assets/img/top/performance_slider_img5.jpg" alt="" width="500" height="343">
 												</figure>
 											</div>
 										</div>
