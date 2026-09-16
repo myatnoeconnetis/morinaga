@@ -73,44 +73,6 @@ setResize = ->
 			resizeTimer = null
 		, 100
 
-# ============================================
-# navList scroll
-# ============================================
-setNavListScroll = ->
-	navList = document.querySelector '.navList'
-	lastScrollTop = 0
-
-	# Initialize state
-	navList.classList.remove 'sticky', 'show'
-
-	$(window).scroll ->
-		currentScrollY = window.scrollY
-		isScrollingDown = currentScrollY > lastScrollTop
-
-		if window.innerWidth <= SP_BREAKPOINT
-			return
-
-		# Check navList position
-		navListRect = navList.getBoundingClientRect()
-		isSticky = navListRect.bottom <= 0
-
-		# Sticky state
-		if isSticky
-			navList.classList.add 'sticky'
-			$('.navList .popupMenu').removeClass 'open'
-			$('.navList .navItem > a').removeClass 'active'
-		else
-			navList.classList.remove 'sticky', 'show'
-
-		# Visibility state
-		if isScrollingDown
-			navList.classList.remove 'show'
-		else if isSticky
-			navList.classList.add 'show'
-		else
-			navList.classList.remove 'show'
-
-		lastScrollTop = currentScrollY
 
 # ============================================
 # イベント設定
@@ -149,34 +111,6 @@ setEvent = ->
 	else
 		$(window).on 'load', initSlider
 
-	# popupMenu
-	$('.navList .navItem > a').on 'click', (e) ->
-		e.preventDefault()
-		$('.navList .navItem > a').removeClass 'active'
-		$(this).addClass 'active'
-		$('.navList .popupMenu').removeClass 'open'
-
-		$(this)
-			.closest('.navItem')
-			.find('.popupMenu')
-			.addClass 'open'
-
-	$('.navList .closeBtn').on 'click', ->
-		$(this)
-			.closest('.popupMenu')
-			.removeClass 'open'
-		
-		$(this)
-			.closest('.navItem')
-			.find('> a')
-			.removeClass 'active'
-
-	$(document).on 'click', (e) ->
-		unless $(e.target).closest('.popupMenu, .navList .navItem > a').length
-			$('.navList .popupMenu').removeClass 'open'
-			$('.navList .navItem > a').removeClass 'active'
-	
-
 	return
 
 # ============================================
@@ -187,7 +121,6 @@ setEvent = ->
 initCommon = ->
 	setSmoothScroll()
 	setEvent()
-	setNavListScroll()
 	# setResize() # 必要に応じてコメントアウトを解除
 
 # ============================================

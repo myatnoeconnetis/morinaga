@@ -506,8 +506,8 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 
 
 	<!--build:js assets/js/vendor.min.js -->
-	<script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
-	<script src="assets/js/vendor/jquery.easing.min.js"></script>
+	<!-- <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+	<script src="assets/js/vendor/jquery.easing.min.js"></script> -->
 	<script src="assets/js/vendor/slick.min.js"></script>
 	<!-- endbuild -->
 
