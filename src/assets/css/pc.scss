@@ -658,6 +658,10 @@ $font-family-notosan: "Noto Sans JP", "Noto Sans", "Yu Gothic", "Meiryo", "Hirag
 				figure {
 					border-radius: 20px;
 					overflow: hidden;
+
+					img {
+						width: 100%;
+					}
 				}
 			}
 		}
