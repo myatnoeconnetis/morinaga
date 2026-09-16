@@ -915,3 +915,16 @@
 		}
 	}//ctRecyclePlogging
 }
+
+@media (min-width:1081px){
+	#ctTop {
+		.bnrBlock {
+			figure {
+				img {
+					width:100%;
+					height:auto
+				}
+			}
+		}
+	}
+}
