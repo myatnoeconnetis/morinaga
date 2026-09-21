@@ -893,8 +893,30 @@
 			}
 		}
 
+		.twoCol {
+			&:has(.floatImg) {
+				margin-top: 120px;
+			}
+	
+			.floatImg {
+				position: absolute;
+		
+				&.floatImg1 {
+					top: -100px;
+					right: 50%;
+					transform: translateX(50%);
+				}
+		
+				&.floatImg2 {
+					right: 50%;
+					transform: translateX(50%);
+					bottom: -110px;
+				}
+			}
+		}
+
 		.ytVideo {
-			margin: 30px auto 0;
+			margin: 120px auto 0;
 			width: 100%;
 			padding-bottom: 56.7%;
 		}

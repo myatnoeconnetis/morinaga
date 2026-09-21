@@ -2133,9 +2133,31 @@ ctMelmarl
 		}
 	}
 
+	.twoCol {
+		&:has(.floatImg) {
+			margin-top: 170px;
+		}
+
+		.floatImg {
+			position: absolute;
+	
+			&.floatImg1 {
+				top: -132px;
+				right: 213px;
+				width: 86px;
+			}
+	
+			&.floatImg2 {
+				right: 198px;
+				bottom: -150px;
+				width: 125px;
+			}
+		}
+	}
+
 	.ytVideo {
 		width: 610px;
-		margin: 80px auto 0;
+		margin: 215px auto 0;
 		position: relative;
 		z-index: 1;
 		height: 0;

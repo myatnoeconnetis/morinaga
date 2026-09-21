@@ -81,14 +81,16 @@
 								</div>
 							</div>
 
-							<div class="twoCol">							
+							<div class="twoCol">
+								<img src="../assets/img/top/experience_float_img7.png" class="floatImg floatImg1" alt="" width="172" height="156" >
+								<img src="../assets/img/top/experience_float_img2.png" class="floatImg floatImg2" alt="" width="254" height="224" >
 								<div class="textCol">
 									<div class="title">劇遊びになった<br>「メルとマールのピクニック」</div>
 									<p class="text">2025年からは従業員が自身の子どもの通う幼稚園・保育所で「メルとマールのピクニック」を題材とした劇遊びを行うワークショップにも取り組んでいます。<br>ワークショップでは、絵本の読み聞かせで十分に絵本の世界を味わったあと、「劇遊び」の中で登場キャラクターになりきり絵本の世界に入り込みます。想像力をはばたかせて遊ぶ中で、「お菓子のある楽しい時間」や「家族やお友だちなど大切な人と心を通わせるコミュニケーションの楽しさ」を自然と体感できます。</p>
 								</div>
 								<div class="visualCol">
 									<div class="title">劇遊びになった<br>「メルとマールのピクニック」</div>
-									<img src="../assets/img/mel-marl/visual_img1.png" alt="" width="1040" height="565">
+									<img src="../assets/img/mel-marl/visual_img2.png" alt="" width="1040" height="565">
 								</div>
 							</div>
 
