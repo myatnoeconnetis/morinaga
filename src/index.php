@@ -147,7 +147,7 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 												<img src="assets/img/top/info_img1.png" alt="">
 											</figure>
 											<div class="textCol">
-												<span class="title">🏆 農林水産省 第10回食育活動表彰 <br>「消費・安全局長賞」受賞</span>
+												<span class="title">農林水産省 第10回食育活動表彰 <br>「消費・安全局長賞」受賞</span>
 												<p class="text">キャラメルの歴史から続く、世代を超え親しまれる身近な「食」を通して「笑顔を未来につなぐ」活動が評価されました。</p>
 												<a href="" class="link">▷ニュースリリースはこちら</a>
 											</div>
@@ -176,7 +176,6 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 											</figure>
 											<div class="textCol">
 												<span class="title">食育ホームページをリニューアルしました。</span>
-												<a href="" class="link">▷記事一覧へ</a>
 											</div>
 										</li>
 									</ul>
@@ -265,10 +264,6 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 										</a>
 									</li>
 								</ul>
-
-								<div class="btnWrap">
-									<a href="/report/03.html" class="btnLink">活動レポート</a>
-								</div>
 
 								<div class="performanceArea">
 									<p class="areaTtl">これまでの実績</p>
@@ -370,6 +365,10 @@ $common_js_mtime = get_file_mtime(WWW_ASSETS_ROOT . "js/common.min.js");
 											</a>
 										</li>
 									</ul>
+								</div>
+
+								<div class="btnWrap">
+									<a href="/report/03.html" class="btnLink">活動レポート</a>
 								</div>
 							</div>
 						</section>

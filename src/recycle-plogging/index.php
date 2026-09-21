@@ -78,10 +78,18 @@
 										<figure>
 											<img src="../assets/img/recycle-plogging/slider_img4.jpg" alt="Slider image" width="1040" height="564">
 										</figure>
-										<figure>
-											<img src="../assets/img/recycle-plogging/slider_img5.jpg" alt="Slider image" width="1040" height="564">
-										</figure>
 									</div>
+								</div>
+							</div>
+
+							<div class="twoCol">
+								<img src="../assets/img/top/float_img4.png" class="floatImg floatImg1" alt="" width="226" height="142" >
+								<img src="../assets/img/top/experience_float_img4.png" class="floatImg floatImg2" alt="" width="394" height="394" >
+								<div class="visualCol">
+									<img src="../assets/img/recycle-plogging/visual_img1.png" alt="" width="1040" height="780">
+								</div>
+								<div class="textCol">
+									<p class="text">回収したよう容器はトングとして生まれ変わり、回収ボックスの設置にご協力いただいた学校や施設に寄贈し、ジョギングをしながらごみ拾いをする「プロギング」でも活用されています。</p>
 								</div>
 							</div>
 

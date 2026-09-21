@@ -57,7 +57,7 @@
 							</div>
 
 							<div class="twoCol">
-								<img src="../assets/img/kidzania/float_img1.png" class="floatImg floatImg1" alt="" width="301" height="334" >
+								<img src="../assets/img/top/float_img2.png" class="floatImg floatImg1" alt="" width="232" height="194" >
 								<div class="textCol">
 									<div class="title">
 										キッザニア東京
@@ -75,7 +75,7 @@
 							</div>
 
 							<div class="twoCol">
-								<img src="../assets/img/kidzania/float_img2.png" class="floatImg floatImg2" alt="" width="233" height="233">
+								<img src="../assets/img/top/float_img3.png" class="floatImg floatImg2" alt="" width="233" height="233">
 								<div class="visualCol">
 									<div class="title">「お菓子工場」での仕事</div>
 									<div class="slider">
@@ -100,7 +100,7 @@
 							</div>
 
 							<div class="twoCol">
-								<img src="../assets/img/kidzania/float_img3.png" class="floatImg floatImg3" alt="" width="206" height="202">
+								<img src="../assets/img/top/float_img4.png" class="floatImg floatImg3" alt="" width="226" height="142">
 								<div class="textCol">
 									<div class="title">アクティビティ紹介</div>
 									<p class="text">成型機やカッティングマシンを使ったり、<br>容器に詰めてラベルを貼ってパッケージングしたり、<br class="pcOnly">お菓子を完成させるまでの様々な工程を体験いただけます。</p>

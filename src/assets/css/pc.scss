@@ -919,8 +919,10 @@ $font-family-notosan: "Noto Sans JP", "Noto Sans", "Yu Gothic", "Meiryo", "Hirag
 		.textCol {
 			width: calc(100% - 560px);
 
-			.text {
-				margin-top: 17px;
+			.title {
+				+.text {
+					margin-top: 17px;
+				}
 			}
 
 			.table {
@@ -1242,19 +1244,19 @@ ctTop
 				}
 
 				&.floatImg6 {
-					top: max(calc(50% - 61px), 1px);
+					top: max(calc(50% - 135px), 1px);
 					left: max(calc(50% - 593px), 1px);
 					width: 116px;
 				}
 
 				&.floatImg7 {
-					top: max(calc(53% - 7px), 1px);
+					top: max(calc(53% - 81px), 1px);
 					left: max(calc(50% - 476px), 1px);
 					width: 86px;
 				}
 
 				&.floatImg8 {
-					top: max(calc(50% - 14px), 1px);
+					top: max(calc(50% - 88px), 1px);
 					right: max(calc(50% - 540px),1px);
 					width: 177px;
 				}
@@ -1301,7 +1303,7 @@ ctTop
 
 		.lessons {
 			gap: 30px;
-			margin-bottom: 100px;
+			margin-bottom: 180px;
 			width: calc(100% + 10px);
 			transform: translateX(-5px);
 			display: grid;
@@ -1434,15 +1436,6 @@ ctTop
 							width: 330px;
 						}
 					}
-				}
-			}
-
-			& + .btnWrap {
-				margin-bottom: 140px;
-
-				.btnLink {
-					width: 306px;
-					box-sizing: border-box;
 				}
 			}
 		}
@@ -1681,6 +1674,15 @@ ctTop
 					}
 				}
 			}
+
+			& + .btnWrap {
+				margin-top: 60px;
+
+				.btnLink {
+					width: 306px;
+					box-sizing: border-box;
+				}
+			}
 		}
 	}//experienceBlock
 
@@ -1728,8 +1730,8 @@ ctKidzania
 			position: absolute;
 
 			&.floatImg1 {
-				width: 150px;
-				bottom: -78px;
+				width: 116px;
+				bottom: -65px;
 				left: 183px;
 			}
 
@@ -1740,9 +1742,9 @@ ctKidzania
 			}
 
 			&.floatImg3 {
-				width: 103px;
-				bottom: -154px;
-				left: 95px;
+				width: 113px;
+				bottom: -136px;
+				left: 121px;
 			}
 		}
 	}
@@ -2155,22 +2157,41 @@ ctMelmarl
 ctRecyclePlogging
 --------------------------------------------------------------------------------------- */
 #ctRecyclePlogging {
-	.ctPage {
-		margin-bottom: 95px;
+	margin-bottom: 95px;
 
-		.btnWrap {
-			.btnLink {
-				max-width: 431px;
-				width: 100%;
+	.btnWrap {
+		.btnLink {
+			max-width: 431px;
+			width: 100%;
+		}
+	}
+
+	.twoCol {
+		.textCol {
+			.subTt {
+				font-size: 20px;
+				margin-top: 1px;
 			}
 		}
 
-		.twoCol {
-			.textCol {
-				.subTt {
-					font-size: 20px;
-					margin-top: 1px;
-				}
+		&:has(.floatImg) {
+			margin-top: 155px;
+		}
+
+		.floatImg {
+			position: absolute;
+	
+			&.floatImg1 {
+				top: -119px;
+				left: 202px;
+				width: 113px;
+			}
+	
+			&.floatImg2 {
+				right: 119px;
+				top: 96px;
+				width: 195px;
+				transform: rotate(41deg);
 			}
 		}
 	}

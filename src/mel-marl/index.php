@@ -59,7 +59,7 @@
 							<div class="noticeBlock">
 								<div class="floatArea">
 									<img src="../assets/img/top/info_float_img1.png" class="floatImg floatImg1" alt="" width="215" height="286" >
-									<img src="../assets/img/top/experience_float_img5.png" class="floatImg floatImg2" alt="" width="375" height="408">
+									<img src="../assets/img/top/float_img1.png" class="floatImg floatImg2" alt="" width="294" height="319">
 									<img src="../assets/img/top/experience_float_img8.png" class="floatImg floatImg3" alt="" width="356" height="310">
 									<img src="../assets/img/top/info_float_img2.png" class="floatImg floatImg4" alt="" width="247" height="249">
 								</div>
