@@ -2,8 +2,8 @@
 	require_once('../php/init.php');
 	require_once("../php/layouts/page_header.php");
 ?>
-	<title>対象別（年齢別）コンテンツ紹介一覧</title>
-	<meta property="og:title" content="対象別（年齢別）コンテンツ紹介一覧">
+	<title>コンテンツ紹介一覧 </title>
+	<meta property="og:title" content="コンテンツ紹介一覧 ">
 </head>
 
 <body id="ctRenewal">
@@ -47,7 +47,7 @@
 						<!-- tableBlock -->
 						<div class="tableBlock">
 							<div class="ctInner">
-								<h1 class="tableTitle">対象別（年齢別）<br class="spOnly">コンテンツ紹介一覧</h1>
+								<h1 class="tableTitle">コンテンツ紹介一覧</h1>
 								<div class="tableWrap">
 									<table class="contentTable">
 										<colgroup>
@@ -433,7 +433,7 @@
 												<th scope="col">大学<br class="spOnly">～大人</th>
 												<th scope="col">
 													食育ピクトグラムの該当項目<br>
-													<span>※食育ピクトグラムについて</span>
+													<span class="pictoLinkText">※食育ピクトグラムについて</span>
 												</th>
 											</tr>
 										</thead>
@@ -581,7 +581,7 @@
 
 	<script>
 	(function(){
-		/* 対象別コンテンツ一覧: テーブルヘッダー行(緑帯)のスクロール追従表示。
+		/* コンテンツ一覧: テーブルヘッダー行(緑帯)のスクロール追従表示。
 		   position:sticky はサイト共通CSSの #page{overflow:hidden}（SP幅で発生）や
 		   #ctRenewal の overflow 指定の影響で環境により効かないことがあるため、
 		   JSで複製したヘッダー行を position:fixed で表示する方式に統一（PC/SP共通）。 */

@@ -1842,13 +1842,17 @@ ctContents
 
 						.pictoLink {
 							color: #FFFFFF;
-							text-decoration: none;
+							text-decoration: underline;
 							transition: opacity 0.3s;
 
 							&:hover {
 								text-decoration: underline;
 								opacity: 0.85;
 							}
+						}
+
+						.pictoLinkText {
+							text-decoration: underline;
 						}
 
 					}
